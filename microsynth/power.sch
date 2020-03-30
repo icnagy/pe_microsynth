@@ -47,11 +47,6 @@ F 3 "~" H 2250 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 1350 2500 1350
-Wire Wire Line
-	1950 1350 2250 1350
-Connection ~ 2250 1350
-Wire Wire Line
 	4600 1250 4900 1250
 $Comp
 L power:PWR_FLAG #FLG0102
@@ -233,4 +228,9 @@ Text GLabel 3550 1950 0    50   BiDi ~ 0
 TRIG_OUT_TO_SEQ_SKT
 Wire Wire Line
 	3550 1950 3800 1950
+Connection ~ 2250 1350
+Wire Wire Line
+	2250 1350 2500 1350
+Wire Wire Line
+	1950 1350 2250 1350
 $EndSCHEMATC

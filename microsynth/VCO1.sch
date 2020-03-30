@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Amplifier_Operational:LM741 IC11
+L Amplifier_Operational:LM741 U11
 U 1 1 5E222F28
 P 2450 1800
-F 0 "IC11" H 2794 1754 50  0000 L CNN
+F 0 "U11" H 2794 1754 50  0000 L CNN
 F 1 "LM741" H 2794 1845 50  0000 L CNN
 F 2 "" H 2500 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 2600 1950 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 2600 1950 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:LM741 IC12
+L Amplifier_Operational:LM741 U12
 U 1 1 5E2243B9
 P 4000 1800
-F 0 "IC12" H 4344 1754 50  0000 L CNN
+F 0 "U12" H 4344 1754 50  0000 L CNN
 F 1 "LM741" H 4344 1845 50  0000 L CNN
 F 2 "" H 4050 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 4150 1950 50  0001 C CNN
@@ -47,29 +47,27 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 3050 4400 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:TL074 IC5
+L Amplifier_Operational:TL074 U5
 U 4 1 5E22A998
 P 3150 1900
-F 0 "IC5" H 3150 1533 50  0000 C CNN
+F 0 "U5" H 3150 1533 50  0000 C CNN
 F 1 "TL074" H 3150 1624 50  0000 C CNN
-F 2 "" H 3100 2000 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3100 2000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3200 2100 50  0001 C CNN
 	4    3150 1900
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:TL074 IC5
+L Amplifier_Operational:TL074 U5
 U 5 1 5E22BD33
-P 7650 1300
-F 0 "IC5" H 7608 1346 50  0000 L CNN
-F 1 "TL074" H 7608 1255 50  0000 L CNN
-F 2 "" H 7600 1400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7700 1500 50  0001 C CNN
-	5    7650 1300
+P 6850 2950
+F 0 "U5" H 6808 2996 50  0000 L CNN
+F 1 "TL074" H 6808 2905 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 6800 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6900 3150 50  0001 C CNN
+	5    6850 2950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2750 1800 2800 1800
 $Comp
 L Device:R R73
 U 1 1 5E2318D9
@@ -330,12 +328,12 @@ $EndComp
 $Comp
 L Device:R_POT RV13
 U 1 1 5E254AE8
-P 2650 1250
-F 0 "RV13" V 2535 1250 50  0000 C CNN
-F 1 "10k" V 2444 1250 50  0000 C CNN
-F 2 "" H 2650 1250 50  0001 C CNN
-F 3 "~" H 2650 1250 50  0001 C CNN
-	1    2650 1250
+P 2650 950
+F 0 "RV13" V 2535 950 50  0000 C CNN
+F 1 "10k" V 2444 950 50  0000 C CNN
+F 2 "" H 2650 950 50  0001 C CNN
+F 3 "~" H 2650 950 50  0001 C CNN
+	1    2650 950 
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -343,12 +341,12 @@ Wire Wire Line
 $Comp
 L power:-VSW #PWR0143
 U 1 1 5E259E1E
-P 2650 1100
-F 0 "#PWR0143" H 2650 1200 50  0001 C CNN
-F 1 "-VSW" H 2665 1273 50  0000 C CNN
-F 2 "" H 2650 1100 50  0001 C CNN
-F 3 "" H 2650 1100 50  0001 C CNN
-	1    2650 1100
+P 2650 800
+F 0 "#PWR0143" H 2650 900 50  0001 C CNN
+F 1 "-VSW" H 2665 973 50  0000 C CNN
+F 2 "" H 2650 800 50  0001 C CNN
+F 3 "" H 2650 800 50  0001 C CNN
+	1    2650 800 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -509,60 +507,47 @@ Connection ~ 2150 3150
 Connection ~ 3500 2350
 Wire Wire Line
 	1350 3450 2450 3450
-Wire Wire Line
-	2450 1500 2450 1250
-Wire Wire Line
-	2450 1250 2500 1250
-Wire Wire Line
-	2800 1250 2900 1250
-Wire Wire Line
-	2900 1250 2900 1500
 $Comp
 L Device:C C15
 U 1 1 5E27DCDC
-P 2450 1400
-F 0 "C15" V 2198 1400 50  0000 C CNN
-F 1 "10n" V 2289 1400 50  0000 C CNN
-F 2 "" H 2488 1250 50  0001 C CNN
-F 3 "~" H 2450 1400 50  0001 C CNN
-	1    2450 1400
+P 2550 1400
+F 0 "C15" V 2298 1400 50  0000 C CNN
+F 1 "10n" V 2389 1400 50  0000 C CNN
+F 2 "" H 2588 1250 50  0001 C CNN
+F 3 "~" H 2550 1400 50  0001 C CNN
+	1    2550 1400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2600 1400 2800 1800
-Connection ~ 2800 1800
-Wire Wire Line
-	2800 1800 2850 1800
-Wire Wire Line
 	2150 1700 2150 1400
 Wire Wire Line
-	2150 1400 2300 1400
+	2150 1400 2400 1400
 Connection ~ 2150 1700
 Wire Wire Line
-	2600 1400 3700 1400
+	2700 1400 2800 1400
 Wire Wire Line
 	3700 1400 4450 1400
 Connection ~ 3700 1400
 $Comp
 L power:-VSW #PWR0149
 U 1 1 5E2BC497
-P 7550 1600
-F 0 "#PWR0149" H 7550 1700 50  0001 C CNN
-F 1 "-VSW" H 7565 1773 50  0000 C CNN
-F 2 "" H 7550 1600 50  0001 C CNN
-F 3 "" H 7550 1600 50  0001 C CNN
-	1    7550 1600
+P 6750 3250
+F 0 "#PWR0149" H 6750 3350 50  0001 C CNN
+F 1 "-VSW" H 6765 3423 50  0000 C CNN
+F 2 "" H 6750 3250 50  0001 C CNN
+F 3 "" H 6750 3250 50  0001 C CNN
+	1    6750 3250
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:+VSW #PWR0150
 U 1 1 5E2BCF5A
-P 7550 1000
-F 0 "#PWR0150" H 7550 850 50  0001 C CNN
-F 1 "+VSW" H 7565 1173 50  0000 C CNN
-F 2 "" H 7550 1000 50  0001 C CNN
-F 3 "" H 7550 1000 50  0001 C CNN
-	1    7550 1000
+P 6750 2650
+F 0 "#PWR0150" H 6750 2500 50  0001 C CNN
+F 1 "+VSW" H 6765 2823 50  0000 C CNN
+F 2 "" H 6750 2650 50  0001 C CNN
+F 3 "" H 6750 2650 50  0001 C CNN
+	1    6750 2650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -574,7 +559,6 @@ Wire Wire Line
 Connection ~ 2750 2350
 Wire Wire Line
 	2750 2350 2750 2000
-Connection ~ 2600 1400
 Wire Wire Line
 	850  1250 850  1700
 Connection ~ 850  1700
@@ -689,4 +673,22 @@ F 3 "" H 7400 3400 50  0001 C CNN
 	1    7400 3400
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	2750 1800 2800 1800
+Wire Wire Line
+	2800 1800 2800 1400
+Connection ~ 2800 1800
+Wire Wire Line
+	2800 1800 2850 1800
+Connection ~ 2800 1400
+Wire Wire Line
+	2800 1400 3700 1400
+Wire Wire Line
+	2900 950  2800 950 
+Wire Wire Line
+	2900 950  2900 1500
+Wire Wire Line
+	2450 950  2500 950 
+Wire Wire Line
+	2450 950  2450 1500
 $EndSCHEMATC
