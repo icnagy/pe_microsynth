@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 0)
     (tracks 0)
     (zones 0)
     (modules 224)
@@ -13,8 +13,11 @@
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
+    (32 B.Adhes user)
     (33 F.Adhes user)
+    (34 B.Paste user)
     (35 F.Paste user)
+    (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
@@ -26,6 +29,7 @@
     (45 Margin user)
     (46 B.CrtYd user)
     (47 F.CrtYd user)
+    (48 B.Fab user)
     (49 F.Fab user)
   )
 
@@ -11239,10 +11243,5 @@
       (rotate (xyz 0 0 0))
     )
   )
-
-  (gr_line (start 340.36 46.99) (end 340.36 156.21) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 76.2 46.99) (end 340.36 46.99) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 76.2 156.21) (end 76.2 46.99) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 340.36 156.21) (end 76.2 156.21) (layer Edge.Cuts) (width 0.1))
 
 )

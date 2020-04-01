@@ -204,7 +204,7 @@ U 1 1 5E4E1AE1
 P 9650 3100
 F 0 "U22" H 9650 3581 50  0000 C CNN
 F 1 "4013" H 9650 3490 50  0000 C CNN
-F 2 "" H 9650 3100 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9650 3100 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 9650 3100 50  0001 C CNN
 	1    9650 3100
 	1    0    0    -1  
@@ -215,7 +215,7 @@ U 3 1 5E4E2C47
 P 8750 4350
 F 0 "U22" H 8980 4396 50  0000 L CNN
 F 1 "4013" H 8980 4305 50  0000 L CNN
-F 2 "" H 8750 4350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 8750 4350 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 8750 4350 50  0001 C CNN
 	3    8750 4350
 	1    0    0    -1  
@@ -313,7 +313,7 @@ U 2 1 5E4E234D
 P 9650 4350
 F 0 "U22" H 9650 4831 50  0000 C CNN
 F 1 "4013" H 9650 4740 50  0000 C CNN
-F 2 "" H 9650 4350 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9650 4350 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF" H 9650 4350 50  0001 C CNN
 	2    9650 4350
 	-1   0    0    -1  
@@ -365,7 +365,7 @@ U 1 1 5E4793CB
 P 1700 6350
 F 0 "SW2" H 1750 7221 50  0000 C CNN
 F 1 "SW_Rotary2x6" H 1750 7130 50  0000 C CNN
-F 2 "" H 1600 6950 50  0001 C CNN
+F 2 "Rotary_Encoder:rotary-12" H 1600 6950 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 1600 6950 50  0001 C CNN
 F 4 "Range" H 1750 7039 50  0000 C CNN "Label"
 	1    1700 6350
@@ -529,7 +529,7 @@ U 1 1 5E592C52
 P 3300 6800
 F 0 "U7" H 3300 7281 50  0000 C CNN
 F 1 "LM741" H 3300 7190 50  0000 C CNN
-F 2 "" H 3350 6850 50  0001 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 3350 6850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 3450 6950 50  0001 C CNN
 	1    3300 6800
 	-1   0    0    -1  
@@ -609,7 +609,7 @@ U 1 1 5E5A553B
 P 2800 6500
 F 0 "C8" V 3052 6500 50  0000 C CNN
 F 1 "10n" V 2961 6500 50  0000 C CNN
-F 2 "" H 2838 6350 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2838 6350 50  0001 C CNN
 F 3 "~" H 2800 6500 50  0001 C CNN
 	1    2800 6500
 	0    -1   -1   0   
@@ -759,7 +759,7 @@ U 1 1 5E476048
 P 1800 1850
 F 0 "SW21" H 1850 2631 50  0000 C CNN
 F 1 "SW_Rotary2x6" H 1850 2540 50  0000 C CNN
-F 2 "" H 1700 2450 50  0001 C CNN
+F 2 "Rotary_Encoder:rotary-12" H 1700 2450 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 1700 2450 50  0001 C CNN
 	1    1800 1850
 	-1   0    0    -1  
