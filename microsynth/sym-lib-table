@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name microsynth-rescue)(type Legacy)(uri ${KIPRJMOD}/microsynth-rescue.lib)(options "")(descr ""))
+)
