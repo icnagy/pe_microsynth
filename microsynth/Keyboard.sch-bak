@@ -444,7 +444,7 @@ F 1 "10M" V 6134 1250 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6180 1250 50  0001 C CNN
 F 3 "~" H 6250 1250 50  0001 C CNN
 	1    6250 1250
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	6100 1250 5800 1250
