@@ -14,19 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Amplifier_Operational:TL074 IC?
-U 3 1 5E2D3C59
-P 2900 3100
-AR Path="/5E222DC1/5E2D3C59" Ref="IC?"  Part="3" 
-AR Path="/5E2BE1AD/5E2D3C59" Ref="U5"  Part="3" 
-F 0 "U5" H 2900 2733 50  0000 C CNN
-F 1 "TL074" H 2900 2824 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2850 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 2950 3300 50  0001 C CNN
-	3    2900 3100
-	1    0    0    1   
-$EndComp
-$Comp
 L Amplifier_Operational:LM741 U17
 U 1 1 5E2D86CD
 P 4000 5500
@@ -523,18 +510,14 @@ Connection ~ 2550 3550
 $Comp
 L Device:C C18
 U 1 1 5E3101FB
-P 2400 2600
-F 0 "C18" V 2148 2600 50  0000 C CNN
-F 1 "10n" V 2239 2600 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2438 2450 50  0001 C CNN
-F 3 "~" H 2400 2600 50  0001 C CNN
-	1    2400 2600
+P 2400 1850
+F 0 "C18" V 2148 1850 50  0000 C CNN
+F 1 "10n" V 2239 1850 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2438 1700 50  0001 C CNN
+F 3 "~" H 2400 1850 50  0001 C CNN
+	1    2400 1850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2250 2600 1850 2600
-Wire Wire Line
-	1850 2600 1850 2800
 Wire Wire Line
 	1850 2800 1750 2800
 Wire Wire Line
@@ -650,8 +633,6 @@ Wire Wire Line
 	2400 2200 2400 2350
 Wire Wire Line
 	2400 2350 2250 2350
-Wire Wire Line
-	2250 2350 2250 2600
 $Comp
 L power:-VSW #PWR0162
 U 1 1 5E335D34
@@ -707,9 +688,6 @@ Connection ~ 2550 3000
 Connection ~ 3250 3100
 Wire Wire Line
 	3250 850  3250 3100
-Connection ~ 2250 2600
-Wire Wire Line
-	2250 2600 2250 2700
 $Comp
 L power:-VSW #PWR0164
 U 1 1 5E402EF1
@@ -850,4 +828,25 @@ Wire Wire Line
 Wire Wire Line
 	4300 5500 4350 5500
 Connection ~ 4350 5500
+$Comp
+L Amplifier_Operational:LF347 U?
+U 3 1 5E9127FD
+P 2900 3100
+AR Path="/5E8C1704/5E9127FD" Ref="U?"  Part="3" 
+AR Path="/5E2BE1AD/5E9127FD" Ref="U5"  Part="3" 
+F 0 "U5" H 2900 2700 50  0000 C CNN
+F 1 "LF347" H 2900 2800 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2850 3200 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lf147.pdf" H 2950 3300 50  0001 C CNN
+	3    2900 3100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2250 2350 2250 2700
+Wire Wire Line
+	2550 2600 2550 1850
+Wire Wire Line
+	1850 1850 2250 1850
+Wire Wire Line
+	1850 1850 1850 2800
 $EndSCHEMATC

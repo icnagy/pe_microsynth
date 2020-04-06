@@ -17,8 +17,8 @@ $Comp
 L Amplifier_Operational:LM741 U11
 U 1 1 5E222F28
 P 2450 1800
-F 0 "U11" H 2794 1754 50  0000 L CNN
-F 1 "LM741" H 2794 1845 50  0000 L CNN
+F 0 "U11" H 2350 1800 50  0000 L CNN
+F 1 "LM741" H 2450 1950 50  0000 L CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 2500 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 2600 1950 50  0001 C CNN
 	1    2450 1800
@@ -28,8 +28,8 @@ $Comp
 L Amplifier_Operational:LM741 U12
 U 1 1 5E2243B9
 P 4000 1800
-F 0 "U12" H 4344 1754 50  0000 L CNN
-F 1 "LM741" H 4344 1845 50  0000 L CNN
+F 0 "U12" H 3900 1800 50  0000 L CNN
+F 1 "LM741" H 3950 2000 50  0000 L CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 4050 1850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 4150 1950 50  0001 C CNN
 	1    4000 1800
@@ -45,28 +45,6 @@ F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 2950 4300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 3050 4400 50  0001 C CNN
 	1    2900 4250
 	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:TL074 U5
-U 4 1 5E22A998
-P 3150 1900
-F 0 "U5" H 3150 1533 50  0000 C CNN
-F 1 "TL074" H 3150 1624 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3100 2000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3200 2100 50  0001 C CNN
-	4    3150 1900
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:TL074 U5
-U 5 1 5E22BD33
-P 6850 2950
-F 0 "U5" H 6808 2996 50  0000 L CNN
-F 1 "TL074" H 6808 2905 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 6800 3050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6900 3150 50  0001 C CNN
-	5    6850 2950
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R73
@@ -528,28 +506,6 @@ Wire Wire Line
 Wire Wire Line
 	3700 1400 4450 1400
 Connection ~ 3700 1400
-$Comp
-L power:-VSW #PWR0149
-U 1 1 5E2BC497
-P 6750 3250
-F 0 "#PWR0149" H 6750 3350 50  0001 C CNN
-F 1 "-VSW" H 6765 3423 50  0000 C CNN
-F 2 "" H 6750 3250 50  0001 C CNN
-F 3 "" H 6750 3250 50  0001 C CNN
-	1    6750 3250
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+VSW #PWR0150
-U 1 1 5E2BCF5A
-P 6750 2650
-F 0 "#PWR0150" H 6750 2500 50  0001 C CNN
-F 1 "+VSW" H 6765 2823 50  0000 C CNN
-F 2 "" H 6750 2650 50  0001 C CNN
-F 3 "" H 6750 2650 50  0001 C CNN
-	1    6750 2650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2750 2400 2750 2350
 Wire Wire Line
@@ -691,4 +647,17 @@ Wire Wire Line
 	2450 950  2500 950 
 Wire Wire Line
 	2450 950  2450 1500
+$Comp
+L Amplifier_Operational:LF347 U?
+U 4 1 5E920B31
+P 3150 1900
+AR Path="/5E8C1704/5E920B31" Ref="U?"  Part="4" 
+AR Path="/5E222DC1/5E920B31" Ref="U5"  Part="4" 
+F 0 "U5" H 3150 1500 50  0000 C CNN
+F 1 "LF347" H 3150 1600 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3100 2000 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lf147.pdf" H 3200 2100 50  0001 C CNN
+	4    3150 1900
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

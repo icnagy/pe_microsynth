@@ -447,6 +447,7 @@ F 0 "RV26" H 4930 3346 50  0000 R CNN
 F 1 "10kLOG" H 4930 3255 50  0000 R CNN
 F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 5000 3300 50  0001 C CNN
 F 3 "~" H 5000 3300 50  0001 C CNN
+F 4 "Volume" H 4800 3150 50  0000 C BNN "Label"
 	1    5000 3300
 	1    0    0    -1  
 $EndComp
