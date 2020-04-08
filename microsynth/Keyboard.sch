@@ -1044,17 +1044,8 @@ Wire Wire Line
 Wire Wire Line
 	8150 2350 8100 2350
 Wire Wire Line
-	7950 2200 7950 2150
-Wire Wire Line
-	7950 2150 8300 2150
-Wire Wire Line
-	8300 2150 8300 2350
-Wire Wire Line
 	8300 2350 8150 2350
 Connection ~ 8150 2350
-Wire Wire Line
-	8300 1850 8300 2150
-Connection ~ 8300 2150
 $Comp
 L power:+VSW #PWR0217
 U 1 1 5EA466FB
@@ -1096,7 +1087,6 @@ Wire Wire Line
 	8350 2400 8300 2400
 Wire Wire Line
 	8300 2400 8300 2350
-Connection ~ 8300 2350
 Wire Wire Line
 	8350 2600 8300 2600
 Wire Wire Line
@@ -1222,7 +1212,7 @@ Text GLabel 7950 1350 2    50   BiDi ~ 0
 TO_S13_THUMBWEEL_MOD
 Text GLabel 8000 1700 2    50   BiDi ~ 0
 TO_S14_LFO_MOD
-Text GLabel 8300 1850 0    50   BiDi ~ 0
+Text GLabel 7950 1850 2    50   BiDi ~ 0
 VOUT_TO_SEQ_SKT
 Text GLabel 4300 4150 0    50   BiDi ~ 0
 TRIG_IN_TO_SEQ_SKT
@@ -1456,4 +1446,24 @@ TRIGGER_BUS
 Wire Wire Line
 	1450 1900 1300 1900
 Connection ~ 1300 1900
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5E8F2B9E
+P 8150 1950
+F 0 "J5" V 8200 2000 50  0000 L CNN
+F 1 "Conn_01x02_Male" V 8300 2000 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8150 1950 50  0001 C CNN
+F 3 "~" H 8150 1950 50  0001 C CNN
+	1    8150 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 1850 7950 2150
+Wire Wire Line
+	7950 2150 8050 2150
+Connection ~ 7950 2150
+Wire Wire Line
+	7950 2150 7950 2200
+Wire Wire Line
+	8150 2150 8150 2350
 $EndSCHEMATC
