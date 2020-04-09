@@ -498,11 +498,6 @@ Wire Wire Line
 	4350 3050 3850 3050
 Wire Wire Line
 	3850 3050 3850 3300
-Wire Wire Line
-	4050 3800 3850 3800
-Connection ~ 3850 3800
-Wire Wire Line
-	3850 3800 3850 3950
 $Comp
 L power:+VSW #PWR0188
 U 1 1 5E66EFC8
@@ -560,8 +555,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 6100 4800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	3400 3800 3850 3800
-Wire Wire Line
 	3400 3950 3400 3800
 Wire Wire Line
 	2900 3850 2900 3950
@@ -587,8 +580,6 @@ Wire Wire Line
 Wire Wire Line
 	3000 3300 3850 3300
 Connection ~ 3850 3300
-Wire Wire Line
-	3850 3300 3850 3800
 Wire Wire Line
 	3100 3350 3500 3350
 Wire Wire Line
@@ -1288,4 +1279,8 @@ F 3 "" H 2950 3650 50  0001 C CNN
 	1    2950 3650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3400 3800 4050 3800
+Wire Wire Line
+	3850 3300 3850 3950
 $EndSCHEMATC

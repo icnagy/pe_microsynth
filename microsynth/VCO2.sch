@@ -454,7 +454,7 @@ F 1 "100k" H 880 4605 50  0000 R CNN
 F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_PV36W" H 950 4650 50  0001 C CNN
 F 3 "~" H 950 4650 50  0001 C CNN
 	1    950  4650
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0157

@@ -788,7 +788,7 @@ F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 2550 1700 50  0001 C CNN
 F 3 "~" H 2550 1700 50  0001 C CNN
 F 4 "VCO2 Level" H 2450 1550 50  0000 R BNN "Label"
 	1    2550 1700
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3950 5400 3950 5600
@@ -910,7 +910,7 @@ F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 4050 4600 50  0001 C CNN
 F 3 "~" H 4050 4600 50  0001 C CNN
 F 4 "Sweep" H 3950 4450 50  0000 R BNN "Label"
 	1    4050 4600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4050 4750 4050 4850
@@ -971,7 +971,7 @@ F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 6400 4750 50  0001 C CNN
 F 3 "~" H 6400 4750 50  0001 C CNN
 F 4 "Thumbwheel" H 6300 4600 50  0000 R BNN "Label"
 	1    6400 4750
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0223
