@@ -1263,7 +1263,7 @@ P 2950 3550
 F 0 "SW8" H 3200 3750 50  0000 L CNN
 F 1 "SW_DPTT_SELECTOR-Switch" H 3200 3650 50  0000 L CNN
 F 2 "Buttons_Switches_ThroughHole:DP3T_Toggle" H 2950 3550 50  0001 C CNN
-F 3 "" H 2950 3550 50  0001 C CNN
+F 3 "http://switches-connectors-custom.cwind.com/Asset/G-1128S-1110_2D%20DRAWING.pdf" H 2950 3550 50  0001 C CNN
 F 4 "Sustain" H 3200 3550 50  0000 L CNN "Label"
 	2    2950 3550
 	1    0    0    -1  
@@ -1275,7 +1275,7 @@ P 2950 3650
 F 0 "SW8" H 3200 3650 50  0000 L CNN
 F 1 "SW_DPTT_SELECTOR-Switch" H 3200 3550 50  0000 L CNN
 F 2 "Buttons_Switches_ThroughHole:DP3T_Toggle" H 2950 3650 50  0001 C CNN
-F 3 "" H 2950 3650 50  0001 C CNN
+F 3 "http://switches-connectors-custom.cwind.com/Asset/G-1128S-1110_2D%20DRAWING.pdf" H 2950 3650 50  0001 C CNN
 	1    2950 3650
 	1    0    0    -1  
 $EndComp

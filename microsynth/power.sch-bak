@@ -142,7 +142,7 @@ U 1 1 5F1FD92E
 P 5700 2650
 F 0 "J3" H 5850 2950 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 5850 2850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 5700 2650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5700 2650 50  0001 C CNN
 F 3 "~" H 5700 2650 50  0001 C CNN
 	1    5700 2650
 	1    0    0    -1  
@@ -153,7 +153,7 @@ U 1 1 5F1FE242
 P 5700 3300
 F 0 "J4" H 5850 3600 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 5850 3500 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 5700 3300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5700 3300 50  0001 C CNN
 F 3 "~" H 5700 3300 50  0001 C CNN
 	1    5700 3300
 	1    0    0    -1  
