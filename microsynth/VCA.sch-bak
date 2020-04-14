@@ -624,7 +624,7 @@ VCO2_TRI
 Text GLabel 1050 2650 0    50   BiDi ~ 0
 VCO1_TRI
 Text GLabel 2000 950  0    50   BiDi ~ 0
-LFO_MOD
+LFO_MOD_S17
 Text GLabel 2000 1250 0    50   BiDi ~ 0
 ADSR
 Text GLabel 2000 1550 0    50   BiDi ~ 0
@@ -708,12 +708,6 @@ F 3 "" H 7350 2000 50  0001 C CNN
 	1    7350 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 2150 5300 2    50   BiDi ~ 0
-TO_VCA_C30
-Text GLabel 2050 5300 0    50   BiDi ~ 0
-LFO_MOD
-Wire Wire Line
-	2050 5300 2150 5300
 $Comp
 L Connector:AudioJack2 J?
 U 1 1 5EA25E4A

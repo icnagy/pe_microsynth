@@ -1048,7 +1048,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 2250 1800 2250
 Text GLabel 1800 1600 0    50   BiDi ~ 0
-LFO_MOD
+LFO_MOD_S16
 Text GLabel 1800 2250 0    50   BiDi ~ 0
 THUMBWEEL_MOD
 Text GLabel 1800 2650 0    50   BiDi ~ 0
@@ -1066,7 +1066,7 @@ NOISE
 Text GLabel 4550 6550 2    50   BiDi ~ 0
 VCF_OUT
 Text GLabel 1250 900  0    50   BiDi ~ 0
-LFO_MOD
+LFO_MOD_S16
 Text GLabel 1400 900  2    50   BiDi ~ 0
 TO_VCF_R99
 Wire Wire Line

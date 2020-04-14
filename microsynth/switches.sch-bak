@@ -829,7 +829,7 @@ TO_VCO1_R79
 Text GLabel 3800 1750 2    50   BiDi ~ 0
 TO_VCF_R99
 Text GLabel 3800 2250 2    50   BiDi ~ 0
-TO_VCA_C30
+LFO_MOD_S17
 Text GLabel 7250 600  2    50   BiDi ~ 0
 TO_VCA_C26
 Text GLabel 8700 800  2    50   BiDi ~ 0
