@@ -994,7 +994,7 @@ AR Path="/5EC4EDF0" Ref="SW12"  Part="1"
 AR Path="/5E475532/5EC4EDF0" Ref="SW12"  Part="1" 
 F 0 "SW12" H 5594 4488 50  0000 L CNN
 F 1 "SOURCE" H 5594 4397 50  0000 L CNN
-F 2 "Buttons_Switches_ThroughHole:DP3T_Toggle" H 5400 4500 50  0001 C CNN
+F 2 "Buttons_Switches_ThroughHole:L203011MS02Q" H 5400 4500 50  0001 C CNN
 F 3 "" H 5400 4500 50  0001 C CNN
 	1    5400 4500
 	1    0    0    -1  
@@ -1007,14 +1007,11 @@ AR Path="/5EC508E1" Ref="SW12"  Part="2"
 AR Path="/5E475532/5EC508E1" Ref="SW12"  Part="2" 
 F 0 "SW12" H 5594 4629 50  0000 L CNN
 F 1 "SOURCE" H 5594 4538 50  0000 L CNN
-F 2 "Buttons_Switches_ThroughHole:DP3T_Toggle" H 5400 4500 50  0001 C CNN
+F 2 "Buttons_Switches_ThroughHole:L203011MS02Q" H 5400 4500 50  0001 C CNN
 F 3 "" H 5400 4500 50  0001 C CNN
 	2    5400 4500
 	1    0    0    -1  
 $EndComp
-Connection ~ 4750 4700
-Wire Wire Line
-	4750 4700 4750 4800
 Wire Wire Line
 	5350 4700 5350 4750
 Wire Wire Line
@@ -1048,7 +1045,7 @@ AR Path="/5EC8F4DB" Ref="SW13"  Part="1"
 AR Path="/5E475532/5EC8F4DB" Ref="SW13"  Part="1" 
 F 0 "SW13" H 7394 4438 50  0000 L CNN
 F 1 "THUMBWEEL" H 7394 4347 50  0000 L CNN
-F 2 "Buttons_Switches_ThroughHole:DP3T_Toggle" H 7200 4450 50  0001 C CNN
+F 2 "Buttons_Switches_ThroughHole:L203011MS02Q" H 7200 4450 50  0001 C CNN
 F 3 "" H 7200 4450 50  0001 C CNN
 	1    7200 4450
 	1    0    0    -1  
@@ -1061,7 +1058,7 @@ AR Path="/5EC90227" Ref="SW13"  Part="2"
 AR Path="/5E475532/5EC90227" Ref="SW13"  Part="2" 
 F 0 "SW13" H 7394 4579 50  0000 L CNN
 F 1 "THUMBWEEL" H 7394 4488 50  0000 L CNN
-F 2 "Buttons_Switches_ThroughHole:DP3T_Toggle" H 7200 4450 50  0001 C CNN
+F 2 "Buttons_Switches_ThroughHole:L203011MS02Q" H 7200 4450 50  0001 C CNN
 F 3 "" H 7200 4450 50  0001 C CNN
 	2    7200 4450
 	1    0    0    -1  
@@ -1127,8 +1124,6 @@ TO_S12_THUMBWHEEL
 Wire Wire Line
 	3250 650  3250 850 
 Connection ~ 3250 850 
-Wire Wire Line
-	4750 4450 4750 4700
 Text GLabel 1200 900  2    50   BiDi ~ 0
 TO_VR20_SLIDER_VCO2_OUTPUT
 Text GLabel 3700 2750 2    50   BiDi ~ 0
@@ -1145,14 +1140,6 @@ Wire Wire Line
 	5350 4300 5350 4700
 Connection ~ 5350 4700
 Connection ~ 5350 4300
-Wire Wire Line
-	5100 4700 5100 4200
-Wire Wire Line
-	5100 4200 5250 4200
-Wire Wire Line
-	5250 4200 5250 4300
-Wire Wire Line
-	5100 4700 4750 4700
 Wire Wire Line
 	5150 6150 5150 6900
 Wire Wire Line
@@ -1196,7 +1183,6 @@ Text GLabel 10000 5800 2    50   BiDi ~ 0
 THUMBWEEL_MOD_TO_S13
 Wire Wire Line
 	2950 6300 3650 6300
-NoConn ~ 5250 4700
 Wire Wire Line
 	7150 4250 7150 4650
 Connection ~ 7150 4650
@@ -1204,4 +1190,18 @@ Connection ~ 7150 4250
 Text GLabel 3800 750  2    50   BiDi ~ 0
 TO_KBD_R141
 NoConn ~ 3800 950 
+Wire Wire Line
+	4750 4450 4750 4600
+NoConn ~ 5250 4300
+Wire Wire Line
+	5250 4700 5250 4750
+Wire Wire Line
+	5250 4750 5050 4750
+Wire Wire Line
+	5050 4750 5050 4600
+Wire Wire Line
+	5050 4600 4750 4600
+Connection ~ 4750 4600
+Wire Wire Line
+	4750 4600 4750 4800
 $EndSCHEMATC

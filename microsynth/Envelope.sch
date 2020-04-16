@@ -759,17 +759,6 @@ Wire Wire Line
 Wire Wire Line
 	1900 1300 1650 1300
 Connection ~ 1650 1300
-$Comp
-L Device:D D5
-U 1 1 5E6BA831
-P 1400 1550
-F 0 "D5" H 1400 1766 50  0000 C CNN
-F 1 "OA81" H 1400 1675 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 1400 1550 50  0001 C CNN
-F 3 "~" H 1400 1550 50  0001 C CNN
-	1    1400 1550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1400 3100 1400 2850
 Wire Wire Line
@@ -1283,4 +1272,15 @@ Wire Wire Line
 	3400 3800 4050 3800
 Wire Wire Line
 	3850 3300 3850 3950
+$Comp
+L Device:D D5
+U 1 1 5E6BA831
+P 1400 1550
+F 0 "D5" H 1400 1766 50  0000 C CNN
+F 1 "OA81" H 1400 1675 50  0000 C CNN
+F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 1400 1550 50  0001 C CNN
+F 3 "~" H 1400 1550 50  0001 C CNN
+	1    1400 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

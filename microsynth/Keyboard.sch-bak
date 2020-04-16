@@ -396,7 +396,7 @@ AR Path="/5E91DC50" Ref="SW1-DRIFT1"  Part="1"
 AR Path="/5E8C1704/5E91DC50" Ref="SW1"  Part="1" 
 F 0 "SW1" H 5844 1083 50  0000 L CNN
 F 1 "DRIFT" H 5844 992 50  0000 L CNN
-F 2 "Buttons_Switches_ThroughHole:OS203013MT8QN1" H 5650 1050 50  0001 C CNN
+F 2 "Buttons_Switches_ThroughHole:L203011MS02Q" H 5650 1050 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/aa2d40399ed88e2cc02320a01dfb97ce/OSseries.pdf" H 5650 1050 50  0001 C CNN
 F 4 "DRIFT" H 5844 901 50  0000 L CNN "Label"
 	1    5650 1050
