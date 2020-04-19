@@ -21,7 +21,7 @@ AR Path="/5E4ABA98" Ref="SW6"  Part="2"
 AR Path="/5E475532/5E4ABA98" Ref="SW6"  Part="2" 
 F 0 "SW6" H 6294 3079 50  0000 L CNN
 F 1 "SW_DPTT_SELECTOR" H 6294 2988 50  0000 L CNN
-F 2 "Buttons_Switches_ThroughHole:DP3T_Toggle" H 6100 2950 50  0001 C CNN
+F 2 "Buttons_Switches_ThroughHole:L203011MS02Q" H 6100 2950 50  0001 C CNN
 F 3 "" H 6100 2950 50  0001 C CNN
 	2    6100 2950
 	1    0    0    -1  
@@ -110,7 +110,7 @@ AR Path="/5E4C21F7" Ref="SW4"  Part="1"
 AR Path="/5E475532/5E4C21F7" Ref="SW4"  Part="1" 
 F 0 "SW4" H 9344 1338 50  0000 L CNN
 F 1 "SW_DPTT_SELECTOR" H 9344 1247 50  0000 L CNN
-F 2 "Buttons_Switches_ThroughHole:DP3T_Toggle" H 9150 1350 50  0001 C CNN
+F 2 "Buttons_Switches_ThroughHole:L203011MS02Q" H 9150 1350 50  0001 C CNN
 F 3 "" H 9150 1350 50  0001 C CNN
 	1    9150 1350
 	1    0    0    -1  
@@ -123,7 +123,7 @@ AR Path="/5E4C2687" Ref="SW4"  Part="2"
 AR Path="/5E475532/5E4C2687" Ref="SW4"  Part="2" 
 F 0 "SW4" H 9344 1379 50  0000 L CNN
 F 1 "SW_DPTT_SELECTOR" H 9344 1288 50  0000 L CNN
-F 2 "Buttons_Switches_ThroughHole:DP3T_Toggle" H 9150 1250 50  0001 C CNN
+F 2 "Buttons_Switches_ThroughHole:L203011MS02Q" H 9150 1250 50  0001 C CNN
 F 3 "" H 9150 1250 50  0001 C CNN
 	2    9150 1250
 	1    0    0    -1  
@@ -673,7 +673,7 @@ AR Path="/5E4A877E" Ref="SW6"  Part="1"
 AR Path="/5E475532/5E4A877E" Ref="SW6"  Part="1" 
 F 0 "SW6" H 2894 2738 50  0000 L CNN
 F 1 "SW_DPTT_SELECTOR" H 2894 2647 50  0000 L CNN
-F 2 "Buttons_Switches_ThroughHole:DP3T_Toggle" H 2700 2750 50  0001 C CNN
+F 2 "Buttons_Switches_ThroughHole:L203011MS02Q" H 2700 2750 50  0001 C CNN
 F 3 "" H 2700 2750 50  0001 C CNN
 	1    2700 2750
 	1    0    0    -1  
