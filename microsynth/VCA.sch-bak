@@ -445,9 +445,9 @@ U 1 1 5E1DFBA9
 P 5000 3300
 F 0 "RV26" H 4930 3346 50  0000 R CNN
 F 1 "10kLOG" H 4930 3255 50  0000 R CNN
-F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 5000 3300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5000 3300 50  0001 C CNN
 F 3 "~" H 5000 3300 50  0001 C CNN
-F 4 "Volume" H 4800 3150 50  0000 C BNN "Label"
+F 4 "Volume" H 4750 3400 50  0000 C BNN "Label"
 	1    5000 3300
 	1    0    0    1   
 $EndComp
@@ -557,7 +557,7 @@ L power:-VSW #PWR0134
 U 1 1 5E1EC995
 P 7250 2000
 F 0 "#PWR0134" H 7250 2100 50  0001 C CNN
-F 1 "-VSW" H 7265 2173 50  0000 C CNN
+F 1 "-VSW" H 7400 2150 50  0000 C CNN
 F 2 "" H 7250 2000 50  0001 C CNN
 F 3 "" H 7250 2000 50  0001 C CNN
 	1    7250 2000
@@ -629,8 +629,6 @@ Text GLabel 2000 1250 0    50   BiDi ~ 0
 ADSR
 Text GLabel 2000 1550 0    50   BiDi ~ 0
 ENVELOPE
-Text GLabel 2000 1850 0    50   BiDi ~ 0
-HOLD_ON
 Wire Wire Line
 	5700 3300 5700 1800
 Wire Wire Line
@@ -655,20 +653,17 @@ Text GLabel 2150 4650 2    50   BiDi ~ 0
 TO_VCA_R135
 Wire Wire Line
 	2150 4650 2050 4650
-Text GLabel 2150 4850 2    50   BiDi ~ 0
+Text GLabel 2000 1850 0    50   BiDi ~ 0
 TO_VCA_R136
-Text GLabel 2050 4850 0    50   BiDi ~ 0
-HOLD_ON
-Wire Wire Line
-	2050 4850 2150 4850
 $Comp
-L Connector:AudioJack3 J1
+L Connector:Conn_01x03_Male J1
 U 1 1 5ED55CB0
 P 9500 2100
-F 0 "J1" H 9220 2125 50  0000 R CNN
-F 1 "AudioJack3" H 9220 2034 50  0000 R CNN
-F 2 "4ms_Jack:EighthInch_Stereo_PJ366ST_ALT" H 9500 2100 50  0001 C CNN
+F 0 "J1" H 9400 2100 50  0000 R CNN
+F 1 "AudioJack3" H 9450 2000 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9500 2100 50  0001 C CNN
 F 3 "~" H 9500 2100 50  0001 C CNN
+F 4 "STEREO OUT" H 9250 1900 50  0000 C CNN "Label"
 	1    9500 2100
 	-1   0    0    -1  
 $EndComp
@@ -702,24 +697,24 @@ L power:GND #PWR0225
 U 1 1 5EDD09AA
 P 7350 2000
 F 0 "#PWR0225" H 7350 1750 50  0001 C CNN
-F 1 "GND" H 7355 1827 50  0000 C CNN
+F 1 "GND" H 7450 1850 50  0000 C CNN
 F 2 "" H 7350 2000 50  0001 C CNN
 F 3 "" H 7350 2000 50  0001 C CNN
 	1    7350 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack2 J?
+L Connector:Conn_01x02_Male J?
 U 1 1 5EA25E4A
-P 5900 3400
+P 5900 3300
 AR Path="/5E05EC3F/5EA25E4A" Ref="J?"  Part="1" 
 AR Path="/5E1B03E8/5EA25E4A" Ref="J8"  Part="1" 
-F 0 "J8" H 5720 3520 50  0000 R CNN
-F 1 "AudioJack2" H 5720 3429 50  0000 R CNN
-F 2 "4ms_Jack:EighthInch_Stereo_PJ366ST_ALT" H 5900 3400 50  0001 C CNN
-F 3 "~" H 5900 3400 50  0001 C CNN
-F 4 "TRIGGER OUT" H 5720 3338 50  0000 R CNN "Label"
-	1    5900 3400
+F 0 "J8" H 5850 3350 50  0000 R CNN
+F 1 "AudioJack2" H 5850 3250 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5900 3300 50  0001 C CNN
+F 3 "~" H 5900 3300 50  0001 C CNN
+F 4 "LINE OUT" H 5850 3150 50  0000 R CNN "Label"
+	1    5900 3300
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -733,4 +728,5 @@ F 3 "" H 5700 3400 50  0001 C CNN
 	1    5700 3400
 	1    0    0    -1  
 $EndComp
+Connection ~ 5700 3300
 $EndSCHEMATC

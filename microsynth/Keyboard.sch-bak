@@ -1221,14 +1221,14 @@ Wire Wire Line
 	4700 950  4700 1300
 $Comp
 L microsynth-rescue:SW_DPTT_SELECTOR-Switch SW9
-U 2 1 5E96003B
+U 1 1 5E96003B
 P 2550 3700
 F 0 "SW9" H 2750 3850 50  0000 L CNN
 F 1 "TRIGGER" H 2750 3750 50  0000 L CNN
 F 2 "Buttons_Switches_ThroughHole:L203011MS02Q" H 2550 3700 50  0001 C CNN
 F 3 "" H 2550 3700 50  0001 C CNN
-	2    2550 3700
-	1    0    0    -1  
+	1    2550 3700
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R27
