@@ -383,7 +383,6 @@ F 4 "Range" H 1750 7039 50  0000 C CNN "Label"
 $EndComp
 Wire Wire Line
 	1200 6050 1300 6050
-NoConn ~ 2200 6250
 $Comp
 L Device:R R42
 U 1 1 5E51DB50
@@ -638,11 +637,6 @@ Wire Wire Line
 Wire Wire Line
 	2550 7100 2550 6800
 Connection ~ 2550 6800
-Wire Wire Line
-	5150 6150 5150 5600
-Wire Wire Line
-	5150 6900 3650 6900
-Connection ~ 5150 6150
 Connection ~ 3650 6900
 Wire Wire Line
 	3250 2100 3250 2350
@@ -760,7 +754,7 @@ U 1 1 5E476048
 P 1800 1850
 F 0 "SW21" H 1850 2631 50  0000 C CNN
 F 1 "SW_Rotary2x6" H 1850 2540 50  0000 C CNN
-F 2 "MyKi_TH_Panel_Controls:SW_Rotary4+12" H 1700 2450 50  0001 C CNN
+F 2 "MyKi_TH_Panel_Controls:LORINCK1049" H 1700 2450 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 1700 2450 50  0001 C CNN
 	1    1800 1850
 	-1   0    0    -1  
@@ -1140,10 +1134,6 @@ Wire Wire Line
 	5350 4300 5350 4700
 Connection ~ 5350 4700
 Connection ~ 5350 4300
-Wire Wire Line
-	5150 6150 5150 6900
-Wire Wire Line
-	5150 5600 4850 5600
 Connection ~ 4850 5600
 Wire Wire Line
 	10000 5600 9850 5600
@@ -1204,4 +1194,51 @@ Wire Wire Line
 Connection ~ 4750 4600
 Wire Wire Line
 	4750 4600 4750 4800
+$Comp
+L Device:R R46-1
+U 1 1 5EAE5FD2
+P 3950 6250
+F 0 "R46-1" V 4157 6250 50  0000 C CNN
+F 1 "390k" V 4066 6250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3880 6250 50  0001 C CNN
+F 3 "~" H 3950 6250 50  0001 C CNN
+	1    3950 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5600 5600 5600 6250
+Wire Wire Line
+	4850 5600 5150 5600
+Wire Wire Line
+	3650 6900 5600 6900
+Wire Wire Line
+	5150 6150 5150 5600
+Connection ~ 5150 5600
+Wire Wire Line
+	5150 5600 5400 5600
+$Comp
+L Device:R_POT_TRIM RV7-1
+U 1 1 5EB1EF45
+P 5400 6250
+F 0 "RV7-1" V 5285 6250 50  0000 C CNN
+F 1 "47k" V 5194 6250 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_PV36W" H 5400 6250 50  0001 C CNN
+F 3 "~" H 5400 6250 50  0001 C CNN
+	1    5400 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5400 6100 5400 5600
+Connection ~ 5400 5600
+Wire Wire Line
+	5400 5600 5600 5600
+Wire Wire Line
+	5550 6250 5600 6250
+Connection ~ 5600 6250
+Wire Wire Line
+	5600 6250 5600 6900
+Wire Wire Line
+	5250 6250 4100 6250
+Wire Wire Line
+	3800 6250 2200 6250
 $EndSCHEMATC
