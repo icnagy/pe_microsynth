@@ -376,8 +376,9 @@ P 1700 6350
 F 0 "SW2" H 1750 7221 50  0000 C CNN
 F 1 "RANGE" H 1750 7130 50  0000 C CNN
 F 2 "MyKi_TH_Panel_Controls:SW_Rotary4+12" H 1600 6950 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 1600 6950 50  0001 C CNN
+F 3 "https://www.tme.eu/Document/ecc8d6706892f543e4658b0fb9f5b772/sr261112.pdf" H 1600 6950 50  0001 C CNN
 F 4 "Range" H 1750 7039 50  0000 C CNN "Label"
+F 5 "SR26NS1-2-6-M10-38R6" H 1700 6350 50  0001 C CNN "Product#"
 	1    1700 6350
 	1    0    0    -1  
 $EndComp

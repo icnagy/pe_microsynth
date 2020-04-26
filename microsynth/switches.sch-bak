@@ -754,7 +754,7 @@ U 1 1 5E476048
 P 1800 1850
 F 0 "SW21" H 1850 2631 50  0000 C CNN
 F 1 "SW_Rotary2x6" H 1850 2540 50  0000 C CNN
-F 2 "MyKi_TH_Panel_Controls:SW_Rotary4+12" H 1700 2450 50  0001 C CNN
+F 2 "MyKi_TH_Panel_Controls:LORINCK1049" H 1700 2450 50  0001 C CNN
 F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 1700 2450 50  0001 C CNN
 	1    1800 1850
 	-1   0    0    -1  
