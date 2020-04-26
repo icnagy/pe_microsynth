@@ -663,7 +663,7 @@ F 0 "J1" H 9400 2100 50  0000 R CNN
 F 1 "AudioJack3" H 9450 2000 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9500 2100 50  0001 C CNN
 F 3 "~" H 9500 2100 50  0001 C CNN
-F 4 "STEREO OUT" H 9250 1900 50  0000 C CNN "Label"
+F 4 "STEREO OUT" H 9200 1900 50  0000 C CNN "Label"
 	1    9500 2100
 	-1   0    0    -1  
 $EndComp
