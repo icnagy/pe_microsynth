@@ -657,9 +657,9 @@ Wire Wire Line
 Wire Wire Line
 	2400 2950 2550 2950
 Wire Wire Line
-	2400 2250 2400 2950
+	2400 2050 2400 2950
 Wire Wire Line
-	2200 2250 2400 2250
+	2200 2050 2400 2050
 $Comp
 L microsynth-rescue:SW_DPTT_SELECTOR-Switch SW6
 U 1 1 5E4A877E
@@ -673,10 +673,6 @@ F 3 "" H 2700 2750 50  0001 C CNN
 	1    2700 2750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1300 2450
-NoConn ~ 1300 2350
-NoConn ~ 1300 1750
-NoConn ~ 1300 1650
 NoConn ~ 3800 2450
 NoConn ~ 3800 1950
 NoConn ~ 3800 1450
@@ -746,20 +742,9 @@ F 3 "~" H 3600 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 1950 1300 1950
+	1150 1850 1300 1850
 Wire Wire Line
-	1300 2250 1150 2250
-$Comp
-L Switch:SW_Rotary2x6 SW21
-U 1 1 5E476048
-P 1800 1850
-F 0 "SW21" H 1850 2631 50  0000 C CNN
-F 1 "SW_Rotary2x6" H 1850 2540 50  0000 C CNN
-F 2 "MyKi_TH_Panel_Controls:LORINCK1049" H 1700 2450 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 1700 2450 50  0001 C CNN
-	1    1800 1850
-	-1   0    0    -1  
-$EndComp
+	1300 2150 1150 2150
 Wire Wire Line
 	2550 1550 2200 1550
 $Comp
@@ -796,28 +781,28 @@ Text GLabel 5800 2400 0    50   BiDi ~ 0
 TO_KEYBOARD_OUTPUT_IC7_PIN_6
 Text GLabel 5800 2550 0    50   BiDi ~ 0
 VCO2_MOD_SWITCH_S6-1
-Text GLabel 1000 2150 0    50   BiDi ~ 0
+Text GLabel 1000 2050 0    50   BiDi ~ 0
 TO_VCF_R120
 Wire Wire Line
-	1150 2250 1150 2150
+	1150 2150 1150 2050
 Wire Wire Line
-	1150 2150 1150 1950
+	1150 2050 1150 1850
 Wire Wire Line
-	1150 2150 1300 2150
+	1150 2050 1300 2050
 Wire Wire Line
-	1000 2150 1150 2150
-Connection ~ 1150 2150
-Text GLabel 1000 2050 0    50   BiDi ~ 0
+	1000 2050 1150 2050
+Connection ~ 1150 2050
+Text GLabel 1000 1950 0    50   BiDi ~ 0
 TO_VCA_C27
 Wire Wire Line
-	1000 2050 1300 2050
-Text GLabel 1300 1250 0    50   BiDi ~ 0
-VCO2_SQR
+	1000 1950 1300 1950
 Text GLabel 1300 1350 0    50   BiDi ~ 0
-VCO2_TRI
+VCO2_SQR
 Text GLabel 1300 1450 0    50   BiDi ~ 0
-VCO2_SAW
+VCO2_TRI
 Text GLabel 1300 1550 0    50   BiDi ~ 0
+VCO2_SAW
+Text GLabel 1300 1650 0    50   BiDi ~ 0
 VCO2_SAW_INV
 Text GLabel 3800 1250 2    50   BiDi ~ 0
 TO_VCO1_R79
@@ -1242,4 +1227,20 @@ Wire Wire Line
 	5250 6250 4100 6250
 Wire Wire Line
 	3800 6250 2200 6250
+$Comp
+L Switch:SW_Rotary3x4 SW21
+U 1 1 5E476048
+P 1800 2050
+F 0 "SW21" H 1850 2831 50  0000 C CNN
+F 1 "SW_Rotary2x6" H 1850 2740 50  0000 C CNN
+F 2 "Button_Switch_THT:SR2612F-0304-18R0B-D8-N" H 1700 2650 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/A-1891.pdf" H 1700 2650 50  0001 C CNN
+	1    1800 2050
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 2200 2550
+NoConn ~ 1300 2350
+NoConn ~ 1300 2450
+NoConn ~ 1300 2550
+NoConn ~ 1300 2650
 $EndSCHEMATC
