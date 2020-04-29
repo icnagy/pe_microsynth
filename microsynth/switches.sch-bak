@@ -616,7 +616,7 @@ U 1 1 5E5A553B
 P 2800 6300
 F 0 "C8" V 3052 6300 50  0000 C CNN
 F 1 "10n" V 2961 6300 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2838 6150 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 2838 6150 50  0001 C CNN
 F 3 "~" H 2800 6300 50  0001 C CNN
 	1    2800 6300
 	0    -1   1    0   
@@ -1233,8 +1233,8 @@ U 1 1 5E476048
 P 1800 2050
 F 0 "SW21" H 1850 2831 50  0000 C CNN
 F 1 "SW_Rotary2x6" H 1850 2740 50  0000 C CNN
-F 2 "MyKi_TH_Panel_Controls:LORINCK1049" H 1700 2650 50  0001 C CNN
-F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 1700 2650 50  0001 C CNN
+F 2 "Button_Switch_THT:SR2612F-0304-18R0B-D8-N" H 1700 2650 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/A-1891.pdf" H 1700 2650 50  0001 C CNN
 	1    1800 2050
 	-1   0    0    -1  
 $EndComp

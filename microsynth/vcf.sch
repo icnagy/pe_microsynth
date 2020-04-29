@@ -195,7 +195,7 @@ U 1 1 5E071F8B
 P 4450 2150
 F 0 "C21" V 4198 2150 50  0000 C CNN
 F 1 "100n" V 4289 2150 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 4488 2000 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 4488 2000 50  0001 C CNN
 F 3 "~" H 4450 2150 50  0001 C CNN
 	1    4450 2150
 	0    1    1    0   
@@ -551,9 +551,9 @@ L Device:C C22
 U 1 1 5E0DE040
 P 3000 5350
 F 0 "C22" H 3115 5396 50  0000 L CNN
-F 1 "680p" H 3115 5305 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3038 5200 50  0001 C CNN
-F 3 "~" H 3000 5350 50  0001 C CNN
+F 1 "680p polystyrene" H 3115 5305 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal" H 3038 5200 50  0001 C CNN
+F 3 "https://uk.rs-online.com/web/p/polystyrene-film-capacitors/0116256/" H 3000 5350 50  0001 C CNN
 	1    3000 5350
 	1    0    0    -1  
 $EndComp
@@ -570,9 +570,9 @@ L Device:C C23
 U 1 1 5E0DFE7F
 P 5100 5350
 F 0 "C23" H 5215 5396 50  0000 L CNN
-F 1 "680p" H 5215 5305 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 5138 5200 50  0001 C CNN
-F 3 "~" H 5100 5350 50  0001 C CNN
+F 1 "680p polystyrene" H 5215 5305 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal" H 5138 5200 50  0001 C CNN
+F 3 "https://uk.rs-online.com/web/p/polystyrene-film-capacitors/0116256/" H 5100 5350 50  0001 C CNN
 	1    5100 5350
 	1    0    0    -1  
 $EndComp
@@ -823,7 +823,7 @@ U 1 1 5E14B03E
 P 7000 1600
 F 0 "C24" V 6748 1600 50  0000 C CNN
 F 1 "220n" V 6839 1600 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 7038 1450 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 7038 1450 50  0001 C CNN
 F 3 "~" H 7000 1600 50  0001 C CNN
 	1    7000 1600
 	0    1    1    0   
@@ -883,7 +883,7 @@ U 1 1 5E154373
 P 8900 1300
 F 0 "C25" V 8648 1300 50  0000 C CNN
 F 1 "100n" V 8739 1300 50  0000 C CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 8938 1150 50  0001 C CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 8938 1150 50  0001 C CNN
 F 3 "~" H 8900 1300 50  0001 C CNN
 	1    8900 1300
 	0    1    1    0   
