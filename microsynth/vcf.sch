@@ -756,6 +756,7 @@ F 0 "RV23" V 1435 6450 50  0000 C CNN
 F 1 "1kLIN" V 1344 6450 50  0000 C CNN
 F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 1550 6450 50  0001 C CNN
 F 3 "~" H 1550 6450 50  0001 C CNN
+F 4 "Resonance" V 1250 6400 50  0000 C CNN "Label"
 	1    1550 6450
 	0    -1   -1   0   
 $EndComp
