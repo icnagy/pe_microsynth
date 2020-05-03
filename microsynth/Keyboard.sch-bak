@@ -721,7 +721,7 @@ F 0 "RV3" V 9035 2500 50  0000 C CNN
 F 1 "22K" V 8944 2500 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_PV36W" H 9150 2500 50  0001 C CNN
 F 3 "~" H 9150 2500 50  0001 C CNN
-F 4 "SCALE" V 8853 2500 50  0000 C CNN "Label"
+F 4 "Scale" V 8853 2500 50  0000 C CNN "Label"
 	1    9150 2500
 	0    -1   -1   0   
 $EndComp
@@ -1016,7 +1016,7 @@ F 0 "RV2" V 7835 2350 50  0000 C CNN
 F 1 "2MLOG" V 7744 2350 50  0000 C CNN
 F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 7950 2350 50  0001 C CNN
 F 3 "~" H 7950 2350 50  0001 C CNN
-F 4 "GLIDE" V 7653 2350 50  0000 C CNN "Label"
+F 4 "Glide" V 7653 2350 50  0000 C CNN "Label"
 	1    7950 2350
 	0    -1   -1   0   
 $EndComp

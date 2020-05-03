@@ -533,22 +533,11 @@ $EndComp
 Connection ~ 5150 4100
 Connection ~ 5150 5150
 $Comp
-L Amplifier_Operational:LM741 U9
-U 1 1 5E64CD10
-P 5950 3250
-F 0 "U9" H 6294 3204 50  0000 L CNN
-F 1 "LM741" H 6294 3295 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 6000 3300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 6100 3400 50  0001 C CNN
-	1    5950 3250
-	1    0    0    1   
-$EndComp
-$Comp
 L Amplifier_Operational:LM741 U10
 U 1 1 5E65035B
 P 5950 4650
-F 0 "U10" H 6294 4604 50  0000 L CNN
-F 1 "LM741" H 6294 4695 50  0000 L CNN
+F 0 "U10" H 5850 4700 50  0000 L CNN
+F 1 "LM741" H 6100 4900 50  0000 L CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 6000 4700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 6100 4800 50  0001 C CNN
 	1    5950 4650
@@ -1282,5 +1271,16 @@ F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 1400 1550 50  0001 C CNN
 F 3 "~" H 1400 1550 50  0001 C CNN
 	1    1400 1550
 	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM741 U9
+U 1 1 5E64CD10
+P 5950 3250
+F 0 "U9" H 5900 3300 50  0000 L CNN
+F 1 "LM741" H 5950 3400 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 6000 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 6100 3400 50  0001 C CNN
+	1    5950 3250
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC
