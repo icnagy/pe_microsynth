@@ -112,13 +112,13 @@ F 3 "" H 4900 1500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 1500 4900 1350
-Text GLabel 5900 2900 2    50   BiDi ~ 0
+Text GLabel 5900 2600 2    50   BiDi ~ 0
 TRIG_IN_TO_SEQ_SKT
 Text GLabel 5900 2700 2    50   BiDi ~ 0
 VOUT_TO_SEQ_SKT
-Text GLabel 5900 2800 2    50   BiDi ~ 0
+Text GLabel 5900 2900 2    50   BiDi ~ 0
 VIN_TO_SEQ_SKT
-Text GLabel 5900 2600 2    50   BiDi ~ 0
+Text GLabel 5900 2800 2    50   BiDi ~ 0
 TRIG_OUT_TO_SEQ_SKT
 Connection ~ 2250 1350
 Wire Wire Line
