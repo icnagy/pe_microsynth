@@ -1480,4 +1480,24 @@ F 3 "~" H 4750 2650 50  0001 C CNN
 	1    4750 2650
 	1    0    0    -1  
 $EndComp
+Text GLabel 9250 3800 0    50   Input ~ 0
+VIN_FROM_SEQ
+$Comp
+L Device:R R152_1
+U 1 1 5EB8A8FE
+P 9550 3800
+F 0 "R152_1" V 9343 3800 50  0000 C CNN
+F 1 "56k" V 9434 3800 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9480 3800 50  0001 C CNN
+F 3 "~" H 9550 3800 50  0001 C CNN
+	1    9550 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9700 3800 10400 3800
+Wire Wire Line
+	10400 3800 10400 3600
+Connection ~ 10400 3600
+Wire Wire Line
+	9400 3800 9250 3800
 $EndSCHEMATC

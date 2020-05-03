@@ -469,7 +469,7 @@ F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 4350 4900 50  0001 C CNN
 F 3 "~" H 4350 4900 50  0001 C CNN
 F 4 "Release" H 4100 4750 50  0000 C BNN "Label"
 	1    4350 4900
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT RV9
@@ -1277,7 +1277,7 @@ L Amplifier_Operational:LM741 U9
 U 1 1 5E64CD10
 P 5950 3250
 F 0 "U9" H 5900 3300 50  0000 L CNN
-F 1 "LM741" H 6294 3295 50  0000 L CNN
+F 1 "LM741" H 5950 3400 50  0000 L CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 6000 3300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 6100 3400 50  0001 C CNN
 	1    5950 3250

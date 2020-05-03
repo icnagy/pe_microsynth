@@ -112,13 +112,13 @@ F 3 "" H 4900 1500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 1500 4900 1350
-Text GLabel 5900 2850 2    50   BiDi ~ 0
+Text GLabel 5900 2900 2    50   BiDi ~ 0
 TRIG_IN_TO_SEQ_SKT
-Text GLabel 5900 2650 2    50   BiDi ~ 0
+Text GLabel 5900 2700 2    50   BiDi ~ 0
 VOUT_TO_SEQ_SKT
-Text GLabel 5900 2750 2    50   BiDi ~ 0
+Text GLabel 5900 2800 2    50   BiDi ~ 0
 VIN_TO_SEQ_SKT
-Text GLabel 5900 2550 2    50   BiDi ~ 0
+Text GLabel 5900 2600 2    50   BiDi ~ 0
 TRIG_OUT_TO_SEQ_SKT
 Connection ~ 2250 1350
 Wire Wire Line
@@ -137,34 +137,34 @@ F 3 "~" H 5650 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x04_Male J3
+L Connector:Conn_01x05_Male J3
 U 1 1 5F1FD92E
-P 5700 2650
-F 0 "J3" H 5850 2950 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 5850 2850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5700 2650 50  0001 C CNN
-F 3 "~" H 5700 2650 50  0001 C CNN
-	1    5700 2650
+P 5700 2800
+F 0 "J3" H 5700 3200 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 6000 3100 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5700 2800 50  0001 C CNN
+F 3 "~" H 5700 2800 50  0001 C CNN
+	1    5700 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x04_Male J4
 U 1 1 5F1FE242
-P 5700 3300
-F 0 "J4" H 5850 3600 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 5850 3500 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5700 3300 50  0001 C CNN
-F 3 "~" H 5700 3300 50  0001 C CNN
-	1    5700 3300
+P 5700 3450
+F 0 "J4" H 5850 3750 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 5850 3650 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5700 3450 50  0001 C CNN
+F 3 "~" H 5700 3450 50  0001 C CNN
+	1    5700 3450
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 3400 2    50   BiDi ~ 0
+Text GLabel 5900 3550 2    50   BiDi ~ 0
 KEYBOARD_HIGH_END
-Text GLabel 5900 3200 2    50   BiDi ~ 0
+Text GLabel 5900 3350 2    50   BiDi ~ 0
 KEYBOARD_LOW_END
-Text GLabel 5900 3300 2    50   BiDi ~ 0
+Text GLabel 5900 3450 2    50   BiDi ~ 0
 KEYBOARD_BUS
-Text GLabel 5900 3500 2    50   BiDi ~ 0
+Text GLabel 5900 3650 2    50   BiDi ~ 0
 TRIGGER_BUS
 $Comp
 L power:-VSW #PWR02
@@ -205,4 +205,6 @@ F 3 "" H 6200 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6200 2000 5850 2000
+Text GLabel 5900 3000 2    50   Input ~ 0
+VIN_FROM_SEQ
 $EndSCHEMATC
