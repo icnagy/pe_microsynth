@@ -1854,13 +1854,13 @@
       (scale (xyz 1.6 1.6 1.6))
       (rotate (xyz 0 0 0))
     )
-    (model /Users/csabanagy/Downloads/pe_microsynth/pe-microsynthv2.stp
-      (offset (xyz -298.5 -130.4 15))
+    (model ":Project:Stufenschalter 2x6.step"
+      (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ":Project:Stufenschalter 2x6.step"
-      (at (xyz 0 0 0))
+    (model /Users/csabanagy/Downloads/pe_microsynth/pe-microsynthv3.stp
+      (offset (xyz -298.5 -130.4 15))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
