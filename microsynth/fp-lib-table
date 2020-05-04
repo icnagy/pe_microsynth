@@ -30,4 +30,5 @@
   (lib (name 4ms_TestPoint)(type KiCad)(uri /Users/csabanagy/Downloads/kicad_footprints/4ms/4ms-kicad-lib/lib-footprints/4ms_TestPoint.pretty)(options "")(descr ""))
   (lib (name MyKi_TH_Panel_Controls)(type KiCad)(uri /Users/csabanagy/Downloads/kicad_footprints/Jeff-Russ/Kicad.pretty/Footprints/MyKi_TH_Panel_Controls.pretty)(options "")(descr ""))
   (lib (name Buttons_Switches_ThroughHole)(type KiCad)(uri /Users/csabanagy/Downloads/kicad_footprints/KiCad/Buttons_Switches_ThroughHole.pretty)(options "")(descr ""))
+  (lib (name microsynth)(type KiCad)(uri ${KIPRJMOD}/microsynth.pretty)(options "")(descr ""))
 )

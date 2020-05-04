@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 279)
+    (drawings 281)
     (tracks 2309)
     (zones 0)
     (modules 271)
@@ -30,7 +30,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.5)
     (user_trace_width 0.25)
     (user_trace_width 0.4)
     (user_trace_width 0.5)
@@ -13388,6 +13388,12 @@
     )
   )
 
+  (gr_text "Redrawn in KiCad by Csaba Nagy 2020" (at 75.692 237.109) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "PE MICROSYNTH" (at 74.422 232.791) (layer F.SilkS)
+    (effects (font (size 3 3) (thickness 0.7)))
+  )
   (gr_line (start 25.4 226.06) (end 25.4 240.03) (layer Edge.Cuts) (width 0.05) (tstamp 5E939C41))
   (gr_line (start 34.29 226.06) (end 25.4 226.06) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 34.29 185.42) (end 34.29 226.06) (layer Edge.Cuts) (width 0.05))
@@ -13819,7 +13825,6 @@
   (segment (start 35.052 183.642) (end 31.242 183.642) (width 1) (layer F.Cu) (net 2))
   (segment (start 37.338 185.928) (end 35.052 183.642) (width 1) (layer F.Cu) (net 2))
   (segment (start 31.242 183.642) (end 27.990985 180.390985) (width 1) (layer F.Cu) (net 2))
-  (segment (start 37.2872 200.74) (end 37.338 200.6892) (width 1) (layer F.Cu) (net 174))
   (segment (start 231.48 183.515) (end 233.68 183.515) (width 1) (layer F.Cu) (net 2))
   (segment (start 229.480998 183.515) (end 231.48 183.515) (width 1) (layer F.Cu) (net 2))
   (segment (start 227.684999 181.719001) (end 229.480998 183.515) (width 1) (layer F.Cu) (net 2))
@@ -15463,6 +15468,7 @@
   (segment (start 335.28 203.8924) (end 335.28 201.295) (width 1) (layer B.Cu) (net 173) (status 20))
   (segment (start 345.3064 213.9188) (end 335.28 203.8924) (width 1) (layer B.Cu) (net 173))
   (segment (start 347.1164 213.9188) (end 345.3064 213.9188) (width 1) (layer B.Cu) (net 173) (status 10))
+  (segment (start 37.2872 200.74) (end 37.338 200.6892) (width 1) (layer F.Cu) (net 174))
   (segment (start 117.96 228.092) (end 117.96 218.95) (width 1) (layer B.Cu) (net 174) (status 30))
   (segment (start 117.96 218.95) (end 125.88 218.95) (width 1) (layer B.Cu) (net 174) (status 30))
   (segment (start 47.625 223.52) (end 42.799 218.694) (width 1) (layer F.Cu) (net 174))
