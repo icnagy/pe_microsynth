@@ -830,11 +830,12 @@ Wire Wire Line
 	4300 5500 4350 5500
 Connection ~ 4350 5500
 $Comp
-L Amplifier_Operational:LF347 U?
+L microsynth-rescue:LF347-Amplifier_Operational U?
 U 3 1 5E9127FD
 P 2900 3100
 AR Path="/5E8C1704/5E9127FD" Ref="U?"  Part="3" 
 AR Path="/5E2BE1AD/5E9127FD" Ref="U5"  Part="3" 
+AR Path="/5E9127FD" Ref="U5"  Part="3" 
 F 0 "U5" H 2900 2700 50  0000 C CNN
 F 1 "LF347" H 2900 2800 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2850 3200 50  0001 C CNN

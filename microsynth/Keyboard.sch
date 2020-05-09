@@ -1266,9 +1266,11 @@ F 3 "" H 9200 5050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:RC4136 U1
+L microsynth-rescue:RC4136-Amplifier_Operational U1
 U 1 1 5E8BAB69
 P 1700 2600
+AR Path="/5E8BAB69" Ref="U1"  Part="1" 
+AR Path="/5E8C1704/5E8BAB69" Ref="U1"  Part="1" 
 F 0 "U1" H 1650 2600 50  0000 C CNN
 F 1 "RC4136" H 1750 2800 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1650 2700 50  0001 C CNN
@@ -1277,9 +1279,11 @@ F 3 "https://www.ti.com/lit/ds/symlink/rc4136.pdf" H 1750 2800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:RC4136 U1
+L microsynth-rescue:RC4136-Amplifier_Operational U1
 U 2 1 5E8BDA2C
 P 1600 950
+AR Path="/5E8BDA2C" Ref="U1"  Part="2" 
+AR Path="/5E8C1704/5E8BDA2C" Ref="U1"  Part="2" 
 F 0 "U1" H 1550 950 50  0000 C CNN
 F 1 "RC4136" H 1700 750 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1550 1050 50  0001 C CNN
@@ -1288,9 +1292,11 @@ F 3 "https://www.ti.com/lit/ds/symlink/rc4136.pdf" H 1650 1150 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:RC4136 U1
+L microsynth-rescue:RC4136-Amplifier_Operational U1
 U 3 1 5E8BE692
 P 5500 3950
+AR Path="/5E8BE692" Ref="U1"  Part="3" 
+AR Path="/5E8C1704/5E8BE692" Ref="U1"  Part="3" 
 F 0 "U1" H 5450 3950 50  0000 C CNN
 F 1 "RC4136" H 5550 4150 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5450 4050 50  0001 C CNN
@@ -1299,9 +1305,11 @@ F 3 "https://www.ti.com/lit/ds/symlink/rc4136.pdf" H 5550 4150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:RC4136 U1
+L microsynth-rescue:RC4136-Amplifier_Operational U1
 U 4 1 5E8C01BA
 P 5550 3300
+AR Path="/5E8C01BA" Ref="U1"  Part="4" 
+AR Path="/5E8C1704/5E8C01BA" Ref="U1"  Part="4" 
 F 0 "U1" H 5500 3300 50  0000 C CNN
 F 1 "RC4136" H 5650 3150 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5500 3400 50  0001 C CNN
@@ -1310,9 +1318,11 @@ F 3 "https://www.ti.com/lit/ds/symlink/rc4136.pdf" H 5600 3500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:RC4136 U1
+L microsynth-rescue:RC4136-Amplifier_Operational U1
 U 5 1 5E8C1549
 P 9300 4700
+AR Path="/5E8C1549" Ref="U1"  Part="5" 
+AR Path="/5E8C1704/5E8C1549" Ref="U1"  Part="5" 
 F 0 "U1" H 9300 4750 50  0000 L CNN
 F 1 "RC4136" H 9300 4700 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9250 4800 50  0001 C CNN
@@ -1322,9 +1332,11 @@ F 3 "https://www.ti.com/lit/ds/symlink/rc4136.pdf" H 9350 4900 50  0001 C CNN
 $EndComp
 Connection ~ 1300 1050
 $Comp
-L Amplifier_Operational:LF347 U5
+L microsynth-rescue:LF347-Amplifier_Operational U5
 U 1 1 5E8D4E93
 P 6100 2250
+AR Path="/5E8D4E93" Ref="U5"  Part="1" 
+AR Path="/5E8C1704/5E8D4E93" Ref="U5"  Part="1" 
 F 0 "U5" H 6050 2250 50  0000 C CNN
 F 1 "LF347" H 6100 2550 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6050 2350 50  0001 C CNN
@@ -1333,9 +1345,11 @@ F 3 "https://www.ti.com/lit/ds/symlink/lf147.pdf" H 6150 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LF347 U5
+L microsynth-rescue:LF347-Amplifier_Operational U5
 U 5 1 5E8DAD38
 P 9750 4700
+AR Path="/5E8DAD38" Ref="U5"  Part="5" 
+AR Path="/5E8C1704/5E8DAD38" Ref="U5"  Part="5" 
 F 0 "U5" H 9750 4750 50  0000 L CNN
 F 1 "LF347" H 9750 4700 50  0000 L CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9700 4800 50  0001 C CNN

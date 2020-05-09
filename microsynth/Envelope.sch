@@ -1178,11 +1178,12 @@ F 3 "~" H 7750 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LF347 U?
+L microsynth-rescue:LF347-Amplifier_Operational U?
 U 2 1 5E8FB113
 P 10250 3650
 AR Path="/5E8C1704/5E8FB113" Ref="U?"  Part="2" 
 AR Path="/5E5B9865/5E8FB113" Ref="U5"  Part="2" 
+AR Path="/5E8FB113" Ref="U5"  Part="2" 
 F 0 "U5" H 10250 4050 50  0000 C CNN
 F 1 "LF347" H 10250 3950 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 10200 3750 50  0001 C CNN

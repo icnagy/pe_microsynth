@@ -1,3 +1,5 @@
 .DS_Store
 *.xcf
-*-bak
+*.sch-bak
+*.kicad_pcb-bak
+*.bak
