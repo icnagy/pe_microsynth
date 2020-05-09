@@ -65,7 +65,25 @@ function outer_radius    (mm_per_tooth=3,number_of_teeth=11,clearance=0.1)    //
 
 
 
+rotate(150)
+translate([0,0,-3])
+difference() {
+color([0.22,0,0])
+gear(
+	1, //	mm_per_tooth
+	80,//number_of_teeth
+	2, //thickness
+	2.8, //hole_diameter
+	0, //twist
+	0, //teeth_to_hide
+	33,//pressure_angle
+	0.2,//clearance
+	0.3//backlash
+);
+    translate([17,0,0]) color([0.75,0.75,0.75]) cube([25,30,3], center = true);
+  }
 
+rotate(-150)
 difference() {
 
 gear(
@@ -81,3 +99,4 @@ gear(
 );
     translate([17,0,0]) color([0.75,0.75,0.75]) cube([25,30,3], center = true);
   }
+
