@@ -947,7 +947,7 @@ U 1 1 5EC3FB57
 P 6400 4750
 F 0 "RV27" H 6330 4796 50  0000 R CNN
 F 1 "4.7kLOG" H 6330 4705 50  0000 R CNN
-F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 6400 4750 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Bourns_PTV09A-2_Vertical" H 6400 4750 50  0001 C CNN
 F 3 "~" H 6400 4750 50  0001 C CNN
 F 4 "Thumbwheel" H 6300 4600 50  0000 R BNN "Label"
 	1    6400 4750
