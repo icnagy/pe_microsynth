@@ -1178,20 +1178,6 @@ F 3 "~" H 7750 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L microsynth-rescue:LF347-Amplifier_Operational U?
-U 2 1 5E8FB113
-P 10250 3650
-AR Path="/5E8C1704/5E8FB113" Ref="U?"  Part="2" 
-AR Path="/5E5B9865/5E8FB113" Ref="U5"  Part="2" 
-AR Path="/5E8FB113" Ref="U5"  Part="2" 
-F 0 "U5" H 10250 4050 50  0000 C CNN
-F 1 "LF347" H 10250 3950 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 10200 3750 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/lf147.pdf" H 10300 3850 50  0001 C CNN
-	2    10250 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L 4xxx:4011 U3
 U 5 1 5EBF5D48
 P 10350 2050
@@ -1283,5 +1269,18 @@ F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 6000 3300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm741.pdf" H 6100 3400 50  0001 C CNN
 	1    5950 3250
 	1    0    0    1   
+$EndComp
+$Comp
+L pe_microsynth:LF347 U?
+U 2 1 5EBDD19A
+P 10250 3650
+AR Path="/5E8C1704/5EBDD19A" Ref="U?"  Part="2" 
+AR Path="/5E5B9865/5EBDD19A" Ref="U5"  Part="2" 
+F 0 "U5" H 10250 4050 50  0000 C CNN
+F 1 "LF347" H 10250 3950 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 10200 3750 50  0001 C CNN
+F 3 "https://www.bitsbox.co.uk/data/analog/LF347.pdf" H 10300 3850 50  0001 C CNN
+	2    10250 3650
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

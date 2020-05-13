@@ -630,20 +630,6 @@ Wire Wire Line
 	2450 950  2500 950 
 Wire Wire Line
 	2450 950  2450 1500
-$Comp
-L microsynth-rescue:LF347-Amplifier_Operational U?
-U 4 1 5E920B31
-P 3150 1900
-AR Path="/5E8C1704/5E920B31" Ref="U?"  Part="4" 
-AR Path="/5E222DC1/5E920B31" Ref="U5"  Part="4" 
-AR Path="/5E920B31" Ref="U5"  Part="4" 
-F 0 "U5" H 3150 1500 50  0000 C CNN
-F 1 "LF347" H 3150 1600 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3100 2000 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/lf147.pdf" H 3200 2100 50  0001 C CNN
-	4    3150 1900
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	2450 4150 2450 4350
 Wire Wire Line
@@ -662,5 +648,18 @@ F 3 "~" H 1050 1250 50  0001 C CNN
 F 4 "VCO1 On/Off" V 959 1162 50  0000 R CNN "Label"
 	1    1050 1250
 	-1   0    0    -1  
+$EndComp
+$Comp
+L pe_microsynth:LF347 U?
+U 4 1 5EBFEEA3
+P 3150 1900
+AR Path="/5E8C1704/5EBFEEA3" Ref="U?"  Part="4" 
+AR Path="/5E222DC1/5EBFEEA3" Ref="U5"  Part="4" 
+F 0 "U5" H 3100 1900 50  0000 C CNN
+F 1 "LF347" H 3200 1700 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 3100 2000 50  0001 C CNN
+F 3 "https://www.bitsbox.co.uk/data/analog/LF347.pdf" H 3200 2100 50  0001 C CNN
+	4    3150 1900
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC

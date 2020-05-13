@@ -536,7 +536,7 @@ U 1 1 5E1E7AED
 P 7350 1700
 F 0 "U23" H 7300 1700 50  0000 L CNN
 F 1 "LM380N" H 7400 1550 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 7350 1700 50  0001 C CIN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 7350 1700 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm380.pdf" H 7350 1700 50  0001 C CNN
 	1    7350 1700
 	1    0    0    -1  

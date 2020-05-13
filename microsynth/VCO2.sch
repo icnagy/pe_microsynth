@@ -575,17 +575,6 @@ Wire Wire Line
 	3600 6050 3600 5600
 Wire Wire Line
 	3600 5600 3700 5600
-$Comp
-L Amplifier_Operational:LF355 U15
-U 1 1 5E322633
-P 2150 3000
-F 0 "U15" H 2050 3000 50  0000 L CNN
-F 1 "LF355" H 2100 3150 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 2200 3050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lf357.pdf" H 2300 3150 50  0001 C CNN
-	1    2150 3000
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	1850 2900 1850 2800
 Connection ~ 1850 2800
@@ -829,20 +818,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 5500 4350 5500
 Connection ~ 4350 5500
-$Comp
-L microsynth-rescue:LF347-Amplifier_Operational U?
-U 3 1 5E9127FD
-P 2900 3100
-AR Path="/5E8C1704/5E9127FD" Ref="U?"  Part="3" 
-AR Path="/5E2BE1AD/5E9127FD" Ref="U5"  Part="3" 
-AR Path="/5E9127FD" Ref="U5"  Part="3" 
-F 0 "U5" H 2900 2700 50  0000 C CNN
-F 1 "LF347" H 2900 2800 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2850 3200 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/lf147.pdf" H 2950 3300 50  0001 C CNN
-	3    2900 3100
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	2250 2350 2250 2700
 Wire Wire Line
@@ -851,4 +826,28 @@ Wire Wire Line
 	1850 1850 2250 1850
 Wire Wire Line
 	1850 1850 1850 2800
+$Comp
+L pe_microsynth:LF347 U?
+U 3 1 5EBF1DEA
+P 2900 3100
+AR Path="/5E8C1704/5EBF1DEA" Ref="U?"  Part="3" 
+AR Path="/5E2BE1AD/5EBF1DEA" Ref="U5"  Part="3" 
+F 0 "U5" H 2850 3100 50  0000 C CNN
+F 1 "LF347" H 2900 2900 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 2850 3200 50  0001 C CNN
+F 3 "https://www.bitsbox.co.uk/data/analog/LF347.pdf" H 2950 3300 50  0001 C CNN
+	3    2900 3100
+	1    0    0    1   
+$EndComp
+$Comp
+L pe_microsynth:LF351 U15
+U 1 1 5EC56017
+P 2150 3000
+F 0 "U15" H 2050 3000 50  0000 L CNN
+F 1 "LF351" H 2150 3150 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 2200 3050 50  0001 C CNN
+F 3 "https://www.bitsbox.co.uk/data/opamps/lf351.pdf" H 2300 3150 50  0001 C CNN
+	1    2150 3000
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

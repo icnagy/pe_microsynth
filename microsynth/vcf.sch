@@ -339,7 +339,7 @@ U 1 1 5E0813F0
 P 4700 4800
 F 0 "U20" H 4700 4433 50  0000 C CNN
 F 1 "LM13600" H 4700 4524 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 4400 4825 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 4400 4825 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF" H 4400 4825 50  0001 C CNN
 	1    4700 4800
 	1    0    0    1   
@@ -350,7 +350,7 @@ U 3 1 5E08374A
 P 2650 4800
 F 0 "U20" H 2650 4433 50  0000 C CNN
 F 1 "LM13600" H 2650 4524 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 2350 4825 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 2350 4825 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF" H 2350 4825 50  0001 C CNN
 	3    2650 4800
 	1    0    0    1   
@@ -361,7 +361,7 @@ U 2 1 5E084E1E
 P 5500 4800
 F 0 "U20" H 5400 5148 50  0000 C CNN
 F 1 "LM13600" H 5400 5057 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 5200 4825 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 5200 4825 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF" H 5200 4825 50  0001 C CNN
 	2    5500 4800
 	1    0    0    -1  
@@ -372,7 +372,7 @@ U 4 1 5E08580B
 P 3350 4800
 F 0 "U20" H 3250 5148 50  0000 C CNN
 F 1 "LM13600" H 3250 5057 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3050 4825 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 3050 4825 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF" H 3050 4825 50  0001 C CNN
 	4    3350 4800
 	1    0    0    -1  
@@ -383,7 +383,7 @@ U 5 1 5E0876CA
 P 6450 4850
 F 0 "U20" H 6408 4896 50  0000 L CNN
 F 1 "LM13600" H 6408 4805 50  0000 L CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 6150 4875 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_LongPads" H 6150 4875 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheet/nationalsemiconductor/DS007980.PDF" H 6150 4875 50  0001 C CNN
 	5    6450 4850
 	1    0    0    -1  

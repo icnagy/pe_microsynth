@@ -1076,17 +1076,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 2500 8950 2500
 Connection ~ 8950 2500
-$Comp
-L Amplifier_Operational:TL071 U6
-U 1 1 5EA6B0F3
-P 8650 2500
-F 0 "U6" H 8550 2500 50  0000 L CNN
-F 1 "TL071" H 8650 2650 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 8700 2550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8800 2650 50  0001 C CNN
-	1    8650 2500
-	1    0    0    -1  
-$EndComp
 NoConn ~ 8650 2800
 NoConn ~ 8750 2800
 $Comp
@@ -1111,17 +1100,6 @@ F 3 "" H 8550 2200 50  0001 C CNN
 	1    8550 2200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Amplifier_Operational:TL072 U2
-U 2 1 5EA9A5A0
-P 10100 1250
-F 0 "U2" H 10050 1250 50  0000 C CNN
-F 1 "TL072" H 10100 974 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 10100 1250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10100 1250 50  0001 C CNN
-	2    10100 1250
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	10450 1250 10400 1250
 Connection ~ 10450 1250
@@ -1144,18 +1122,6 @@ Wire Wire Line
 Connection ~ 9700 1350
 Wire Wire Line
 	9700 1350 9400 1350
-$Comp
-L Amplifier_Operational:TL072 U2
-U 1 1 5EAE7191
-P 7350 2350
-F 0 "U2" H 7300 2350 50  0000 C CNN
-F 1 "TL072" H 7400 2550 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 7350 2350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7350 2350 50  0001 C CNN
-	1    7350 2350
-	1    0    0    1   
-$EndComp
-Connection ~ 7650 2350
 Wire Wire Line
 	7050 2250 7000 2250
 Connection ~ 7000 2250
@@ -1246,118 +1212,25 @@ $EndComp
 $Comp
 L power:+VSW #PWR?
 U 1 1 5E896D52
-P 9200 4350
-F 0 "#PWR?" H 9200 4200 50  0001 C CNN
-F 1 "+VSW" H 9200 4450 50  0000 C CNN
-F 2 "" H 9200 4350 50  0001 C CNN
-F 3 "" H 9200 4350 50  0001 C CNN
-	1    9200 4350
+P 9150 4350
+F 0 "#PWR?" H 9150 4200 50  0001 C CNN
+F 1 "+VSW" H 9150 4450 50  0000 C CNN
+F 2 "" H 9150 4350 50  0001 C CNN
+F 3 "" H 9150 4350 50  0001 C CNN
+	1    9150 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:-VSW #PWR?
 U 1 1 5E8967F9
-P 9200 5050
-F 0 "#PWR?" H 9200 5150 50  0001 C CNN
-F 1 "-VSW" H 9215 5223 50  0000 C CNN
-F 2 "" H 9200 5050 50  0001 C CNN
-F 3 "" H 9200 5050 50  0001 C CNN
-	1    9200 5050
+P 9150 5050
+F 0 "#PWR?" H 9150 5150 50  0001 C CNN
+F 1 "-VSW" H 9165 5223 50  0000 C CNN
+F 2 "" H 9150 5050 50  0001 C CNN
+F 3 "" H 9150 5050 50  0001 C CNN
+	1    9150 5050
 	-1   0    0    1   
 $EndComp
-$Comp
-L microsynth-rescue:RC4136-Amplifier_Operational U1
-U 1 1 5E8BAB69
-P 1700 2600
-AR Path="/5E8BAB69" Ref="U1"  Part="1" 
-AR Path="/5E8C1704/5E8BAB69" Ref="U1"  Part="1" 
-F 0 "U1" H 1650 2600 50  0000 C CNN
-F 1 "RC4136" H 1750 2800 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1650 2700 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/rc4136.pdf" H 1750 2800 50  0001 C CNN
-	1    1700 2600
-	1    0    0    1   
-$EndComp
-$Comp
-L microsynth-rescue:RC4136-Amplifier_Operational U1
-U 2 1 5E8BDA2C
-P 1600 950
-AR Path="/5E8BDA2C" Ref="U1"  Part="2" 
-AR Path="/5E8C1704/5E8BDA2C" Ref="U1"  Part="2" 
-F 0 "U1" H 1550 950 50  0000 C CNN
-F 1 "RC4136" H 1700 750 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1550 1050 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/rc4136.pdf" H 1650 1150 50  0001 C CNN
-	2    1600 950 
-	1    0    0    1   
-$EndComp
-$Comp
-L microsynth-rescue:RC4136-Amplifier_Operational U1
-U 3 1 5E8BE692
-P 5500 3950
-AR Path="/5E8BE692" Ref="U1"  Part="3" 
-AR Path="/5E8C1704/5E8BE692" Ref="U1"  Part="3" 
-F 0 "U1" H 5450 3950 50  0000 C CNN
-F 1 "RC4136" H 5550 4150 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5450 4050 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/rc4136.pdf" H 5550 4150 50  0001 C CNN
-	3    5500 3950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L microsynth-rescue:RC4136-Amplifier_Operational U1
-U 4 1 5E8C01BA
-P 5550 3300
-AR Path="/5E8C01BA" Ref="U1"  Part="4" 
-AR Path="/5E8C1704/5E8C01BA" Ref="U1"  Part="4" 
-F 0 "U1" H 5500 3300 50  0000 C CNN
-F 1 "RC4136" H 5650 3150 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5500 3400 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/rc4136.pdf" H 5600 3500 50  0001 C CNN
-	4    5550 3300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L microsynth-rescue:RC4136-Amplifier_Operational U1
-U 5 1 5E8C1549
-P 9300 4700
-AR Path="/5E8C1549" Ref="U1"  Part="5" 
-AR Path="/5E8C1704/5E8C1549" Ref="U1"  Part="5" 
-F 0 "U1" H 9300 4750 50  0000 L CNN
-F 1 "RC4136" H 9300 4700 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9250 4800 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/rc4136.pdf" H 9350 4900 50  0001 C CNN
-	5    9300 4700
-	1    0    0    -1  
-$EndComp
-Connection ~ 1300 1050
-$Comp
-L microsynth-rescue:LF347-Amplifier_Operational U5
-U 1 1 5E8D4E93
-P 6100 2250
-AR Path="/5E8D4E93" Ref="U5"  Part="1" 
-AR Path="/5E8C1704/5E8D4E93" Ref="U5"  Part="1" 
-F 0 "U5" H 6050 2250 50  0000 C CNN
-F 1 "LF347" H 6100 2550 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6050 2350 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/lf147.pdf" H 6150 2450 50  0001 C CNN
-	1    6100 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L microsynth-rescue:LF347-Amplifier_Operational U5
-U 5 1 5E8DAD38
-P 9750 4700
-AR Path="/5E8DAD38" Ref="U5"  Part="5" 
-AR Path="/5E8C1704/5E8DAD38" Ref="U5"  Part="5" 
-F 0 "U5" H 9750 4750 50  0000 L CNN
-F 1 "LF347" H 9750 4700 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9700 4800 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/lf147.pdf" H 9800 4900 50  0001 C CNN
-	5    9750 4700
-	1    0    0    -1  
-$EndComp
-Connection ~ 6400 2250
 $Comp
 L power:+VSW #PWR?
 U 1 1 5E8EBE3F
@@ -1381,36 +1254,25 @@ F 3 "" H 9650 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:TL072 U2
-U 3 1 5EC4A05A
-P 10150 4700
-F 0 "U2" H 10150 4750 50  0000 L CNN
-F 1 "TL072" H 10150 4700 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 10150 4700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10150 4700 50  0001 C CNN
-	3    10150 4700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+VSW #PWR?
 U 1 1 5EC4CC4F
-P 10050 4400
-F 0 "#PWR?" H 10050 4250 50  0001 C CNN
-F 1 "+VSW" H 10050 4500 50  0000 C CNN
-F 2 "" H 10050 4400 50  0001 C CNN
-F 3 "" H 10050 4400 50  0001 C CNN
-	1    10050 4400
+P 10100 4400
+F 0 "#PWR?" H 10100 4250 50  0001 C CNN
+F 1 "+VSW" H 10100 4500 50  0000 C CNN
+F 2 "" H 10100 4400 50  0001 C CNN
+F 3 "" H 10100 4400 50  0001 C CNN
+	1    10100 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:-VSW #PWR?
 U 1 1 5EC4D1BE
-P 10050 5000
-F 0 "#PWR?" H 10050 5100 50  0001 C CNN
-F 1 "-VSW" H 10065 5173 50  0000 C CNN
-F 2 "" H 10050 5000 50  0001 C CNN
-F 3 "" H 10050 5000 50  0001 C CNN
-	1    10050 5000
+P 10100 5000
+F 0 "#PWR?" H 10100 5100 50  0001 C CNN
+F 1 "-VSW" H 10115 5173 50  0000 C CNN
+F 2 "" H 10100 5000 50  0001 C CNN
+F 3 "" H 10100 5000 50  0001 C CNN
+	1    10100 5000
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -1514,4 +1376,128 @@ Wire Wire Line
 Connection ~ 10400 3600
 Wire Wire Line
 	9400 3800 9250 3800
+$Comp
+L pe_microsynth:LM1458 U2
+U 1 1 5EBBD978
+P 7350 2350
+F 0 "U2" H 7300 2350 50  0000 C CNN
+F 1 "LM1458" H 7450 2150 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 7350 2350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1458.pdf" H 7350 2350 50  0001 C CNN
+	1    7350 2350
+	1    0    0    1   
+$EndComp
+$Comp
+L pe_microsynth:LM1458 U2
+U 2 1 5EBC097D
+P 10100 1250
+F 0 "U2" H 10050 1250 50  0000 C CNN
+F 1 "LM1458" H 10100 950 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 10100 1250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1458.pdf" H 10100 1250 50  0001 C CNN
+	2    10100 1250
+	1    0    0    1   
+$EndComp
+$Comp
+L pe_microsynth:LM1458 U2
+U 3 1 5EBC4639
+P 10200 4700
+F 0 "U2" H 10200 4750 50  0000 L CNN
+F 1 "LM1458" H 10200 4700 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 10200 4700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1458.pdf" H 10200 4700 50  0001 C CNN
+	3    10200 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 7650 2350
+$Comp
+L pe_microsynth:RC4136 U1
+U 1 1 5EBFB9E6
+P 1700 2600
+F 0 "U1" H 1650 2600 50  0000 C CNN
+F 1 "RC4136" H 1700 2300 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1650 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/rc4136.pdf" H 1750 2800 50  0001 C CNN
+	1    1700 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L pe_microsynth:RC4136 U1
+U 2 1 5EBFD055
+P 1600 950
+F 0 "U1" H 1550 950 50  0000 C CNN
+F 1 "RC4136" H 1650 750 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1550 1050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/rc4136.pdf" H 1650 1150 50  0001 C CNN
+	2    1600 950 
+	1    0    0    1   
+$EndComp
+$Comp
+L pe_microsynth:RC4136 U1
+U 4 1 5EBFFE93
+P 5550 3300
+F 0 "U1" H 5500 3300 50  0000 C CNN
+F 1 "RC4136" H 5700 3500 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5500 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/rc4136.pdf" H 5600 3500 50  0001 C CNN
+	4    5550 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L pe_microsynth:RC4136 U1
+U 5 1 5EC01261
+P 9250 4700
+F 0 "U1" H 9250 4750 50  0000 L CNN
+F 1 "RC4136" H 9250 4700 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9200 4800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/rc4136.pdf" H 9300 4900 50  0001 C CNN
+	5    9250 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 1050
+$Comp
+L pe_microsynth:RC4136 U1
+U 3 1 5EBFED57
+P 5500 3950
+F 0 "U1" H 5450 3950 50  0000 C CNN
+F 1 "RC4136" H 5600 4150 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 5450 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/rc4136.pdf" H 5550 4150 50  0001 C CNN
+	3    5500 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L pe_microsynth:LF351 U6
+U 1 1 5EBB6789
+P 8650 2500
+F 0 "U6" H 8550 2500 50  0000 L CNN
+F 1 "LF351" H 8650 2650 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_LongPads" H 8700 2550 50  0001 C CNN
+F 3 "https://www.bitsbox.co.uk/data/opamps/lf351.pdf" H 8800 2650 50  0001 C CNN
+	1    8650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pe_microsynth:LF347 U5
+U 1 1 5EBC94FE
+P 6100 2250
+F 0 "U5" H 6050 2250 50  0000 C CNN
+F 1 "LF347" H 6100 2550 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 6050 2350 50  0001 C CNN
+F 3 "https://www.bitsbox.co.uk/data/analog/LF347.pdf" H 6150 2450 50  0001 C CNN
+	1    6100 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L pe_microsynth:LF347 U5
+U 5 1 5EBCD530
+P 9750 4700
+F 0 "U5" H 9750 4750 50  0000 L CNN
+F 1 "LF347" H 9750 4700 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 9700 4800 50  0001 C CNN
+F 3 "https://www.bitsbox.co.uk/data/analog/LF347.pdf" H 9800 4900 50  0001 C CNN
+	5    9750 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6400 2250
 $EndSCHEMATC
