@@ -207,4 +207,70 @@ Wire Wire Line
 	6200 2000 5850 2000
 Text GLabel 5900 3000 2    50   Input ~ 0
 VIN_FROM_SEQ
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5EBE889F
+P 1250 3300
+F 0 "H1" H 1350 3350 50  0000 L CNN
+F 1 "MountingHole" H 1350 3300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1250 3300 50  0001 C CNN
+F 3 "~" H 1250 3300 50  0001 C CNN
+	1    1250 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5EBEB2B9
+P 1250 3500
+F 0 "H2" H 1350 3550 50  0000 L CNN
+F 1 "MountingHole" H 1350 3500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 1250 3500 50  0001 C CNN
+F 3 "~" H 1250 3500 50  0001 C CNN
+	1    1250 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5EBEC236
+P 2000 3300
+F 0 "H3" H 2100 3350 50  0000 L CNN
+F 1 "MountingHole" H 2100 3300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2000 3300 50  0001 C CNN
+F 3 "~" H 2000 3300 50  0001 C CNN
+	1    2000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5EBEC23C
+P 2000 3500
+F 0 "H4" H 2100 3550 50  0000 L CNN
+F 1 "MountingHole" H 2100 3500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2000 3500 50  0001 C CNN
+F 3 "~" H 2000 3500 50  0001 C CNN
+	1    2000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5EBECF2A
+P 2750 3300
+F 0 "H5" H 2850 3350 50  0000 L CNN
+F 1 "MountingHole" H 2850 3300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2750 3300 50  0001 C CNN
+F 3 "~" H 2750 3300 50  0001 C CNN
+	1    2750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5EBECF30
+P 2750 3500
+F 0 "H6" H 2850 3550 50  0000 L CNN
+F 1 "MountingHole" H 2850 3500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2750 3500 50  0001 C CNN
+F 3 "~" H 2750 3500 50  0001 C CNN
+	1    2750 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
