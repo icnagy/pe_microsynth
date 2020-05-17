@@ -1,659 +1,197 @@
-148027042663241
-MountingHole
-MountingHole_2.1mm
-Mounting Hole 2.1mm, no annular
-mounting hole 2.1mm no annular
+44482655332104
+microsynth
+CP_Radial_D5.0mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor
 0
+2
+2
+microsynth
+CP_Radial_D10.0mm_P5.00mm
+CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor
 0
+2
+2
+microsynth
+C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal
+C, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=12*6.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
+C Axial series Axial Horizontal pin pitch 15mm  length 12mm diameter 6.5mm
 0
-MountingHole
-MountingHole_2.2mm_M2
-Mounting Hole 2.2mm, no annular, M2
-mounting hole 2.2mm no annular m2
+2
+2
+microsynth
+C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*2.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 2.5mm Capacitor
 0
+2
+2
+microsynth
+C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*3.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 3.5mm Capacitor
 0
+2
+2
+microsynth
+C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*4.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 4.5mm Capacitor
 0
-MountingHole
-MountingHole_2.2mm_M2_DIN965
-Mounting Hole 2.2mm, no annular, M2, DIN965
-mounting hole 2.2mm no annular m2 din965
+2
+2
+microsynth
+C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*7.2mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 7.2mm Capacitor
 0
+2
+2
+microsynth
+DIP-8_W7.62mm_LongPads
+8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
 0
+8
+8
+microsynth
+DIP-14_W7.62mm
+14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
 0
-MountingHole
-MountingHole_2.2mm_M2_DIN965_Pad
-Mounting Hole 2.2mm, M2, DIN965
-mounting hole 2.2mm m2 din965
+14
+14
+microsynth
+DIP-14_W7.62mm_LongPads
+14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
 0
-1
-1
-MountingHole
-MountingHole_2.2mm_M2_ISO7380
-Mounting Hole 2.2mm, no annular, M2, ISO7380
-mounting hole 2.2mm no annular m2 iso7380
+14
+14
+microsynth
+DIP-16_W7.62mm
+16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
 0
+16
+16
+microsynth
+D_A-405_P10.16mm_Horizontal
+Diode, A-405 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf
+Diode A-405 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm
 0
+2
+2
+microsynth
+D_DO-35_SOD27_P7.62mm_Horizontal
+Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
 0
-MountingHole
-MountingHole_2.2mm_M2_ISO7380_Pad
-Mounting Hole 2.2mm, M2, ISO7380
-mounting hole 2.2mm m2 iso7380
+2
+2
+microsynth
+G-1128S-1110
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
 0
-1
-1
-MountingHole
-MountingHole_2.2mm_M2_ISO14580
-Mounting Hole 2.2mm, no annular, M2, ISO14580
-mounting hole 2.2mm no annular m2 iso14580
+8
+8
+microsynth
+GF-624-6014
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
 0
-0
-0
-MountingHole
-MountingHole_2.2mm_M2_ISO14580_Pad
-Mounting Hole 2.2mm, M2, ISO14580
-mounting hole 2.2mm m2 iso14580
-0
-1
-1
-MountingHole
-MountingHole_2.2mm_M2_Pad
-Mounting Hole 2.2mm, M2
-mounting hole 2.2mm m2
-0
-1
-1
-MountingHole
-MountingHole_2.2mm_M2_Pad_Via
-Mounting Hole 2.2mm, M2
-mounting hole 2.2mm m2
-0
-9
-1
-MountingHole
-MountingHole_2.5mm
-Mounting Hole 2.5mm, no annular
-mounting hole 2.5mm no annular
-0
-0
-0
-MountingHole
-MountingHole_2.5mm_Pad
-Mounting Hole 2.5mm
-mounting hole 2.5mm
-0
-1
-1
-MountingHole
-MountingHole_2.5mm_Pad_Via
-Mounting Hole 2.5mm
-mounting hole 2.5mm
-0
-9
-1
-MountingHole
-MountingHole_2.7mm
-Mounting Hole 2.7mm, no annular
-mounting hole 2.7mm no annular
-0
-0
-0
-MountingHole
-MountingHole_2.7mm_M2.5
-Mounting Hole 2.7mm, no annular, M2.5
-mounting hole 2.7mm no annular m2.5
-0
-0
-0
-MountingHole
-MountingHole_2.7mm_M2.5_DIN965
-Mounting Hole 2.7mm, no annular, M2.5, DIN965
-mounting hole 2.7mm no annular m2.5 din965
-0
-0
-0
-MountingHole
-MountingHole_2.7mm_M2.5_DIN965_Pad
-Mounting Hole 2.7mm, M2.5, DIN965
-mounting hole 2.7mm m2.5 din965
-0
-1
-1
-MountingHole
-MountingHole_2.7mm_M2.5_ISO7380
-Mounting Hole 2.7mm, no annular, M2.5, ISO7380
-mounting hole 2.7mm no annular m2.5 iso7380
-0
-0
-0
-MountingHole
-MountingHole_2.7mm_M2.5_ISO7380_Pad
-Mounting Hole 2.7mm, M2.5, ISO7380
-mounting hole 2.7mm m2.5 iso7380
-0
-1
-1
-MountingHole
-MountingHole_2.7mm_M2.5_ISO14580
-Mounting Hole 2.7mm, no annular, M2.5, ISO14580
-mounting hole 2.7mm no annular m2.5 iso14580
-0
-0
-0
-MountingHole
-MountingHole_2.7mm_M2.5_ISO14580_Pad
-Mounting Hole 2.7mm, M2.5, ISO14580
-mounting hole 2.7mm m2.5 iso14580
-0
-1
-1
-MountingHole
-MountingHole_2.7mm_M2.5_Pad
-Mounting Hole 2.7mm, M2.5
-mounting hole 2.7mm m2.5
-0
-1
-1
-MountingHole
-MountingHole_2.7mm_M2.5_Pad_Via
-Mounting Hole 2.7mm
-mounting hole 2.7mm
-0
-9
-1
-MountingHole
-MountingHole_2.7mm_Pad
-Mounting Hole 2.7mm
-mounting hole 2.7mm
-0
-1
-1
-MountingHole
-MountingHole_2.7mm_Pad_Via
-Mounting Hole 2.7mm
-mounting hole 2.7mm
-0
-9
-1
-MountingHole
-MountingHole_2mm
-Mounting Hole 2mm, no annular
-mounting hole 2mm no annular
-0
-0
-0
-MountingHole
+3
+3
+microsynth
 MountingHole_3.2mm_M3
 Mounting Hole 3.2mm, no annular, M3
 mounting hole 3.2mm no annular m3
 0
 0
 0
-MountingHole
-MountingHole_3.2mm_M3_DIN965
-Mounting Hole 3.2mm, no annular, M3, DIN965
-mounting hole 3.2mm no annular m3 din965
-0
-0
-0
-MountingHole
-MountingHole_3.2mm_M3_DIN965_Pad
-Mounting Hole 3.2mm, M3, DIN965
-mounting hole 3.2mm m3 din965
-0
-1
-1
-MountingHole
-MountingHole_3.2mm_M3_ISO7380
-Mounting Hole 3.2mm, no annular, M3, ISO7380
-mounting hole 3.2mm no annular m3 iso7380
-0
-0
-0
-MountingHole
-MountingHole_3.2mm_M3_ISO7380_Pad
-Mounting Hole 3.2mm, M3, ISO7380
-mounting hole 3.2mm m3 iso7380
-0
-1
-1
-MountingHole
-MountingHole_3.2mm_M3_ISO14580
-Mounting Hole 3.2mm, no annular, M3, ISO14580
-mounting hole 3.2mm no annular m3 iso14580
-0
-0
-0
-MountingHole
-MountingHole_3.2mm_M3_ISO14580_Pad
-Mounting Hole 3.2mm, M3, ISO14580
-mounting hole 3.2mm m3 iso14580
-0
-1
-1
-MountingHole
-MountingHole_3.2mm_M3_Pad
-Mounting Hole 3.2mm, M3
-mounting hole 3.2mm m3
-0
-1
-1
-MountingHole
-MountingHole_3.2mm_M3_Pad_Via
-Mounting Hole 3.2mm, M3
-mounting hole 3.2mm m3
-0
-9
-1
-MountingHole
-MountingHole_3.5mm
-Mounting Hole 3.5mm, no annular
-mounting hole 3.5mm no annular
-0
-0
-0
-MountingHole
-MountingHole_3.5mm_Pad
-Mounting Hole 3.5mm
-mounting hole 3.5mm
-0
-1
-1
-MountingHole
-MountingHole_3.5mm_Pad_Via
-Mounting Hole 3.5mm
-mounting hole 3.5mm
-0
-9
-1
-MountingHole
-MountingHole_3.7mm
-Mounting Hole 3.7mm, no annular
-mounting hole 3.7mm no annular
-0
-0
-0
-MountingHole
-MountingHole_3.7mm_Pad
-Mounting Hole 3.7mm
-mounting hole 3.7mm
-0
-1
-1
-MountingHole
-MountingHole_3.7mm_Pad_Via
-Mounting Hole 3.7mm
-mounting hole 3.7mm
-0
-9
-1
-MountingHole
-MountingHole_3mm
-Mounting Hole 3mm, no annular
-mounting hole 3mm no annular
-0
-0
-0
-MountingHole
-MountingHole_3mm_Pad
-Mounting Hole 3mm
-mounting hole 3mm
-0
-1
-1
-MountingHole
-MountingHole_3mm_Pad_Via
-Mounting Hole 3mm
-mounting hole 3mm
-0
-9
-1
-MountingHole
-MountingHole_4.3mm_M4
-Mounting Hole 4.3mm, no annular, M4
-mounting hole 4.3mm no annular m4
-0
-0
-0
-MountingHole
-MountingHole_4.3mm_M4_DIN965
-Mounting Hole 4.3mm, no annular, M4, DIN965
-mounting hole 4.3mm no annular m4 din965
-0
-0
-0
-MountingHole
-MountingHole_4.3mm_M4_DIN965_Pad
-Mounting Hole 4.3mm, M4, DIN965
-mounting hole 4.3mm m4 din965
-0
-1
-1
-MountingHole
-MountingHole_4.3mm_M4_ISO7380
-Mounting Hole 4.3mm, no annular, M4, ISO7380
-mounting hole 4.3mm no annular m4 iso7380
-0
-0
-0
-MountingHole
-MountingHole_4.3mm_M4_ISO7380_Pad
-Mounting Hole 4.3mm, M4, ISO7380
-mounting hole 4.3mm m4 iso7380
-0
-1
-1
-MountingHole
-MountingHole_4.3mm_M4_ISO14580
-Mounting Hole 4.3mm, no annular, M4, ISO14580
-mounting hole 4.3mm no annular m4 iso14580
-0
-0
-0
-MountingHole
-MountingHole_4.3mm_M4_ISO14580_Pad
-Mounting Hole 4.3mm, M4, ISO14580
-mounting hole 4.3mm m4 iso14580
-0
-1
-1
-MountingHole
-MountingHole_4.3mm_M4_Pad
-Mounting Hole 4.3mm, M4
-mounting hole 4.3mm m4
-0
-1
-1
-MountingHole
-MountingHole_4.3mm_M4_Pad_Via
-Mounting Hole 4.3mm, M4
-mounting hole 4.3mm m4
-0
-9
-1
-MountingHole
-MountingHole_4.3x6.2mm_M4_Pad
-Mounting Hole 4.3x6.2mm, M4
-mounting hole 4.3x6.2mm m4
-0
-1
-1
-MountingHole
-MountingHole_4.3x6.2mm_M4_Pad_Via
-Mounting Hole 4.3x6.2mm, M4
-mounting hole 4.3x6.2mm m4
-0
-17
-1
-MountingHole
-MountingHole_4.5mm
-Mounting Hole 4.5mm, no annular
-mounting hole 4.5mm no annular
-0
-0
-0
-MountingHole
-MountingHole_4.5mm_Pad
-Mounting Hole 4.5mm
-mounting hole 4.5mm
-0
-1
-1
-MountingHole
-MountingHole_4.5mm_Pad_Via
-Mounting Hole 4.5mm
-mounting hole 4.5mm
-0
-9
-1
-MountingHole
-MountingHole_4mm
-Mounting Hole 4mm, no annular
-mounting hole 4mm no annular
-0
-0
-0
-MountingHole
-MountingHole_4mm_Pad
-Mounting Hole 4mm
-mounting hole 4mm
-0
-1
-1
-MountingHole
-MountingHole_4mm_Pad_Via
-Mounting Hole 4mm
-mounting hole 4mm
-0
-9
-1
-MountingHole
-MountingHole_5.3mm_M5
-Mounting Hole 5.3mm, no annular, M5
-mounting hole 5.3mm no annular m5
-0
-0
-0
-MountingHole
-MountingHole_5.3mm_M5_DIN965
-Mounting Hole 5.3mm, no annular, M5, DIN965
-mounting hole 5.3mm no annular m5 din965
-0
-0
-0
-MountingHole
-MountingHole_5.3mm_M5_DIN965_Pad
-Mounting Hole 5.3mm, M5, DIN965
-mounting hole 5.3mm m5 din965
-0
-1
-1
-MountingHole
-MountingHole_5.3mm_M5_ISO7380
-Mounting Hole 5.3mm, no annular, M5, ISO7380
-mounting hole 5.3mm no annular m5 iso7380
-0
-0
-0
-MountingHole
-MountingHole_5.3mm_M5_ISO7380_Pad
-Mounting Hole 5.3mm, M5, ISO7380
-mounting hole 5.3mm m5 iso7380
-0
-1
-1
-MountingHole
-MountingHole_5.3mm_M5_ISO14580
-Mounting Hole 5.3mm, no annular, M5, ISO14580
-mounting hole 5.3mm no annular m5 iso14580
-0
-0
-0
-MountingHole
-MountingHole_5.3mm_M5_ISO14580_Pad
-Mounting Hole 5.3mm, M5, ISO14580
-mounting hole 5.3mm m5 iso14580
-0
-1
-1
-MountingHole
-MountingHole_5.3mm_M5_Pad
-Mounting Hole 5.3mm, M5
-mounting hole 5.3mm m5
-0
-1
-1
-MountingHole
-MountingHole_5.3mm_M5_Pad_Via
-Mounting Hole 5.3mm, M5
-mounting hole 5.3mm m5
-0
-9
-1
-MountingHole
-MountingHole_5.5mm
-Mounting Hole 5.5mm, no annular
-mounting hole 5.5mm no annular
-0
-0
-0
-MountingHole
-MountingHole_5.5mm_Pad
-Mounting Hole 5.5mm
-mounting hole 5.5mm
-0
-1
-1
-MountingHole
-MountingHole_5.5mm_Pad_Via
-Mounting Hole 5.5mm
-mounting hole 5.5mm
-0
-9
-1
-MountingHole
-MountingHole_5mm
-Mounting Hole 5mm, no annular
-mounting hole 5mm no annular
-0
-0
-0
-MountingHole
-MountingHole_5mm_Pad
-Mounting Hole 5mm
-mounting hole 5mm
-0
-1
-1
-MountingHole
-MountingHole_5mm_Pad_Via
-Mounting Hole 5mm
-mounting hole 5mm
-0
-9
-1
-MountingHole
-MountingHole_6.4mm_M6
-Mounting Hole 6.4mm, no annular, M6
-mounting hole 6.4mm no annular m6
-0
-0
-0
-MountingHole
-MountingHole_6.4mm_M6_DIN965
-Mounting Hole 6.4mm, no annular, M6, DIN965
-mounting hole 6.4mm no annular m6 din965
-0
-0
-0
-MountingHole
-MountingHole_6.4mm_M6_DIN965_Pad
-Mounting Hole 6.4mm, M6, DIN965
-mounting hole 6.4mm m6 din965
-0
-1
-1
-MountingHole
-MountingHole_6.4mm_M6_ISO7380
-Mounting Hole 6.4mm, no annular, M6, ISO7380
-mounting hole 6.4mm no annular m6 iso7380
-0
-0
-0
-MountingHole
-MountingHole_6.4mm_M6_ISO7380_Pad
-Mounting Hole 6.4mm, M6, ISO7380
-mounting hole 6.4mm m6 iso7380
-0
-1
-1
-MountingHole
-MountingHole_6.4mm_M6_ISO14580
-Mounting Hole 6.4mm, no annular, M6, ISO14580
-mounting hole 6.4mm no annular m6 iso14580
-0
-0
-0
-MountingHole
-MountingHole_6.4mm_M6_ISO14580_Pad
-Mounting Hole 6.4mm, M6, ISO14580
-mounting hole 6.4mm m6 iso14580
-0
-1
-1
-MountingHole
-MountingHole_6.4mm_M6_Pad
-Mounting Hole 6.4mm, M6
-mounting hole 6.4mm m6
-0
-1
-1
-MountingHole
-MountingHole_6.4mm_M6_Pad_Via
-Mounting Hole 6.4mm, M6
-mounting hole 6.4mm m6
-0
-9
-1
-MountingHole
-MountingHole_6.5mm
-Mounting Hole 6.5mm, no annular
-mounting hole 6.5mm no annular
-0
-0
-0
-MountingHole
-MountingHole_6.5mm_Pad
-Mounting Hole 6.5mm
-mounting hole 6.5mm
-0
-1
-1
-MountingHole
-MountingHole_6.5mm_Pad_Via
-Mounting Hole 6.5mm
-mounting hole 6.5mm
-0
-9
-1
-MountingHole
-MountingHole_6mm
-Mounting Hole 6mm, no annular
-mounting hole 6mm no annular
-0
-0
-0
-MountingHole
-MountingHole_6mm_Pad
-Mounting Hole 6mm
-mounting hole 6mm
-0
-1
-1
-MountingHole
-MountingHole_6mm_Pad_Via
-Mounting Hole 6mm
-mounting hole 6mm
-0
-9
-1
-MountingHole
-MountingHole_8.4mm_M8
-Mounting Hole 8.4mm, no annular, M8
-mounting hole 8.4mm no annular m8
-0
-0
-0
-MountingHole
-MountingHole_8.4mm_M8_Pad
-Mounting Hole 8.4mm, M8
-mounting hole 8.4mm m8
-0
-1
-1
-MountingHole
-MountingHole_8.4mm_M8_Pad_Via
-Mounting Hole 8.4mm, M8
-mounting hole 8.4mm m8
-0
-9
-1
+microsynth
+PinHeader_1x02_P2.54mm_Vertical
+Through hole straight pin header, 1x02, 2.54mm pitch, single row
+Through hole pin header THT 1x02 2.54mm single row
+0
+2
+2
+microsynth
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+microsynth
+PinHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+microsynth
+PinHeader_1x05_P2.54mm_Vertical
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+microsynth
+Pot_16mm_NoDet_RV16AF-4A
+
+POT POTENTIOMETER
+0
+3
+3
+microsynth
+Potentiometer_Trimmer_Bourns_PV36W
+Spindle Trimmer Potentiometer, Bourns PV36W, http://www.bourns.com/docs/Product-Datasheets/pv36.pdf
+Spindle Trimmer Potentiometer Bourns PV36W
+0
+3
+3
+microsynth
+R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
+0
+2
+2
+microsynth
+SPDT_KIT
+
+
+0
+3
+3
+microsynth
+SR2612F-0304-18R0B-D8-N
+ALPHA SR2612F-0304-18R0B-D8-N tayda
+Rotary Switch 3 pole 4 position
+0
+15
+15
+microsynth
+SW_Rotary4+12
+
+Rotary Switch 4x3/2x6/1x12
+0
+16
+16
+microsynth
+SolderWirePad_1x01_Drill1.2mm
+Wire solder connection
+connector
+0
+1
+1
+microsynth
+TO-92L_Inline_Wide
+TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)
+TO-92L Inline Wide transistor
+0
+3
+3

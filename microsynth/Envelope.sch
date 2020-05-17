@@ -1222,9 +1222,11 @@ F 3 "" H 10350 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPTT_SELECTOR-Switch SW8
+L pe_microsynth:SW_DPTT_SELECTOR-Switch SW8
 U 2 1 5F2DFAB2
 P 2950 3550
+AR Path="/5F2DFAB2" Ref="SW8"  Part="2" 
+AR Path="/5E5B9865/5F2DFAB2" Ref="SW8"  Part="2" 
 F 0 "SW8" H 3200 3750 50  0000 L CNN
 F 1 "SUSTAIN" H 3200 3650 50  0000 L CNN
 F 2 "Buttons_Switches_ThroughHole:G-1128S-1110" H 2950 3550 50  0001 C CNN
@@ -1234,9 +1236,11 @@ F 4 "Sustain" H 3200 3550 50  0001 L CNN "Label"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPTT_SELECTOR-Switch SW8
+L pe_microsynth:SW_DPTT_SELECTOR-Switch SW8
 U 1 1 5F2DEA06
 P 2950 3650
+AR Path="/5F2DEA06" Ref="SW8"  Part="1" 
+AR Path="/5E5B9865/5F2DEA06" Ref="SW8"  Part="1" 
 F 0 "SW8" H 3200 3650 50  0000 L CNN
 F 1 "SUSTAIN" H 3200 3550 50  0000 L CNN
 F 2 "Buttons_Switches_ThroughHole:G-1128S-1110" H 2950 3650 50  0001 C CNN

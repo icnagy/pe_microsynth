@@ -312,10 +312,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 2300 2150 2600
 Connection ~ 2150 2600
-Wire Wire Line
-	5600 2150 5600 1900
-Wire Wire Line
-	5600 1900 5300 1900
 Connection ~ 5600 2150
 $Comp
 L power:GND #PWR?
@@ -404,7 +400,6 @@ F 4 "DRIFT" H 5844 901 50  0000 L CNN "Label"
 $EndComp
 Wire Wire Line
 	5600 1250 5600 1400
-Connection ~ 5600 1900
 Wire Wire Line
 	5500 1250 5250 1250
 Wire Wire Line
@@ -412,8 +407,6 @@ Wire Wire Line
 Wire Wire Line
 	5700 1400 5600 1400
 Connection ~ 5600 1400
-Wire Wire Line
-	5600 1400 5600 1900
 $Comp
 L Device:R R32
 U 1 1 5E9262E1
@@ -1500,4 +1493,35 @@ F 3 "https://www.bitsbox.co.uk/data/analog/LF347.pdf" H 9800 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 6400 2250
+Wire Wire Line
+	5600 1400 5600 1600
+Wire Wire Line
+	5600 2150 5600 1900
+Connection ~ 5600 1900
+Wire Wire Line
+	5600 1900 5300 1900
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 5EC658A5
+P 5500 1600
+F 0 "H7" V 5750 1600 50  0000 C CNN
+F 1 "MountingHole_Pad" V 5650 1600 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5500 1600 50  0001 C CNN
+F 3 "~" H 5500 1600 50  0001 C CNN
+	1    5500 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 5EC665D5
+P 5700 1750
+F 0 "H8" V 5650 1900 50  0000 L CNN
+F 1 "MountingHole_Pad" V 5700 1900 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 5700 1750 50  0001 C CNN
+F 3 "~" H 5700 1750 50  0001 C CNN
+	1    5700 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 1750 5600 1900
 $EndSCHEMATC
