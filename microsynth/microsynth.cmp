@@ -1,4 +1,284 @@
-Cmp-Mod V01 Created by PcbNew   date = Wednesday, 29 April 2020 at 23:47:08
+Cmp-Mod V01 Created by PcbNew   date = Thursday, 21 May 2020 at 22:44:37
+
+BeginCmp
+TimeStamp = 5EA5E7E6
+Path = /5E475532/5E4BC6EF
+Reference = SW3;
+ValeurCmp = SW_DPTT_SELECTOR;
+IdModule  = microsynth:11-SS-23-832C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EA5E869
+Path = /5E475532/5E4C21F7
+Reference = SW4;
+ValeurCmp = SW_DPTT_SELECTOR;
+IdModule  = microsynth:11-SS-23-832C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E86713D
+Path = /5E475532/5E4C83B7
+Reference = SW5;
+ValeurCmp = SW_SPDT;
+IdModule  = microsynth:11-SS-22-701C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E867153
+Path = /5E475532/5E4ABA98
+Reference = SW6;
+ValeurCmp = SW_DPTT_SELECTOR;
+IdModule  = microsynth:11-SS-23-832C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E8B3EBD
+Path = /5E5B9865/5E6E5015
+Reference = SW7;
+ValeurCmp = SW_SPDT;
+IdModule  = microsynth:11-SS-22-701C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E908E59
+Path = /5E5B9865/5F2DFAB2
+Reference = SW8;
+ValeurCmp = SUSTAIN;
+IdModule  = microsynth:11-SS-23-832C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E898394
+Path = /5E5B9865/5E95BE3D
+Reference = SW9;
+ValeurCmp = TRIGGER;
+IdModule  = microsynth:11-SS-23-832C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EA47AA2
+Path = /5E05E45F/5E076B1B
+Reference = SW10;
+ValeurCmp = SW_SPST;
+IdModule  = microsynth:11-SS-22-701C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EA4CD14
+Path = /5E05E45F/5E119FA2
+Reference = SW11;
+ValeurCmp = SW_SPDT;
+IdModule  = microsynth:11-SS-22-701C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E8950EC
+Path = /5E475532/5EC4EDF0
+Reference = SW12;
+ValeurCmp = SOURCE;
+IdModule  = microsynth:11-SS-23-832C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E8671CE
+Path = /5E475532/5EC8F4DB
+Reference = SW13;
+ValeurCmp = THUMBWEEL;
+IdModule  = microsynth:11-SS-23-832C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EA4A784
+Path = /5E475532/5E48280C
+Reference = SW14;
+ValeurCmp = SW_SPDT;
+IdModule  = microsynth:11-SS-22-701C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E8671F4
+Path = /5E475532/5E483096
+Reference = SW15;
+ValeurCmp = SW_SPDT;
+IdModule  = microsynth:11-SS-22-701C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E867207
+Path = /5E475532/5E483FEC
+Reference = SW16;
+ValeurCmp = SW_SPDT;
+IdModule  = microsynth:11-SS-22-701C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E86721A
+Path = /5E475532/5E483FF2
+Reference = SW17;
+ValeurCmp = SW_SPDT;
+IdModule  = microsynth:11-SS-22-701C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E86726D
+Path = /5E5B9865/5E881667
+Reference = SW18-ENV-TO-VCF1;
+ValeurCmp = SW_SPDT;
+IdModule  = microsynth:11-SS-22-701C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E867280
+Path = /5E5B9865/5E85AAE1
+Reference = SW19-ENV-TO-VCO1;
+ValeurCmp = SW_SPDT;
+IdModule  = microsynth:11-SS-22-701C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E884396
+Path = /5E5B9865/5E83D5A9
+Reference = SW20-ENV-TO-KEYB1;
+ValeurCmp = SW_SPDT;
+IdModule  = microsynth:11-SS-22-701C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EA1B89D
+Path = /5E8C1704/5E91DC50
+Reference = SW1;
+ValeurCmp = DRIFT;
+IdModule  = Buttons_Switches_ThroughHole:G-1128S-1110;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EC169FC
+Path = /5E8C1704/5EC665D5
+Reference = H8;
+ValeurCmp = MountingHole_Pad;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EC169F4
+Path = /5E8C1704/5EC658A5
+Reference = H7;
+ValeurCmp = MountingHole_Pad;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EBE8AC4
+Path = /5E05EC3F/5EBECF30
+Reference = H6;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EBE8ABC
+Path = /5E05EC3F/5EBECF2A
+Reference = H5;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EBE8AB4
+Path = /5E05EC3F/5EBEC23C
+Reference = H4;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EBE8AAC
+Path = /5E05EC3F/5EBEC236
+Reference = H3;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EBE8AA4
+Path = /5E05EC3F/5EBEB2B9
+Reference = H2;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EBEB46A
+Path = /5E05EC3F/5EBE889F
+Reference = H1;
+ValeurCmp = MountingHole;
+IdModule  = MountingHole:MountingHole_3.2mm_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EBE6E99
+Path = /5E2BE1AD/5EC56017
+Reference = U15;
+ValeurCmp = LF351;
+IdModule  = Package_DIP:DIP-8_W7.62mm_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E86751B
+Path = /5E05E45F/5E0813F0
+Reference = U20;
+ValeurCmp = LM13600;
+IdModule  = Package_DIP:DIP-16_W7.62mm_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EA0A9E8
+Path = /5E1B03E8/5E1E7AED
+Reference = U23;
+ValeurCmp = LM380N;
+IdModule  = Package_DIP:DIP-14_W7.62mm_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EBD3092
+Path = /5E8C1704/5EBBD978
+Reference = U2;
+ValeurCmp = LM1458;
+IdModule  = Package_DIP:DIP-8_W7.62mm_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EBD3076
+Path = /5E8C1704/5EBFB9E6
+Reference = U1;
+ValeurCmp = RC4136;
+IdModule  = Package_DIP:DIP-14_W7.62mm_LongPads;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EB8A420
+Path = /5E475532/5EC3FB57
+Reference = RV27;
+ValeurCmp = 4.7kLOG;
+IdModule  = Potentiometers:Potentiometer_Bourns_PTV09A-2_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EB18312
+Path = /5E8C1704/5EB8A8FE
+Reference = R152_1;
+ValeurCmp = 56k;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E8C5466
+Path = /5E05EC3F/5F1FD92E
+Reference = J3;
+ValeurCmp = Conn_01x04_Male;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical;
+EndCmp
 
 BeginCmp
 TimeStamp = 5E89C1B5
@@ -241,70 +521,6 @@ IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
 EndCmp
 
 BeginCmp
-TimeStamp = 5EA6899C
-Path = 
-Reference = [NoRef];
-ValeurCmp = SolderWirePad_1x01_Drill1.2mm;
-IdModule  = Connector_Wire:SolderWirePad_1x01_Drill1.2mm;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EA6DA16
-Path = 
-Reference = [NoRef];
-ValeurCmp = SolderWirePad_1x01_Drill1.2mm;
-IdModule  = Connector_Wire:SolderWirePad_1x01_Drill1.2mm;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EA68FEF
-Path = 
-Reference = REF**;
-ValeurCmp = MountingHole_3.2mm_M3;
-IdModule  = MountingHole:MountingHole_3.2mm_M3;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EA68FA0
-Path = 
-Reference = REF**;
-ValeurCmp = MountingHole_3.2mm_M3;
-IdModule  = MountingHole:MountingHole_3.2mm_M3;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EA68F5D
-Path = 
-Reference = REF**;
-ValeurCmp = MountingHole_3.2mm_M3;
-IdModule  = MountingHole:MountingHole_3.2mm_M3;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EA68F25
-Path = 
-Reference = REF**;
-ValeurCmp = MountingHole_3.2mm_M3;
-IdModule  = MountingHole:MountingHole_3.2mm_M3;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EA68EED
-Path = 
-Reference = REF**;
-ValeurCmp = MountingHole_3.2mm_M3;
-IdModule  = MountingHole:MountingHole_3.2mm_M3;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EA68E9E
-Path = 
-Reference = REF**;
-ValeurCmp = MountingHole_3.2mm_M3;
-IdModule  = MountingHole:MountingHole_3.2mm_M3;
-EndCmp
-
-BeginCmp
 TimeStamp = 5E8670FE
 Path = /5E475532/5E4793CB
 Reference = SW2;
@@ -329,171 +545,11 @@ IdModule  = Potentiometers:Potentiometer_Trimmer_Bourns_PV36W;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E866FFF
-Path = /5E475532/5EC3FB57
-Reference = RV27;
-ValeurCmp = 4.7kLOG;
-IdModule  = 4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E867153
-Path = /5E475532/5E4ABA98
-Reference = SW6;
-ValeurCmp = SW_DPTT_SELECTOR;
-IdModule  = Buttons_Switches_ThroughHole:G-1128S-1110;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E898394
-Path = /5E5B9865/5E95BE3D
-Reference = SW9;
-ValeurCmp = TRIGGER;
-IdModule  = Buttons_Switches_ThroughHole:G-1128S-1110;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E908E59
-Path = /5E5B9865/5F2DFAB2
-Reference = SW8;
-ValeurCmp = SUSTAIN;
-IdModule  = Buttons_Switches_ThroughHole:G-1128S-1110;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E8671CE
-Path = /5E475532/5EC8F4DB
-Reference = SW13;
-ValeurCmp = THUMBWEEL;
-IdModule  = Buttons_Switches_ThroughHole:G-1128S-1110;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E8950EC
-Path = /5E475532/5EC4EDF0
-Reference = SW12;
-ValeurCmp = SOURCE;
-IdModule  = Buttons_Switches_ThroughHole:G-1128S-1110;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EA1B89D
-Path = /5E8C1704/5E91DC50
-Reference = SW1;
-ValeurCmp = DRIFT;
-IdModule  = Buttons_Switches_ThroughHole:G-1128S-1110;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EA5E869
-Path = /5E475532/5E4C21F7
-Reference = SW4;
-ValeurCmp = SW_DPTT_SELECTOR;
-IdModule  = Buttons_Switches_ThroughHole:G-1128S-1110;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EA5E7E6
-Path = /5E475532/5E4BC6EF
-Reference = SW3;
-ValeurCmp = SW_DPTT_SELECTOR;
-IdModule  = Buttons_Switches_ThroughHole:G-1128S-1110;
-EndCmp
-
-BeginCmp
 TimeStamp = 5E8C7DCA
 Path = /5E05EC3F/5F1FC317
 Reference = J2;
 ValeurCmp = Conn_01x03_Male;
 IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E8B3EBD
-Path = /5E5B9865/5E6E5015
-Reference = SW7;
-ValeurCmp = SW_SPDT;
-IdModule  = Buttons_Switches_ThroughHole:GF-624-6014;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E86713D
-Path = /5E475532/5E4C83B7
-Reference = SW5;
-ValeurCmp = SW_SPDT;
-IdModule  = Buttons_Switches_ThroughHole:GF-624-6014;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EA4CD14
-Path = /5E05E45F/5E119FA2
-Reference = SW11;
-ValeurCmp = SW_SPDT;
-IdModule  = Buttons_Switches_ThroughHole:GF-624-6014;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E884396
-Path = /5E5B9865/5E83D5A9
-Reference = SW20-ENV-TO-KEYB1;
-ValeurCmp = SW_SPDT;
-IdModule  = Buttons_Switches_ThroughHole:GF-624-6014;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EA4A784
-Path = /5E475532/5E48280C
-Reference = SW14;
-ValeurCmp = SW_SPDT;
-IdModule  = Buttons_Switches_ThroughHole:GF-624-6014;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E8671F4
-Path = /5E475532/5E483096
-Reference = SW15;
-ValeurCmp = SW_SPDT;
-IdModule  = Buttons_Switches_ThroughHole:GF-624-6014;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E867207
-Path = /5E475532/5E483FEC
-Reference = SW16;
-ValeurCmp = SW_SPDT;
-IdModule  = Buttons_Switches_ThroughHole:GF-624-6014;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E86721A
-Path = /5E475532/5E483FF2
-Reference = SW17;
-ValeurCmp = SW_SPDT;
-IdModule  = Buttons_Switches_ThroughHole:GF-624-6014;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E86726D
-Path = /5E5B9865/5E881667
-Reference = SW18-ENV-TO-VCF1;
-ValeurCmp = SW_SPDT;
-IdModule  = Buttons_Switches_ThroughHole:GF-624-6014;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E867280
-Path = /5E5B9865/5E85AAE1
-Reference = SW19-ENV-TO-VCO1;
-ValeurCmp = SW_SPDT;
-IdModule  = Buttons_Switches_ThroughHole:GF-624-6014;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EA47AA2
-Path = /5E05E45F/5E076B1B
-Reference = SW10;
-ValeurCmp = SW_SPST;
-IdModule  = Buttons_Switches_ThroughHole:GF-624-6014;
 EndCmp
 
 BeginCmp
@@ -553,14 +609,6 @@ IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E8C5466
-Path = /5E05EC3F/5F1FD92E
-Reference = J3;
-ValeurCmp = Conn_01x04_Male;
-IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical;
-EndCmp
-
-BeginCmp
 TimeStamp = 5EA0AB00
 Path = /5E1B03E8/5E1E59EE
 Reference = R144;
@@ -577,7 +625,7 @@ IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E91E8FA
+TimeStamp = 5EB732EF
 Path = /5E475532/5EC01B95
 Reference = R137;
 ValeurCmp = 1k;
@@ -641,7 +689,7 @@ IdModule  = Potentiometers:Potentiometer_Trimmer_Bourns_PV36W;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E866DFD
+TimeStamp = 5EB74DA3
 Path = /5E475532/5E59ABC4
 Reference = RV8;
 ValeurCmp = 10k;
@@ -1113,7 +1161,7 @@ IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E8843D0
+TimeStamp = 5EB0977D
 Path = /5E8C1704/5E9860CB
 Reference = R41;
 ValeurCmp = 39k;
@@ -1353,7 +1401,7 @@ IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E96087B
+TimeStamp = 5EB747E0
 Path = /5E2BE1AD/5E2F2ED6
 Reference = R85;
 ValeurCmp = 8.2k;
@@ -1921,19 +1969,11 @@ IdModule  = 4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E867244
+TimeStamp = 5EB23295
 Path = /5E222DC1/5E26DDD4
 Reference = SW22;
 ValeurCmp = SW_SPST;
 IdModule  = 4ms:SPDT_KIT;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E89C480
-Path = /5E8C1704/5EA9A5A0
-Reference = U2;
-ValeurCmp = TL072;
-IdModule  = Package_DIP:DIP-8_W7.62mm_LongPads;
 EndCmp
 
 BeginCmp
@@ -1950,14 +1990,6 @@ Path = /5E5B9865/5E5BBB14
 Reference = U4;
 ValeurCmp = 4016;
 IdModule  = Package_DIP:DIP-14_W7.62mm_LongPads;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E89C84C
-Path = /5E8C1704/5EA6B0F3
-Reference = U6;
-ValeurCmp = TL071;
-IdModule  = Package_DIP:DIP-8_W7.62mm_LongPads;
 EndCmp
 
 BeginCmp
@@ -2009,14 +2041,6 @@ IdModule  = Package_DIP:DIP-8_W7.62mm_LongPads;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E867487
-Path = /5E2BE1AD/5E322633
-Reference = U15;
-ValeurCmp = LF355;
-IdModule  = Package_DIP:DIP-8_W7.62mm_LongPads;
-EndCmp
-
-BeginCmp
 TimeStamp = 5E8674A3
 Path = /5E2BE1AD/5E2D9591
 Reference = U16;
@@ -2049,14 +2073,6 @@ IdModule  = Package_DIP:DIP-8_W7.62mm_LongPads;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E86751B
-Path = /5E05E45F/5E0813F0
-Reference = U20;
-ValeurCmp = LM13600;
-IdModule  = Package_DIP:DIP-16_W7.62mm;
-EndCmp
-
-BeginCmp
 TimeStamp = 5E867537
 Path = /5E1B03E8/5E1BA63E
 Reference = U21;
@@ -2070,14 +2086,6 @@ Path = /5E475532/5E4E1AE1
 Reference = U22;
 ValeurCmp = 4013;
 IdModule  = Package_DIP:DIP-14_W7.62mm_LongPads;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EA0A9E8
-Path = /5E1B03E8/5E1E7AED
-Reference = U23;
-ValeurCmp = LM380N;
-IdModule  = Package_DIP:DIP-14_W7.62mm;
 EndCmp
 
 BeginCmp
@@ -2105,7 +2113,7 @@ IdModule  = Capacitor_THT:CP_Radial_D5.0mm_P2.50mm;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E8B5740
+TimeStamp = 5EB751FA
 Path = /5E5B9865/5E6D9634
 Reference = C11;
 ValeurCmp = 1u 25V;
@@ -2145,19 +2153,19 @@ IdModule  = Capacitor_THT:CP_Radial_D5.0mm_P2.50mm;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E88C51F
-Path = /5E8C1704/5E8BAB69
-Reference = U1;
-ValeurCmp = RC4136;
+TimeStamp = 5EBC1688
+Path = /5E222DC1/5EBFEEA3
+Reference = U5;
+ValeurCmp = LF347;
 IdModule  = Package_DIP:DIP-14_W7.62mm_LongPads;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E897377
-Path = /5E222DC1/5E920B31
-Reference = U5;
-ValeurCmp = LF347;
-IdModule  = Package_DIP:DIP-14_W7.62mm_LongPads;
+TimeStamp = 5EBC16A4
+Path = /5E8C1704/5EBB6789
+Reference = U6;
+ValeurCmp = LF351;
+IdModule  = Package_DIP:DIP-8_W7.62mm_LongPads;
 EndCmp
 
 EndListe
