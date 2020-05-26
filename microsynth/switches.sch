@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L microsynth-rescue:SW_DPTT_SELECTOR-Switch SW6
+L pe_microsynth:SW_DPTT_SELECTOR-Switch SW6
 U 2 1 5E4ABA98
 P 6100 2950
 AR Path="/5E4ABA98" Ref="SW6"  Part="2" 
@@ -68,7 +68,7 @@ F 3 "" H 6850 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L microsynth-rescue:SW_DPTT_SELECTOR-Switch SW3
+L pe_microsynth:SW_DPTT_SELECTOR-Switch SW3
 U 1 1 5E4BC6EF
 P 7400 1350
 AR Path="/5E4BC6EF" Ref="SW3"  Part="1" 
@@ -81,7 +81,7 @@ F 3 "" H 7400 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L microsynth-rescue:SW_DPTT_SELECTOR-Switch SW3
+L pe_microsynth:SW_DPTT_SELECTOR-Switch SW3
 U 2 1 5E4BCFE7
 P 7400 1250
 AR Path="/5E4BCFE7" Ref="SW3"  Part="2" 
@@ -104,7 +104,7 @@ NoConn ~ 7450 1050
 NoConn ~ 7550 1050
 NoConn ~ 7250 1550
 $Comp
-L microsynth-rescue:SW_DPTT_SELECTOR-Switch SW4
+L pe_microsynth:SW_DPTT_SELECTOR-Switch SW4
 U 1 1 5E4C21F7
 P 9150 1350
 AR Path="/5E4C21F7" Ref="SW4"  Part="1" 
@@ -347,7 +347,7 @@ U 1 1 5E4793CB
 P 1700 6350
 F 0 "SW2" H 1750 7221 50  0000 C CNN
 F 1 "SW_Rotary2x6" H 1750 7130 50  0000 C CNN
-F 2 "MyKi_TH_Panel_Controls:SW_Rotary4+12" H 1600 6950 50  0001 C CNN
+F 2 "microsynth:SW_Rotary4+12" H 1600 6950 50  0001 C CNN
 F 3 "https://www.tme.eu/Document/ecc8d6706892f543e4658b0fb9f5b772/sr261112.pdf" H 1600 6950 50  0001 C CNN
 F 4 "VCO RANGE" H 1750 7039 50  0000 C CNN "Label"
 F 5 "SR26NS1-2-6-M10-38R6" H 1700 6350 50  0001 C CNN "Product#"
@@ -633,7 +633,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 2050 2400 2050
 $Comp
-L microsynth-rescue:SW_DPTT_SELECTOR-Switch SW6
+L pe_microsynth:SW_DPTT_SELECTOR-Switch SW6
 U 1 1 5E4A877E
 P 2700 2750
 AR Path="/5E4A877E" Ref="SW6"  Part="1" 
@@ -736,7 +736,7 @@ U 1 1 5E47C150
 P 2550 1700
 F 0 "RV20" H 2480 1746 50  0000 R CNN
 F 1 "10kLOG" H 2480 1655 50  0000 R CNN
-F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 2550 1700 50  0001 C CNN
+F 2 "microsynth:Pot_16mm_NoDet_RV16AF-4A" H 2550 1700 50  0001 C CNN
 F 3 "~" H 2550 1700 50  0001 C CNN
 F 4 "VCO2 Level" H 2450 1800 50  0000 R BNN "Label"
 	1    2550 1700
@@ -858,7 +858,7 @@ U 1 1 5EC021D9
 P 4050 4600
 F 0 "RV28" H 3980 4646 50  0000 R CNN
 F 1 "1kLIN" H 3980 4555 50  0000 R CNN
-F 2 "4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A" H 4050 4600 50  0001 C CNN
+F 2 "microsynth:Pot_16mm_NoDet_RV16AF-4A" H 4050 4600 50  0001 C CNN
 F 3 "~" H 4050 4600 50  0001 C CNN
 F 4 "Sweep" H 3950 4450 50  0000 R BNN "Label"
 	1    4050 4600
@@ -939,7 +939,7 @@ $EndComp
 Wire Wire Line
 	6400 5000 6400 4900
 $Comp
-L microsynth-rescue:SW_DPTT_SELECTOR-Switch SW12
+L pe_microsynth:SW_DPTT_SELECTOR-Switch SW12
 U 1 1 5EC4EDF0
 P 5400 4500
 AR Path="/5EC4EDF0" Ref="SW12"  Part="1" 
@@ -953,7 +953,7 @@ F 4 "THUMBWHEEL SOURCE" H 5600 4900 50  0000 C CNN "Value"
 	1    0    0    -1  
 $EndComp
 $Comp
-L microsynth-rescue:SW_DPTT_SELECTOR-Switch SW12
+L pe_microsynth:SW_DPTT_SELECTOR-Switch SW12
 U 2 1 5EC508E1
 P 5400 4500
 AR Path="/5EC508E1" Ref="SW12"  Part="2" 
@@ -992,7 +992,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 3900 4950 3900
 $Comp
-L microsynth-rescue:SW_DPTT_SELECTOR-Switch SW13
+L pe_microsynth:SW_DPTT_SELECTOR-Switch SW13
 U 1 1 5EC8F4DB
 P 7200 4450
 AR Path="/5EC8F4DB" Ref="SW13"  Part="1" 
@@ -1006,7 +1006,7 @@ F 4 "THUMBWHEEL DEST" H 7200 4850 50  0000 C CNN "Value"
 	1    0    0    -1  
 $EndComp
 $Comp
-L microsynth-rescue:SW_DPTT_SELECTOR-Switch SW13
+L pe_microsynth:SW_DPTT_SELECTOR-Switch SW13
 U 2 1 5EC90227
 P 7200 4450
 AR Path="/5EC90227" Ref="SW13"  Part="2" 
@@ -1223,7 +1223,7 @@ NoConn ~ 1300 2650
 Wire Wire Line
 	9300 1750 9300 1550
 $Comp
-L microsynth-rescue:SW_DPTT_SELECTOR-Switch SW4
+L pe_microsynth:SW_DPTT_SELECTOR-Switch SW4
 U 2 1 5E4C2687
 P 9150 1250
 AR Path="/5E4C2687" Ref="SW4"  Part="2" 

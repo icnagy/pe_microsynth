@@ -1,211 +1,974 @@
-47662006222104
-microsynth
-11-SS-22-701C
-Through hole straight pin header, 2x03, 2.54mm pitch, double rows
-Through hole pin header THT 2x03 2.54mm double row
+220407122528276
+4ms
+4ms-logo-1
+
+
 0
-6
-6
-microsynth
-11-SS-23-832C
-Through hole straight pin header, 2x03, 2.54mm pitch, double rows
-Through hole pin header THT 2x03 2.54mm double row
 0
-8
-8
-microsynth
-CP_Radial_D5.0mm_P2.50mm
-CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor
-CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor
 0
-2
-2
-microsynth
-CP_Radial_D10.0mm_P5.00mm
-CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor
-CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor
+4ms
+4ms-logo-4
+
+
 0
-2
-2
-microsynth
-C_Axial_L12.0mm_D6.5mm_P15.00mm_Horizontal
-C, Axial series, Axial, Horizontal, pin pitch=15mm, , length*diameter=12*6.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf
-C Axial series Axial Horizontal pin pitch 15mm  length 12mm diameter 6.5mm
 0
-2
-2
-microsynth
-C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
-C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*2.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
-C Rect series Radial pin pitch 5.00mm  length 7.2mm width 2.5mm Capacitor
 0
-2
-2
-microsynth
-C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
-C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*3.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
-C Rect series Radial pin pitch 5.00mm  length 7.2mm width 3.5mm Capacitor
+4ms
+4ms-logo-inv
+
+
 0
-2
-2
-microsynth
-C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
-C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*4.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
-C Rect series Radial pin pitch 5.00mm  length 7.2mm width 4.5mm Capacitor
 0
-2
-2
-microsynth
-C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
-C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*7.2mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
-C Rect series Radial pin pitch 5.00mm  length 7.2mm width 7.2mm Capacitor
 0
-2
-2
-microsynth
-DIP-8_W7.62mm_LongPads
-8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
-THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
+4ms
+4ms-logo-inv-2
+
+
 0
-8
-8
-microsynth
-DIP-14_W7.62mm
-14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
-THT DIP DIL PDIP 2.54mm 7.62mm 300mil
 0
-14
-14
-microsynth
-DIP-14_W7.62mm_LongPads
-14-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
-THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
 0
-14
-14
-microsynth
-DIP-16_W7.62mm
-16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
-THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+4ms
+4ms-logo-inv-3
+
+
 0
-16
-16
-microsynth
-D_A-405_P10.16mm_Horizontal
-Diode, A-405 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf
-Diode A-405 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm
 0
-2
-2
-microsynth
-D_DO-35_SOD27_P7.62mm_Horizontal
-Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
-Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
 0
-2
-2
-microsynth
-G-1128S-1110
-Through hole straight pin header, 2x03, 2.54mm pitch, double rows
-Through hole pin header THT 2x03 2.54mm double row
+4ms
+4ms_Logo_Small
+
+
 0
-8
-8
-microsynth
-GF-624-6014
-Through hole straight pin header, 2x03, 2.54mm pitch, double rows
-Through hole pin header THT 2x03 2.54mm double row
+0
+0
+4ms
+4ms_Logo_Small_Inv
+
+
+0
+0
+0
+4ms
+16MM-RV16AF-4A
+
+
 0
 3
 3
-microsynth
-MountingHole_3.2mm_M3
-Mounting Hole 3.2mm, no annular, M3
-mounting hole 3.2mm no annular m3
-0
-0
-0
-microsynth
-PinHeader_1x02_P2.54mm_Vertical
-Through hole straight pin header, 1x02, 2.54mm pitch, single row
-Through hole pin header THT 1x02 2.54mm single row
-0
-2
-2
-microsynth
-PinHeader_1x03_P2.54mm_Vertical
-Through hole straight pin header, 1x03, 2.54mm pitch, single row
-Through hole pin header THT 1x03 2.54mm single row
+4ms
+16MM-RV16AF-4A-21DET
+
+POT
 0
 3
 3
-microsynth
-PinHeader_1x04_P2.54mm_Vertical
-Through hole straight pin header, 1x04, 2.54mm pitch, single row
-Through hole pin header THT 1x04 2.54mm single row
-0
-4
-4
-microsynth
-PinHeader_1x05_P2.54mm_Vertical
-Through hole straight pin header, 1x05, 2.54mm pitch, single row
-Through hole pin header THT 1x05 2.54mm single row
-0
-5
-5
-microsynth
-Pot_16mm_NoDet_RV16AF-4A
+4ms
+16MM-RV16AF-4A-CTRDET
 
 POT POTENTIOMETER
 0
 3
 3
-microsynth
-Potentiometer_Trimmer_Bourns_PV36W
-Spindle Trimmer Potentiometer, Bourns PV36W, http://www.bourns.com/docs/Product-Datasheets/pv36.pdf
-Spindle Trimmer Potentiometer Bourns PV36W
+4ms
+16MM-RV16AF-4A-NODET
+
+POT POTENTIOMETER
 0
 3
 3
-microsynth
-R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal
-Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
+4ms
+Audio_Mod_Header_1x03
+Through hole pin header
+pin header
+0
+3
+3
+4ms
+Audio_Mod_Header_1x03_INS
+Through hole pin header
+pin header
+0
+3
+3
+4ms
+Audio_Mod_Header_1x03_OUTS
+Through hole pin header
+pin header
+0
+3
+3
+4ms
+BARRELJACK-PJ064
+
+
+0
+3
+3
+4ms
+BUTTON-LED-PB61303
+
+
+0
+8
+8
+4ms
+BUTTON-TACT-PTS540
+
+
+0
+4
+4
+4ms
+BUTTON-TACT-SKQG
+
+
+0
+4
+4
+4ms
+C0603
+Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
+capacitor 0603
 0
 2
 2
-microsynth
+4ms
+C0805
+C0805
+
+0
+2
+2
+4ms
+C1206
+C1206
+
+0
+2
+2
+4ms
+COIL_5030
+
+
+0
+2
+2
+4ms
+COIL_6045
+
+
+0
+2
+2
+4ms
+COIL_SRP1040
+
+
+0
+2
+2
+4ms
+CONN-2x10-SMT-127
+
+
+0
+20
+20
+4ms
+CP_Elec_5x5.3
+SMT capacitor, aluminium electrolytic, 5x5.3
+
+0
+2
+2
+4ms
+CP_Radial_NP_D6.3mm_P2.50mm
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
+0
+2
+2
+4ms
+CP_Tantalum_Case-C_EIA-6032-28_Reflow
+Tantalum capacitor, Case C, EIA 6032-28, 6.0x3.2x2.5mm, Reflow soldering footprint
+capacitor tantalum smd
+0
+2
+2
+4ms
+Cap_Ceramic_TH
+C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=7*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf
+C Disc series Radial pin pitch 5.00mm  diameter 7mm width 2.5mm Capacitor
+0
+2
+2
+4ms
+Cap_Electrolytic_TH
+CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor
+0
+2
+2
+4ms
+Crystal_16MHz_THT_2.54mm
+
+
+0
+2
+2
+4ms
+Crystal_20MHz_THT_2.54mm
+
+
+0
+2
+2
+4ms
+DIP-14_W7.62mm
+14-lead dip package, row spacing 7.62 mm (300 mils)
+DIL DIP PDIP 2.54mm 7.62mm 300mil
+0
+14
+14
+4ms
+DIP-20_W7.62mm
+20-lead dip package, row spacing 7.62 mm (300 mils)
+DIL DIP PDIP 2.54mm 7.62mm 300mil
+0
+20
+20
+4ms
+DIP-28_W7.62mm
+28-lead dip package, row spacing 7.62 mm (300 mils)
+DIL DIP PDIP 2.54mm 7.62mm 300mil
+0
+28
+28
+4ms
+DIP20_ATTINY2313A_TH
+20-lead dip package, row spacing 7.62 mm (300 mils), Socket
+DIL DIP PDIP 2.54mm 7.62mm 300mil Socket
+0
+20
+20
+4ms
+DIP_8pin_TL072_TH
+8-lead dip package, row spacing 7.62 mm (300 mils)
+DIL DIP PDIP 2.54mm 7.62mm 300mil
+0
+8
+8
+4ms
+DIP_8pin_TL082_TH
+8-lead dip package, row spacing 7.62 mm (300 mils)
+DIL DIP PDIP 2.54mm 7.62mm 300mil
+0
+8
+8
+4ms
+DPDT_Toggle_108-2MD1T2B3M1QE-EVX
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+4ms
+D_SOD-123
+SOD-123
+SOD-123
+0
+2
+2
+4ms
+Diode_BAT-85S_TH
+D, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf
+D A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm
+0
+2
+2
+4ms
+Euro_Header_10-pin_TH
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
+4ms
+FA-238
+
+
+0
+4
+4
+4ms
+FA-238-Pins1and2diag
+
+
+0
+4
+4
+4ms
+Ferrite_Bead_TH
+Resitance 3 pas
+R
+0
+2
+2
+4ms
+GNDstitchVia
+
+
+0
+1
+1
+4ms
+HEADER-1X2-TH
+
+
+0
+2
+2
+4ms
+HEADER-2X8-TH
+
+
+0
+16
+16
+4ms
+HEADER-2X8-TH-SHROUDED
+
+
+0
+16
+16
+4ms
+HEADER-2X8-TH_eagle_pinout
+
+
+0
+16
+16
+4ms
+HTSSOP-20-EP_4.4x6.5mm_Pitch0.65mm
+20-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+21
+21
+4ms
+Header_2x05_Pitch2.54mm_TH_-12v_Label
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
+4ms
+ISP_Header_2x3_2.54mm_TH
+Through hole straight socket strip, 2x03, 2.54mm pitch, double rows
+Through hole socket strip THT 2x03 2.54mm double row
+0
+6
+6
+4ms
+J-LINK_6PIN_NEEDLE_ADAPTER
+
+J-LINK SEGGER NEEDLE PROGRAMMER
+0
+6
+6
+4ms
+J-LINK_10PIN_NEEDLE_ADAPTER
+
+
+0
+10
+10
+4ms
+JUMPER_SMD_1x2
+SOLDER JUMPER
+SOLDER JUMPER
+0
+2
+2
+4ms
+JUMPER_SMD_1x3
+SOLDER JUMPER
+SOLDER JUMPER
+0
+3
+3
+4ms
+LDR_SWASH
+Resistor, LDR 10x8.5mm
+Resistor LDR10.8.5mm
+0
+2
+2
+4ms
+LED-3MM-SQUARE-ANODE
+LED 3mm round vertical
+LED  3mm round vertical
+0
+2
+2
+4ms
+LED-C1-A2-3MM-VERT
+LED 3mm round vertical
+LED  3mm round vertical
+0
+2
+2
+4ms
+LED-PLCC4
+
+
+0
+4
+4
+4ms
+LED_Dual_3pin_3mm
+LED, diameter 3.0mm, 2 pins, diameter 3.0mm, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-3VSURKCGKC(Ver.8A).pdf
+LED diameter 3.0mm 2 pins diameter 3.0mm 3 pins
+0
+3
+3
+4ms
+LED_Swash
+LED, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 3.0mm, 2 pins, diameter 5.0mm z-position of LED center 9.0mm, 2 pins
+LED diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 3.0mm 2 pins diameter 5.0mm z-position of LED center 9.0mm 2 pins
+0
+2
+2
+4ms
+LQFP-144_20x20mm_Pitch0.5mm
+144-Lead Plastic Low Profile Quad Flatpack (PL) - 20x20x1.40 mm Body [LQFP], 2.00 mm Footprint (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.5
+0
+144
+144
+4ms
+LQFP-144_ARM_20x20mm_Pitch0.5mm
+144-Lead Plastic Low Profile Quad Flatpack (PL) - 20x20x1.40 mm Body [LQFP], 2.00 mm Footprint (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.5
+0
+144
+144
+4ms
+MICROSD-YAMAICHI-PJS-VERT
+https://www.yamaichi.de/uploads/media/PJS008U-3000.pdf
+MICROSD SDCARD
+0
+10
+10
+4ms
+MountingHole_2-56
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+0
+1
+1
+4ms
+PAD-06
+
+
+0
+1
+1
+4ms
+PAD-10
+
+
+0
+1
+1
+4ms
+PIN_HEADER_1x4_2.54mm_TH
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+4ms
+PIN_HEADER_2x4_2.54mm_TH
+Through hole straight socket strip, 2x04, 2.54mm pitch, double rows
+Through hole socket strip THT 2x04 2.54mm double row
+0
+8
+8
+4ms
+PJ301M-12
+
+
+0
+3
+3
+4ms
+PJ366ST
+
+
+0
+3
+3
+4ms
+POT-9MM-ALPHA
+
+
+0
+5
+5
+4ms
+POT-9MM-KNURL
+
+
+0
+5
+5
+4ms
+POT-SLIDER-LED-ALPHA-RA2045F-20
+
+
+0
+6
+6
+4ms
+Pin_Header_10-pin_TH
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
+4ms
+Pin_Header_Straight_1x03
+Through hole pin header
+pin header
+0
+3
+3
+4ms
+Pin_Header_Straight_1x04_Pitch2.54mm
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+4ms
+Pin_Header_Straight_1x06
+Through hole pin header
+pin header
+0
+6
+6
+4ms
+Pin_Header_Straight_1x06_small1x2
+Through hole pin header
+pin header
+0
+6
+6
+4ms
+Pin_Header_Straight_2x03_Pitch2.54mm
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+4ms
+Pin_Header_Straight_2x04
+Through hole pin header
+pin header
+0
+8
+8
+4ms
+Pin_Header_Straight_2x04_Pitch2.54mm
+Through hole straight pin header, 2x04, 2.54mm pitch, double rows
+Through hole pin header THT 2x04 2.54mm double row
+0
+8
+8
+4ms
+Pin_Header_Straight_2x05_Pitch2.54mm
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
+4ms
+Pin_Header_Straight_2x08_Pitch2.54mm_TH
+Through hole straight pin header, 2x08, 2.54mm pitch, double rows
+Through hole pin header THT 2x08 2.54mm double row
+0
+16
+16
+4ms
+Pin_Header_Straight_ReverseSide_2x04_Pitch2.54mm
+Through hole straight pin header, 2x04, 2.54mm pitch, double rows
+Through hole pin header THT 2x04 2.54mm double row
+0
+8
+8
+4ms
+PowerPAD-8
+8-Lead Thermally Enhanced Plastic Small Outline (SE) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+12
+9
+4ms
+R0603
+Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0603
+0
+2
+2
+4ms
+RECOM-78E-DCDC
+RECOM R-78E-0.5 DC/DC converter
+
+0
+3
+3
+4ms
+RECOM-DCDC
+RECOM R-78E-0.5 DC/DC converter
+
+0
+3
+3
+4ms
+RGB-SPST-LED-TC002
+
+
+0
+8
+8
+4ms
+RGB_ROTARY_ENCODER
+
+
+0
+10
+9
+4ms
+ROTENC-12MM-BUT
+
+
+0
+7
+6
+4ms
+R_Array_6
+6-pin Resistor SIP pack
+R
+0
+6
+6
+4ms
+R_Array_8
+8-pin Resistor SIP pack
+R
+0
+8
+8
+4ms
+R_Array_BUS_6
+8-pin Resistor SIP pack
+R
+0
+6
+6
+4ms
+R_Array_BUS_10
+8-pin Resistor SIP pack
+R
+0
+10
+10
+4ms
+R_Array_GND_8
+8-pin Resistor SIP pack
+R
+0
+8
+8
+4ms
+R_Array_ISO_10
+8-pin Resistor SIP pack
+R
+0
+10
+10
+4ms
+Rail-mount-slot
+
+
+0
+0
+0
+4ms
+Reg_78Lxx
+TO-92 leads molded, narrow, drill 0.6mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+4ms
+Regulator_5V_7805_LARGE_TH
+TO-220, Vertical, RM 2.54mm
+TO-220 Vertical RM 2.54mm
+0
+3
+3
+4ms
+Regulator_FLAT_5V_7805_LARGE_TH_
+TO-220, Vertical, RM 2.54mm
+TO-220 Vertical RM 2.54mm
+0
+3
+3
+4ms
+Resistor_TH_300
+Resitance 3 pas
+R
+0
+2
+2
+4ms
+S25FL127SABMFI101
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+8
+8
+4ms
+SMA_Standard
+Diode SMA
+Diode SMA
+0
+2
+2
+4ms
+SOCKET_1x4_2.54mm_TH
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+4ms
+SOIC-8_3.9x4.9mm_Pitch1.27mm
+8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+8
+8
+4ms
+SOIC-16_3.9x9.9mm_Pitch1.27mm
+16-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
+SOIC 1.27
+0
+16
+16
+4ms
+SOT-23-8
+8-pin SOT-23 package, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sot-23rj/rj_8.pdf
+SOT-23-8
+0
+8
+8
+4ms
+SOT-23-DIODE-PINROTATECW
+SOT-23, Standard
+SOT-23
+0
+3
+3
+4ms
+SOT-23-DIODE-SWAP2AND3
+SOT-23, Standard
+SOT-23
+0
+3
+3
+4ms
+SOT23
+SOT-23
+
+0
+3
+3
+4ms
+SOT223
+SOT-223
+
+0
+4
+4
+4ms
+SPDT-SUB
+
+
+0
+3
+3
+4ms
 SPDT_KIT
 
 
 0
 3
 3
-microsynth
-SR2612F-0304-18R0B-D8-N
-ALPHA SR2612F-0304-18R0B-D8-N tayda
-Rotary Switch 3 pole 4 position
-0
-15
-15
-microsynth
-SW_Rotary4+12
+4ms
+SPST-SUB
 
-Rotary Switch 4x3/2x6/1x12
+
 0
-16
-16
-microsynth
-SolderWirePad_1x01_Drill1.2mm
-Wire solder connection
-connector
+2
+2
+4ms
+SSOP-28
+
+
 0
-1
-1
-microsynth
-TO-92L_Inline_Wide
-TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)
-TO-92L Inline Wide transistor
+28
+28
+4ms
+SWITCHCRAFT-STEREO-SW_with_outline
+Switchcraft 1/4" Enclosed Switched Stereo Jack
+
+0
+5
+5
+4ms
+SWITCHCRAFT-STEREO_Jack_with_outline
+Switchcraft 1/4" Enclosed Switched Stereo Jack
+
 0
 3
 3
+4ms
+Slide_Switch_SPDT_Nexsun_MS2201L6
+
+
+0
+14
+7
+4ms
+Slide_Switch_SS22D06-G6-H_Runrun
+
+
+0
+10
+6
+4ms
+Socket_2x4_2.54mm_TH
+Through hole pin header
+pin header
+0
+8
+8
+4ms
+Socket_Straight_2x03_Pitch2.54mm
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+4ms
+Socket_Strip_Straight_2x03_Pitch2.54mm
+Through hole straight socket strip, 2x03, 2.54mm pitch, double rows
+Through hole socket strip THT 2x03 2.54mm double row
+0
+6
+6
+4ms
+Socket_Strip_Straight_2x04_Pitch2.54mm
+Through hole straight socket strip, 2x04, 2.54mm pitch, double rows
+Through hole socket strip THT 2x04 2.54mm double row
+0
+8
+8
+4ms
+Socket_Strip_Straight_2x08_Pitch2.54mm_TH
+Through hole straight socket strip, 2x08, 2.54mm pitch, double rows
+Through hole socket strip THT 2x08 2.54mm double row
+0
+16
+16
+4ms
+TENTURN_POT
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+2
+2
+4ms
+TO-92_Molded_Narrow
+TO-92 leads molded, narrow, drill 0.6mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+4ms
+TRIM-T73YE
+
+
+0
+3
+3
+4ms
+TSOP-54_W400
+http://download.micron.com/pdf/datasheets/dram/sdram/256MSDRAM.pdf
+54-Pin TSOP (400 mil)
+0
+54
+54
+4ms
+TSOP54
+http://download.micron.com/pdf/datasheets/dram/sdram/256MSDRAM.pdf
+54-Pin TSOP (400 mil)
+0
+54
+54
+4ms
+TSSOP-8_4.4x3mm_Pitch0.65mm
+8-Lead Plastic Thin Shrink Small Outline (ST)-4.4 mm Body [TSSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+8
+8
+4ms
+TSSOP-28_4.4x9.7mm_Pitch0.65mm
+TSSOP28: plastic thin shrink small outline package; 28 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot361-1_po.pdf)
+SSOP 0.65
+0
+28
+28
+4ms
+TTplace
+
+
+0
+0
+0
+4ms
+Trim_Round_Black_Large
+
+
+0
+3
+3
+4ms
+Trim_Round_Black_Small
+
+
+0
+3
+3
+4ms
+wire-hole
+module 1 pin (ou trou mecanique de percage)
+DEV
+0
+1
+1

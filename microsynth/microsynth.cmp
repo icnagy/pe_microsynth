@@ -1,10 +1,178 @@
-Cmp-Mod V01 Created by PcbNew   date = Thursday, 21 May 2020 at 22:44:37
+Cmp-Mod V01 Created by PcbNew   date = Thursday, 21 May 2020 at 23:12:08
+
+BeginCmp
+TimeStamp = 5E866E67
+Path = /5E222DC1/5E23681F
+Reference = RV14;
+ValeurCmp = 100kLIN;
+IdModule  = microsynth:Pot_16mm_NoDet_RV16AF-4A;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E866EA9
+Path = /5E2BE1AD/5E2F17B1
+Reference = RV16;
+ValeurCmp = 1kLIN;
+IdModule  = microsynth:Pot_16mm_NoDet_RV16AF-4A;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E8823CF
+Path = /5E2BE1AD/5E2F659B
+Reference = RV18;
+ValeurCmp = 100kLIN;
+IdModule  = microsynth:Pot_16mm_NoDet_RV16AF-4A;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E88556B
+Path = /5E475532/5E47C150
+Reference = RV20;
+ValeurCmp = 10kLOG;
+IdModule  = microsynth:Pot_16mm_NoDet_RV16AF-4A;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E883A9E
+Path = /5E05E45F/5E07A718
+Reference = RV21;
+ValeurCmp = 100kLIN;
+IdModule  = microsynth:Pot_16mm_NoDet_RV16AF-4A;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E885520
+Path = /5E05E45F/5E10C998
+Reference = RV23;
+ValeurCmp = 1kLIN;
+IdModule  = microsynth:Pot_16mm_NoDet_RV16AF-4A;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E866FA3
+Path = /5E05E45F/5E14EDE4
+Reference = RV24;
+ValeurCmp = 10kLOG;
+IdModule  = microsynth:Pot_16mm_NoDet_RV16AF-4A;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E89A85F
+Path = /5E475532/5EC021D9
+Reference = RV28;
+ValeurCmp = 1kLIN;
+IdModule  = microsynth:Pot_16mm_NoDet_RV16AF-4A;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E86705B
+Path = /5E5B9865/5E666B6F
+Reference = RV10;
+ValeurCmp = 2MLOG;
+IdModule  = microsynth:Pot_16mm_NoDet_RV16AF-4A;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E867075
+Path = /5E5B9865/5E71BB7F
+Reference = RV12;
+ValeurCmp = 100kLIN;
+IdModule  = microsynth:Pot_16mm_NoDet_RV16AF-4A;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E86708F
+Path = /5E8C1704/5EA28367
+Reference = RV2;
+ValeurCmp = 2MLOG;
+IdModule  = microsynth:Pot_16mm_NoDet_RV16AF-4A;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E895287
+Path = /5E5B9865/5E66825F
+Reference = RV9;
+ValeurCmp = 1MLOG;
+IdModule  = microsynth:Pot_16mm_NoDet_RV16AF-4A;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E8670FE
+Path = /5E475532/5E4793CB
+Reference = SW2;
+ValeurCmp = SW_Rotary2x6;
+IdModule  = microsynth:SW_Rotary4+12;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EB23295
+Path = /5E222DC1/5E26DDD4
+Reference = SW22;
+ValeurCmp = SW_SPST;
+IdModule  = microsynth:SPDT_KIT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5EA1B89D
+Path = /5E8C1704/5E91DC50
+Reference = SW1;
+ValeurCmp = SW_DP3T;
+IdModule  = microsynth:11-SS-23-832C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ECA375B
+Path = /5E8C1704/5ED7FE8B
+Reference = R153;
+ValeurCmp = 1k;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E867231
+Path = /5E475532/5E476048
+Reference = SW21;
+ValeurCmp = SW_Rotary2x6;
+IdModule  = microsynth:SR2612F-0304-18R0B-D8-N;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ECA8127
+Path = /5E5B9865/5ED83FC1
+Reference = R154;
+ValeurCmp = 100k;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E86726D
+Path = /5E5B9865/5E881667
+Reference = SW18;
+ValeurCmp = SW_SPDT;
+IdModule  = microsynth:11-SS-22-701C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E867280
+Path = /5E5B9865/5E85AAE1
+Reference = SW19;
+ValeurCmp = SW_SPDT;
+IdModule  = microsynth:11-SS-22-701C;
+EndCmp
+
+BeginCmp
+TimeStamp = 5E884396
+Path = /5E5B9865/5E83D5A9
+Reference = SW20;
+ValeurCmp = SW_SPDT;
+IdModule  = microsynth:11-SS-22-701C;
+EndCmp
 
 BeginCmp
 TimeStamp = 5EA5E7E6
 Path = /5E475532/5E4BC6EF
 Reference = SW3;
-ValeurCmp = SW_DPTT_SELECTOR;
+ValeurCmp = SW_DP3T;
 IdModule  = microsynth:11-SS-23-832C;
 EndCmp
 
@@ -12,7 +180,7 @@ BeginCmp
 TimeStamp = 5EA5E869
 Path = /5E475532/5E4C21F7
 Reference = SW4;
-ValeurCmp = SW_DPTT_SELECTOR;
+ValeurCmp = SW_DP3T;
 IdModule  = microsynth:11-SS-23-832C;
 EndCmp
 
@@ -28,7 +196,7 @@ BeginCmp
 TimeStamp = 5E867153
 Path = /5E475532/5E4ABA98
 Reference = SW6;
-ValeurCmp = SW_DPTT_SELECTOR;
+ValeurCmp = SW_DP3T;
 IdModule  = microsynth:11-SS-23-832C;
 EndCmp
 
@@ -44,7 +212,7 @@ BeginCmp
 TimeStamp = 5E908E59
 Path = /5E5B9865/5F2DFAB2
 Reference = SW8;
-ValeurCmp = SUSTAIN;
+ValeurCmp = SW_DP3T;
 IdModule  = microsynth:11-SS-23-832C;
 EndCmp
 
@@ -52,7 +220,7 @@ BeginCmp
 TimeStamp = 5E898394
 Path = /5E5B9865/5E95BE3D
 Reference = SW9;
-ValeurCmp = TRIGGER;
+ValeurCmp = SW_DP3T;
 IdModule  = microsynth:11-SS-23-832C;
 EndCmp
 
@@ -76,7 +244,7 @@ BeginCmp
 TimeStamp = 5E8950EC
 Path = /5E475532/5EC4EDF0
 Reference = SW12;
-ValeurCmp = SOURCE;
+ValeurCmp = SW_DP3T;
 IdModule  = microsynth:11-SS-23-832C;
 EndCmp
 
@@ -84,7 +252,7 @@ BeginCmp
 TimeStamp = 5E8671CE
 Path = /5E475532/5EC8F4DB
 Reference = SW13;
-ValeurCmp = THUMBWEEL;
+ValeurCmp = SW_DP3T;
 IdModule  = microsynth:11-SS-23-832C;
 EndCmp
 
@@ -118,38 +286,6 @@ Path = /5E475532/5E483FF2
 Reference = SW17;
 ValeurCmp = SW_SPDT;
 IdModule  = microsynth:11-SS-22-701C;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E86726D
-Path = /5E5B9865/5E881667
-Reference = SW18-ENV-TO-VCF1;
-ValeurCmp = SW_SPDT;
-IdModule  = microsynth:11-SS-22-701C;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E867280
-Path = /5E5B9865/5E85AAE1
-Reference = SW19-ENV-TO-VCO1;
-ValeurCmp = SW_SPDT;
-IdModule  = microsynth:11-SS-22-701C;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E884396
-Path = /5E5B9865/5E83D5A9
-Reference = SW20-ENV-TO-KEYB1;
-ValeurCmp = SW_SPDT;
-IdModule  = microsynth:11-SS-22-701C;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EA1B89D
-Path = /5E8C1704/5E91DC50
-Reference = SW1;
-ValeurCmp = DRIFT;
-IdModule  = Buttons_Switches_ThroughHole:G-1128S-1110;
 EndCmp
 
 BeginCmp
@@ -497,14 +633,6 @@ IdModule  = Capacitor_THT:CP_Radial_D10.0mm_P5.00mm;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E867231
-Path = /5E475532/5E476048
-Reference = SW21;
-ValeurCmp = SW_Rotary2x6;
-IdModule  = Button_Switch_THT:SR2612F-0304-18R0B-D8-N;
-EndCmp
-
-BeginCmp
 TimeStamp = 5EA8FD9B
 Path = /5E475532/5EB1EF45
 Reference = RV7-1;
@@ -518,14 +646,6 @@ Path = /5E475532/5EAE5FD2
 Reference = R46-1;
 ValeurCmp = 390k;
 IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E8670FE
-Path = /5E475532/5E4793CB
-Reference = SW2;
-ValeurCmp = RANGE;
-IdModule  = MyKi_TH_Panel_Controls:SW_Rotary4+12;
 EndCmp
 
 BeginCmp
@@ -1825,35 +1945,11 @@ IdModule  = Potentiometers:Potentiometer_Trimmer_Bourns_PV36W;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E866E67
-Path = /5E222DC1/5E23681F
-Reference = RV14;
-ValeurCmp = 100kLIN;
-IdModule  = 4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A;
-EndCmp
-
-BeginCmp
 TimeStamp = 5E882CEA
 Path = /5E222DC1/5E2625C2
 Reference = RV15;
 ValeurCmp = 100k;
 IdModule  = Potentiometers:Potentiometer_Trimmer_Bourns_PV36W;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E866EA9
-Path = /5E2BE1AD/5E2F17B1
-Reference = RV16;
-ValeurCmp = 1kLIN;
-IdModule  = 4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E8823CF
-Path = /5E2BE1AD/5E2F659B
-Reference = RV18;
-ValeurCmp = 100kLIN;
-IdModule  = 4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A;
 EndCmp
 
 BeginCmp
@@ -1865,43 +1961,11 @@ IdModule  = Potentiometers:Potentiometer_Trimmer_Bourns_PV36W;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E88556B
-Path = /5E475532/5E47C150
-Reference = RV20;
-ValeurCmp = 10kLOG;
-IdModule  = 4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E883A9E
-Path = /5E05E45F/5E07A718
-Reference = RV21;
-ValeurCmp = 100kLIN;
-IdModule  = 4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A;
-EndCmp
-
-BeginCmp
 TimeStamp = 5E866F6F
 Path = /5E05E45F/5E0751A6
 Reference = RV22;
 ValeurCmp = 100k;
 IdModule  = Potentiometers:Potentiometer_Trimmer_Bourns_PV36W;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E885520
-Path = /5E05E45F/5E10C998
-Reference = RV23;
-ValeurCmp = 1kLIN;
-IdModule  = 4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E866FA3
-Path = /5E05E45F/5E14EDE4
-Reference = RV24;
-ValeurCmp = 10kLOG;
-IdModule  = 4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A;
 EndCmp
 
 BeginCmp
@@ -1913,14 +1977,6 @@ IdModule  = Potentiometers:Potentiometer_Trimmer_Bourns_PV36W;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E89A85F
-Path = /5E475532/5EC021D9
-Reference = RV28;
-ValeurCmp = 1kLIN;
-IdModule  = 4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A;
-EndCmp
-
-BeginCmp
 TimeStamp = 5EA5DEEF
 Path = /5E8C1704/5E936F79
 Reference = RV1;
@@ -1929,51 +1985,11 @@ IdModule  = Potentiometers:Potentiometer_Trimmer_Bourns_PV36W;
 EndCmp
 
 BeginCmp
-TimeStamp = 5E86705B
-Path = /5E5B9865/5E666B6F
-Reference = RV10;
-ValeurCmp = 2MLOG;
-IdModule  = 4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E867075
-Path = /5E5B9865/5E71BB7F
-Reference = RV12;
-ValeurCmp = 100kLIN;
-IdModule  = 4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E86708F
-Path = /5E8C1704/5EA28367
-Reference = RV2;
-ValeurCmp = 2MLOG;
-IdModule  = 4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A;
-EndCmp
-
-BeginCmp
 TimeStamp = 5E8670B7
 Path = /5E8C1704/5E974C22
 Reference = RV3;
 ValeurCmp = 22K;
 IdModule  = Potentiometers:Potentiometer_Trimmer_Bourns_PV36W;
-EndCmp
-
-BeginCmp
-TimeStamp = 5E895287
-Path = /5E5B9865/5E66825F
-Reference = RV9;
-ValeurCmp = 1MLOG;
-IdModule  = 4ms_Potentiometer:Pot_16mm_NoDet_RV16AF-4A;
-EndCmp
-
-BeginCmp
-TimeStamp = 5EB23295
-Path = /5E222DC1/5E26DDD4
-Reference = SW22;
-ValeurCmp = SW_SPST;
-IdModule  = 4ms:SPDT_KIT;
 EndCmp
 
 BeginCmp
