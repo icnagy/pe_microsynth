@@ -44,6 +44,7 @@ TrackWidth3=0.4
 TrackWidth4=0.5
 TrackWidth5=0.8
 TrackWidth6=1
+TrackWidth7=1.016
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
