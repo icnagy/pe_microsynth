@@ -378,6 +378,11 @@ K dual opamp
 F http://www.ti.com/lit/ds/symlink/ne5532.pdf
 $ENDCMP
 #
+$CMP SW_Rotary2x4
+D 3 rotary switches with 4 positions
+K rotary switch
+$ENDCMP
+#
 $CMP TL061
 D Single Low-Power JFET-Input Operational Amplifiers, DIP-8/SOIC-8
 K single opamp

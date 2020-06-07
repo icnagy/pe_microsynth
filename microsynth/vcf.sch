@@ -818,7 +818,7 @@ F 3 "~" H 7000 1600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6850 1600 6750 1600
+	6850 1600 6400 1600
 $Comp
 L Device:R_POT RV24
 U 1 1 5E14EDE4
@@ -989,7 +989,7 @@ Wire Wire Line
 Connection ~ 9450 1300
 NoConn ~ 9800 1700
 Wire Wire Line
-	4550 6550 4400 6550
+	5850 6550 5100 6550
 Wire Wire Line
 	2950 3400 3600 3400
 Wire Wire Line
@@ -1046,9 +1046,9 @@ Text GLabel 1050 5050 0    50   BiDi ~ 0
 TO_VCO2
 Text GLabel 1050 5500 0    50   BiDi ~ 0
 NOISE
-Text GLabel 6750 1600 0    50   BiDi ~ 0
+Text GLabel 6250 1600 0    50   BiDi ~ 0
 NOISE
-Text GLabel 4550 6550 2    50   BiDi ~ 0
+Text GLabel 5850 6550 2    50   BiDi ~ 0
 VCF_OUT
 Text GLabel 1250 900  0    50   BiDi ~ 0
 LFO_MOD_S16
@@ -1106,4 +1106,36 @@ F 4 "VCF Keyboard Track" H 1750 2550 50  0000 C CNN "Label"
 	-1   0    0    -1  
 $EndComp
 NoConn ~ 1550 3050
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EDF0D12
+P 5100 6550
+AR Path="/5E475532/5EDF0D12" Ref="TP?"  Part="1" 
+AR Path="/5E05E45F/5EDF0D12" Ref="TP1"  Part="1" 
+F 0 "TP1" H 5200 6700 50  0000 L CNN
+F 1 "VCF OUT" H 5200 6600 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5300 6550 50  0001 C CNN
+F 3 "~" H 5300 6550 50  0001 C CNN
+	1    5100 6550
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 6550
+Wire Wire Line
+	5100 6550 4400 6550
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EDFC399
+P 6400 1600
+AR Path="/5E475532/5EDFC399" Ref="TP?"  Part="1" 
+AR Path="/5E05E45F/5EDFC399" Ref="TP2"  Part="1" 
+F 0 "TP2" H 6500 1750 50  0000 L CNN
+F 1 "NOISE" H 6500 1650 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6600 1600 50  0001 C CNN
+F 3 "~" H 6600 1600 50  0001 C CNN
+	1    6400 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 6400 1600
+Wire Wire Line
+	6400 1600 6250 1600
 $EndSCHEMATC

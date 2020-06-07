@@ -436,7 +436,7 @@ Connection ~ 3950 2800
 Wire Wire Line
 	3950 2800 3950 2750
 Wire Wire Line
-	4750 2500 5000 2500
+	4750 2500 4900 2500
 Wire Wire Line
 	5000 2500 5000 2700
 $Comp
@@ -451,8 +451,6 @@ F 4 "Volume" H 4750 3400 50  0000 C BNN "Label"
 	1    5000 3300
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	5000 3150 5000 3000
 $Comp
 L power:GND #PWR?
 U 1 1 5E1E0B28
@@ -729,4 +727,22 @@ F 3 "" H 5700 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 5700 3300
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EE088D7
+P 4900 2500
+AR Path="/5E475532/5EE088D7" Ref="TP?"  Part="1" 
+AR Path="/5E1B03E8/5EE088D7" Ref="TP3"  Part="1" 
+F 0 "TP3" H 5000 2650 50  0000 L CNN
+F 1 "VCA OUT" H 5000 2550 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5100 2500 50  0001 C CNN
+F 3 "~" H 5100 2500 50  0001 C CNN
+	1    4900 2500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 2500
+Wire Wire Line
+	4900 2500 5000 2500
+Wire Wire Line
+	5000 3000 5000 3150
 $EndSCHEMATC

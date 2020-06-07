@@ -122,7 +122,7 @@ NoConn ~ 9100 1550
 Wire Wire Line
 	7450 1550 7450 1750
 Wire Wire Line
-	7450 1750 8550 1750
+	7450 1750 7950 1750
 Wire Wire Line
 	6950 800  7350 800 
 Wire Wire Line
@@ -652,7 +652,7 @@ Wire Wire Line
 	3250 1700 3250 1850
 Connection ~ 3250 1700
 Wire Wire Line
-	2700 1700 3250 1700
+	2700 1700 2800 1700
 Connection ~ 3250 1850
 Wire Wire Line
 	3250 2350 3400 2350
@@ -1204,22 +1204,17 @@ Wire Wire Line
 Wire Wire Line
 	3800 6250 2200 6250
 $Comp
-L Switch:SW_Rotary3x4 SW21
+L pe_microsynth:SW_Rotary2x4 SW21
 U 1 1 5E476048
-P 1800 2050
-F 0 "SW21" H 1850 2831 50  0000 C CNN
-F 1 "SW_Rotary2x6" H 1850 2740 50  0000 C CNN
-F 2 "microsynth:SR2511F-0204-(L)K0A-C9-S-3" H 1700 2650 50  0001 C CNN
-F 3 "https://www.taydaelectronics.com/datasheets/A-1891.pdf" H 1700 2650 50  0001 C CNN
-F 4 "VCO2_SHAPE" H 1400 2850 50  0000 C CNN "Label"
-	1    1800 2050
+P 1800 1700
+F 0 "SW21" H 1850 2481 50  0000 C CNN
+F 1 "SW_Rotary2x6" H 1850 2390 50  0000 C CNN
+F 2 "microsynth:SR2511F-0204-(L)K0A-C9-S-3" H 1700 2300 50  0001 C CNN
+F 3 "https://www.taydaelectronics.com/datasheets/A-1891.pdf" H 1700 2300 50  0001 C CNN
+F 4 "VCO2_SHAPE" H 1400 2500 50  0000 C CNN "Label"
+	1    1800 1700
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 2200 2550
-NoConn ~ 1300 2350
-NoConn ~ 1300 2450
-NoConn ~ 1300 2550
-NoConn ~ 1300 2650
 Wire Wire Line
 	9300 1750 9300 1550
 $Comp
@@ -1242,4 +1237,32 @@ Connection ~ 9300 1550
 Wire Wire Line
 	9200 1550 9100 1050
 Connection ~ 9200 1550
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5EDEA929
+P 7950 1750
+F 0 "TP5" H 8050 1900 50  0000 L CNN
+F 1 "VCO1" H 8050 1800 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8150 1750 50  0001 C CNN
+F 3 "~" H 8150 1750 50  0001 C CNN
+	1    7950 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 7950 1750
+Wire Wire Line
+	7950 1750 8550 1750
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5EDEAFEB
+P 2800 1700
+F 0 "TP4" H 2900 1850 50  0000 L CNN
+F 1 "VCO2" H 2900 1750 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3000 1700 50  0001 C CNN
+F 3 "~" H 3000 1700 50  0001 C CNN
+	1    2800 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 2800 1700
+Wire Wire Line
+	2800 1700 3250 1700
 $EndSCHEMATC

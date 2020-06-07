@@ -814,7 +814,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 3050 7200 2950
 Wire Wire Line
-	7400 3050 7400 3550
+	7400 3050 7400 3250
 Wire Wire Line
 	7400 3550 6800 3550
 Connection ~ 7400 3050
@@ -1305,4 +1305,20 @@ F 3 "~" H 3250 3200 50  0001 C CNN
 	1    3250 3200
 	0    1    1    0   
 $EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EE196DB
+P 7400 3250
+AR Path="/5E475532/5EE196DB" Ref="TP?"  Part="1" 
+AR Path="/5E5B9865/5EE196DB" Ref="TP6"  Part="1" 
+F 0 "TP6" V 7350 3450 50  0000 L CNN
+F 1 "ADSR" V 7450 3450 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7600 3250 50  0001 C CNN
+F 3 "~" H 7600 3250 50  0001 C CNN
+	1    7400 3250
+	0    1    1    0   
+$EndComp
+Connection ~ 7400 3250
+Wire Wire Line
+	7400 3250 7400 3550
 $EndSCHEMATC
