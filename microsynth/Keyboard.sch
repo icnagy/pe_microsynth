@@ -47,17 +47,6 @@ F 3 "~" H 9700 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C7
-U 1 1 5E8C6060
-P 10250 2900
-F 0 "C7" H 10365 2946 50  0000 L CNN
-F 1 "100n" H 10365 2855 50  0000 L CNN
-F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 10288 2750 50  0001 C CNN
-F 3 "~" H 10250 2900 50  0001 C CNN
-	1    10250 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C5
 U 1 1 5E8C6F87
 P 7800 2700
@@ -1553,5 +1542,16 @@ F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1880 3400
 F 3 "~" H 1950 3400 50  0001 C CNN
 	1    1950 3400
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5E8C6060
+P 10250 2900
+F 0 "C7" H 10365 2946 50  0000 L CNN
+F 1 "100n" H 10365 2855 50  0000 L CNN
+F 2 "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" H 10288 2750 50  0001 C CNN
+F 3 "~" H 10250 2900 50  0001 C CNN
+	1    10250 2900
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
