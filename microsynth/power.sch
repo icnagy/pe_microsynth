@@ -66,17 +66,6 @@ F 3 "~" H 6500 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x05_Male J3
-U 1 1 5F1FD92E
-P 5700 2800
-F 0 "J3" H 5700 3200 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 6000 3100 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5700 2800 50  0001 C CNN
-F 3 "~" H 5700 2800 50  0001 C CNN
-	1    5700 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x04_Male J4
 U 1 1 5F1FE242
 P 5700 3450
@@ -211,4 +200,52 @@ Connection ~ 7050 1300
 Wire Wire Line
 	7750 1400 7450 1400
 Connection ~ 7450 1400
+$Comp
+L Mechanical:MountingHole_Pad H9
+U 1 1 5F3DC176
+P 2750 3750
+F 0 "H9" H 2850 3850 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2850 3750 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2750 3750 50  0001 C CNN
+F 3 "~" H 2750 3750 50  0001 C CNN
+	1    2750 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3DCB17
+P 2750 3900
+F 0 "#PWR?" H 2750 3650 50  0001 C CNN
+F 1 "GND" H 2755 3727 50  0000 C CNN
+F 2 "" H 2750 3900 50  0001 C CNN
+F 3 "" H 2750 3900 50  0001 C CNN
+	1    2750 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3900 2750 3850
+$Comp
+L Connector:Conn_01x06_Male J3
+U 1 1 5F1FD92E
+P 5700 2800
+F 0 "J3" H 5700 3200 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 6000 3100 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 5700 2800 50  0001 C CNN
+F 3 "~" H 5700 2800 50  0001 C CNN
+	1    5700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3DEADD
+P 6850 3100
+F 0 "#PWR?" H 6850 2850 50  0001 C CNN
+F 1 "GND" H 6855 2927 50  0000 C CNN
+F 2 "" H 6850 3100 50  0001 C CNN
+F 3 "" H 6850 3100 50  0001 C CNN
+	1    6850 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3100 5900 3100
 $EndSCHEMATC
