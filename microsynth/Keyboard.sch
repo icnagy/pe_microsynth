@@ -472,6 +472,7 @@ F 0 "RV1" V 6793 1150 50  0000 C CNN
 F 1 "100k" V 6884 1150 50  0000 C CNN
 F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_PV36W" H 7000 1150 50  0001 C CNN
 F 3 "~" H 7000 1150 50  0001 C CNN
+F 4 "Tune" V 7000 1150 50  0000 C CNN "Label"
 	1    7000 1150
 	0    1    1    0   
 $EndComp
