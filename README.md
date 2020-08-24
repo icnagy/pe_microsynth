@@ -1,4 +1,4 @@
-# PE Microsynth
+# PE Microsynth / Clef B30
 
 Redrawn in KiCad.
 
