@@ -83,8 +83,8 @@ $Comp
 L 4xxx:4001 U8
 U 3 1 5E5BF1E4
 P 1900 3900
-F 0 "U8" H 1900 3900 50  0000 C CNN
-F 1 "4001" H 1900 3700 50  0000 C CNN
+F 0 "U8" H 1900 4150 50  0000 C CNN
+F 1 "4001" H 1900 4250 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1900 3900 50  0001 C CNN
 F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 1900 3900 50  0001 C CNN
 	3    1900 3900
@@ -93,12 +93,12 @@ $EndComp
 $Comp
 L 4xxx:4001 U8
 U 4 1 5E5BFBC6
-P 1850 3200
-F 0 "U8" H 1850 3200 50  0000 C CNN
-F 1 "4001" H 1850 3000 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1850 3200 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 1850 3200 50  0001 C CNN
-	4    1850 3200
+P 1900 3200
+F 0 "U8" H 1900 2850 50  0000 C CNN
+F 1 "4001" H 1900 2950 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_LongPads" H 1900 3200 50  0001 C CNN
+F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf" H 1900 3200 50  0001 C CNN
+	4    1900 3200
 	1    0    0    1   
 $EndComp
 $Comp
@@ -113,29 +113,11 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 3900 2200 3600
-Wire Wire Line
-	2200 3600 1550 3600
-Wire Wire Line
-	1550 3600 1550 3300
-Wire Wire Line
-	1600 3800 1600 3400
-Wire Wire Line
-	1600 3400 2150 3400
-Wire Wire Line
-	2150 3400 2150 3200
-Wire Wire Line
-	1600 2150 2200 2150
+	1600 3800 1600 3650
 Wire Wire Line
 	2200 2150 2200 1950
 Wire Wire Line
-	1600 2550 1600 2150
-Wire Wire Line
-	1600 2050 1550 2050
-Wire Wire Line
-	1550 2050 1550 2350
-Wire Wire Line
-	1550 2350 2200 2350
+	1600 2550 1600 2350
 Wire Wire Line
 	2200 2350 2200 2650
 $Comp
@@ -421,11 +403,11 @@ Connection ~ 6650 4250
 Wire Wire Line
 	6800 4600 6950 4600
 Wire Wire Line
-	6950 4600 6950 5300
+	6950 4600 6950 5450
 Wire Wire Line
-	6950 5300 1600 5300
+	6950 5450 1600 5450
 Wire Wire Line
-	1600 5300 1600 4000
+	1600 5450 1600 4000
 Wire Wire Line
 	2800 3850 2800 4400
 Wire Wire Line
@@ -563,7 +545,6 @@ Wire Wire Line
 	2200 3900 3000 3900
 Wire Wire Line
 	3000 3900 3000 3850
-Connection ~ 2200 3900
 Wire Wire Line
 	3100 3350 3500 3350
 Wire Wire Line
@@ -749,9 +730,9 @@ Wire Wire Line
 	1400 2850 700  2850
 Connection ~ 1400 3100
 Wire Wire Line
-	1400 3100 1550 3100
+	1400 3100 1600 3100
 Wire Wire Line
-	700  5400 700  2850
+	700  5600 700  2850
 Connection ~ 700  2850
 Wire Wire Line
 	5150 3450 5150 3100
@@ -829,9 +810,9 @@ Wire Wire Line
 NoConn ~ 7550 5000
 NoConn ~ 7850 5000
 Wire Wire Line
-	7750 5000 7750 5400
+	7750 5000 7750 5600
 Wire Wire Line
-	7750 5400 700  5400
+	7750 5600 700  5600
 Wire Wire Line
 	8500 4300 8300 4300
 Wire Wire Line
@@ -1254,8 +1235,8 @@ $Comp
 L Device:D D5
 U 1 1 5E6BA831
 P 1400 1550
-F 0 "D5" H 1400 1766 50  0000 C CNN
-F 1 "OA81" H 1400 1675 50  0000 C CNN
+F 0 "D5" H 1400 1800 50  0000 C CNN
+F 1 "OA81" H 1400 1700 50  0000 C CNN
 F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 1400 1550 50  0001 C CNN
 F 3 "~" H 1400 1550 50  0001 C CNN
 	1    1400 1550
@@ -1321,4 +1302,21 @@ $EndComp
 Connection ~ 7400 3250
 Wire Wire Line
 	7400 3250 7400 3550
+Wire Wire Line
+	2200 2150 1600 2350
+Wire Wire Line
+	1600 2050 1600 2150
+Wire Wire Line
+	1600 2150 2200 2350
+Wire Wire Line
+	1600 3650 2200 3450
+Wire Wire Line
+	2200 3200 2200 3450
+Connection ~ 2200 3900
+Wire Wire Line
+	2200 3900 2200 3650
+Wire Wire Line
+	2200 3650 1600 3400
+Wire Wire Line
+	1600 3400 1600 3300
 $EndSCHEMATC

@@ -84,6 +84,12 @@ K dual opamp
 F http://www.ti.com/lit/ds/symlink/lm1458.pdf
 $ENDCMP
 #
+$CMP LM348
+D Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14
+K quad opamp
+F https://www.ti.com/lit/ds/symlink/lm148-n.pdf
+$ENDCMP
+#
 $CMP LM358
 D Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8
 K dual opamp
