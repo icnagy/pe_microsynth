@@ -136,9 +136,9 @@ Wire Wire Line
 Wire Wire Line
 	7550 2150 7550 1550
 Wire Wire Line
-	8700 800  8550 800 
+	8700 550  8550 550 
 Wire Wire Line
-	8550 800  8550 1750
+	8550 550  8550 1750
 Connection ~ 8550 1750
 Wire Wire Line
 	8550 1750 9300 1750
@@ -784,7 +784,7 @@ Text GLabel 3800 2250 2    50   BiDi ~ 0
 LFO_MOD_S17
 Text GLabel 7250 600  2    50   BiDi ~ 0
 TO_VCA_C26
-Text GLabel 8700 800  2    50   BiDi ~ 0
+Text GLabel 8700 550  2    50   BiDi ~ 0
 TO_VCF_IC20_3
 Text GLabel 6950 800  0    50   BiDi ~ 0
 VCO1_SAW1
@@ -1227,7 +1227,7 @@ F 0 "SW4" H 9344 1379 50  0000 L CNN
 F 1 "SW_DP3T" H 9344 1288 50  0000 L CNN
 F 2 "microsynth:11-SS-23-832C" H 9150 1250 50  0001 C CNN
 F 3 "" H 9150 1250 50  0001 C CNN
-F 4 "SUBOCTAVES" H 9250 1600 50  0000 C CNN "Label"
+F 4 "SUBOCTAVES" H 9150 1800 50  0000 C CNN "Label"
 	2    9150 1250
 	1    0    0    -1  
 $EndComp
@@ -1265,4 +1265,30 @@ $EndComp
 Connection ~ 2800 1700
 Wire Wire Line
 	2800 1700 3250 1700
+Text Notes 1200 1250 0    50   ~ 0
+VCO2 SHAPE
+Text Notes 2950 550  0    50   ~ 0
+VCO2/LFO MOD
+Text Notes 3850 900  0    50   ~ 0
+KBD
+Text Notes 3850 1400 0    50   ~ 0
+VCO1 SQR
+Text Notes 3850 1900 0    50   ~ 0
+VCF
+Text Notes 3850 2400 0    50   ~ 0
+VCA
+Text Notes 2450 3200 0    50   ~ 0
+VCO RM LFO
+Text Notes 5850 3150 0    50   ~ 0
+VCO RM LFO
+Text Notes 7150 950  0    50   ~ 0
+TRI SAW SQR
+Text Notes 7150 750  0    50   ~ 0
+VCO1 SHAPE
+Text Notes 8900 900  0    50   ~ 0
+OFF ONE TWO
+Text Notes 10450 700  0    50   ~ 0
+SUBOCTAVES
+Text Notes 10450 900  0    50   ~ 0
+VCO1 VCO2
 $EndSCHEMATC

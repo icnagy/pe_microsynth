@@ -1585,4 +1585,12 @@ Wire Wire Line
 	6400 3850 6400 4150
 Wire Wire Line
 	7400 2800 7400 2700
+Text Notes 2400 3550 0    50   ~ 0
+KBD RPT LFO
+Text Notes 2700 4000 0    50   ~ 0
+TRIGGER
+Text Notes 5550 550  0    50   ~ 0
+DRIFT
+Text Notes 5350 700  0    50   ~ 0
+DOWN OFF UP
 $EndSCHEMATC

@@ -662,4 +662,6 @@ F 3 "https://www.bitsbox.co.uk/data/analog/LF347.pdf" H 3200 2100 50  0001 C CNN
 	4    3150 1900
 	1    0    0    1   
 $EndComp
+Text Notes 900  1050 0    50   ~ 0
+VCO1 ON/OFF
 $EndSCHEMATC

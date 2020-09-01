@@ -478,8 +478,6 @@ Wire Wire Line
 	4350 3150 4350 3050
 Wire Wire Line
 	4350 3050 3850 3050
-Wire Wire Line
-	3850 3050 3850 3200
 $Comp
 L power:+VSW #PWR?
 U 1 1 5E66EFC8
@@ -546,11 +544,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 3900 3000 3850
 Wire Wire Line
-	3100 3350 3500 3350
-Wire Wire Line
-	3500 3350 3500 2350
-Wire Wire Line
-	3500 2350 4600 2350
+	3100 2350 4600 2350
 $Comp
 L Transistor_BJT:BC548 Q3
 U 1 1 5E696D71
@@ -962,7 +956,7 @@ F 0 "SW19" H 7750 1985 50  0000 C CNN
 F 1 "SW_SPDT" H 7750 1894 50  0000 C CNN
 F 2 "microsynth:11-SS-22-701C" H 7750 1700 50  0001 C CNN
 F 3 "~" H 7750 1700 50  0001 C CNN
-F 4 "ENV-TO-VCO1" H 8200 1950 50  0000 C CNN "Label"
+F 4 "ENV-TO-VCO2" H 8200 1950 50  0000 C CNN "Label"
 	1    7750 1700
 	1    0    0    -1  
 $EndComp
@@ -1267,25 +1261,7 @@ F 3 "https://www.bitsbox.co.uk/data/analog/LF347.pdf" H 10300 3850 50  0001 C CN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 3200 3100 3200
-Wire Wire Line
-	3400 3200 3850 3200
-Connection ~ 3850 3200
-Wire Wire Line
 	3000 3200 3000 3350
-Wire Wire Line
-	3850 3200 3850 3950
-$Comp
-L Device:R R154
-U 1 1 5ED83FC1
-P 3250 3200
-F 0 "R154" V 3043 3200 50  0000 C CNN
-F 1 "100k" V 3134 3200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3180 3200 50  0001 C CNN
-F 3 "~" H 3250 3200 50  0001 C CNN
-	1    3250 3200
-	0    1    1    0   
-$EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5EE196DB
@@ -1319,4 +1295,46 @@ Wire Wire Line
 	2200 3650 1600 3400
 Wire Wire Line
 	1600 3400 1600 3300
+Text Notes 3950 1500 0    50   ~ 0
+ADSR
+Text Notes 4050 1650 0    50   ~ 0
+ON
+Text Notes 2800 2950 0    50   ~ 0
+SUSTAIN
+Text Notes 2700 3100 0    50   ~ 0
+MAN. AUTO HOLD
+Wire Wire Line
+	3100 3350 3100 2350
+Wire Wire Line
+	3000 3200 3350 3200
+Wire Wire Line
+	3850 3200 3850 3950
+$Comp
+L Device:R R154
+U 1 1 5ED83FC1
+P 3500 3200
+F 0 "R154" V 3293 3200 50  0000 C CNN
+F 1 "100k" V 3384 3200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3430 3200 50  0001 C CNN
+F 3 "~" H 3500 3200 50  0001 C CNN
+	1    3500 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 3200 3850 3200
+Wire Wire Line
+	3850 3200 3850 3050
+Connection ~ 3850 3200
+Text Notes 7550 550  0    50   ~ 0
+ENVELOPE MOD
+Text Notes 8150 1000 0    50   ~ 0
+KBD
+Text Notes 8150 1700 0    50   ~ 0
+VCO2
+Text Notes 8150 2400 0    50   ~ 0
+VCF
+Text Notes 7450 4600 0    50   ~ 0
+KBD RPT LFO
+Text Notes 7900 5200 0    50   ~ 0
+TRIGGER
 $EndSCHEMATC
