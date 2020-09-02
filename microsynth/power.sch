@@ -46,14 +46,10 @@ F 3 "~" H 8000 1400 50  0001 C CNN
 	1    8000 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 2600 2    50   BiDi ~ 0
-TRIG_IN_TO_SEQ_SKT
-Text GLabel 5900 2700 2    50   BiDi ~ 0
-VOUT_TO_SEQ_SKT
+Text GLabel 5900 2600 2    50   Input ~ 0
+TRIGGER_IN
 Text GLabel 5900 2900 2    50   BiDi ~ 0
 VIN_TO_SEQ_SKT
-Text GLabel 5900 2800 2    50   BiDi ~ 0
-TRIG_OUT_TO_SEQ_SKT
 $Comp
 L Connector:Conn_01x03_Male J2
 U 1 1 5F1FC317
@@ -76,14 +72,6 @@ F 3 "~" H 5700 3450 50  0001 C CNN
 	1    5700 3450
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 3550 2    50   BiDi ~ 0
-KEYBOARD_HIGH_END
-Text GLabel 5900 3350 2    50   BiDi ~ 0
-KEYBOARD_LOW_END
-Text GLabel 5900 3450 2    50   BiDi ~ 0
-KEYBOARD_BUS
-Text GLabel 5900 3650 2    50   BiDi ~ 0
-TRIGGER_BUS
 $Comp
 L power:-VSW #PWR?
 U 1 1 5F231D96
@@ -274,4 +262,11 @@ $EndComp
 Wire Wire Line
 	7750 1500 7450 1500
 Connection ~ 7450 1500
+NoConn ~ 5900 3350
+NoConn ~ 5900 3450
+NoConn ~ 5900 3550
+NoConn ~ 5900 3650
+NoConn ~ 5900 2800
+Text GLabel 5900 2700 2    50   Input ~ 0
+GATE_IN
 $EndSCHEMATC

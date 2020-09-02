@@ -1089,12 +1089,10 @@ Text GLabel 4150 2100 2    50   BiDi ~ 0
 TO_VCA_R134
 Text GLabel 4600 2350 2    50   BiDi ~ 0
 TO_VCA_R136
-Text GLabel 1900 1300 2    50   BiDi ~ 0
-TO_D4
-Text GLabel 700  1050 2    50   BiDi ~ 0
-TO_D3
+Text GLabel 1900 1300 2    50   Input ~ 0
+GATE_IN
 Text GLabel 4200 1100 0    50   BiDi ~ 0
-TRIG_IN_TO_SEQ_SKT
+TRIGGER_IN
 NoConn ~ 5950 4350
 NoConn ~ 6050 4350
 NoConn ~ 6050 2950
