@@ -48,8 +48,8 @@ F 3 "~" H 8000 1400 50  0001 C CNN
 $EndComp
 Text GLabel 5900 2600 2    50   Input ~ 0
 TRIGGER_IN
-Text GLabel 5900 2900 2    50   BiDi ~ 0
-VIN_TO_SEQ_SKT
+Text GLabel 5900 3000 2    50   Input ~ 0
+CV_IN
 $Comp
 L Connector:Conn_01x03_Male J2
 U 1 1 5F1FC317
@@ -59,17 +59,6 @@ F 1 "Conn_01x03_Male" H 6650 1600 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6500 1400 50  0001 C CNN
 F 3 "~" H 6500 1400 50  0001 C CNN
 	1    6500 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x04_Male J4
-U 1 1 5F1FE242
-P 5700 3450
-F 0 "J4" H 5850 3750 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 5850 3650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5700 3450 50  0001 C CNN
-F 3 "~" H 5700 3450 50  0001 C CNN
-	1    5700 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -111,8 +100,8 @@ F 3 "" H 7050 1300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7050 1300 6700 1300
-Text GLabel 5900 3000 2    50   Input ~ 0
-VIN_FROM_SEQ
+Text GLabel 5900 2900 2    50   Input ~ 0
+CV_IN_2
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5EBE889F
@@ -262,10 +251,6 @@ $EndComp
 Wire Wire Line
 	7750 1500 7450 1500
 Connection ~ 7450 1500
-NoConn ~ 5900 3350
-NoConn ~ 5900 3450
-NoConn ~ 5900 3550
-NoConn ~ 5900 3650
 NoConn ~ 5900 2800
 Text GLabel 5900 2700 2    50   Input ~ 0
 GATE_IN
