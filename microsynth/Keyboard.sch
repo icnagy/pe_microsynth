@@ -756,12 +756,6 @@ Wire Wire Line
 	6400 2600 6400 2250
 Wire Wire Line
 	5750 2350 5800 2350
-Wire Wire Line
-	4300 4150 4650 4150
-Wire Wire Line
-	4650 4150 4650 3950
-Wire Wire Line
-	4650 3950 4300 3950
 $Comp
 L Diode:1N914 D3
 U 1 1 5E9B6EF7
@@ -775,7 +769,6 @@ F 3 "http://www.vishay.com/docs/85622/1n914.pdf" H 5050 3950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 3950 4800 3950
-Connection ~ 4650 3950
 $Comp
 L Diode:1N914 D2
 U 1 1 5E9C092A
@@ -792,8 +785,6 @@ Wire Wire Line
 Wire Wire Line
 	4800 3300 4800 3950
 Connection ~ 4800 3950
-Wire Wire Line
-	4800 3950 4650 3950
 $Comp
 L Device:R R47
 U 1 1 5E9C69D3
@@ -1135,10 +1126,8 @@ Text GLabel 8200 1700 2    50   BiDi ~ 0
 TO_S14_LFO_MOD
 Text GLabel 7950 1850 2    50   BiDi ~ 0
 VOUT_TO_SEQ_SKT
-Text GLabel 4300 4150 0    50   BiDi ~ 0
+Text GLabel 4250 3950 0    50   BiDi ~ 0
 TRIG_IN_TO_SEQ_SKT
-Text GLabel 4300 3950 0    50   BiDi ~ 0
-TO_D3
 Text GLabel 2800 3300 2    50   BiDi ~ 0
 TO_S9A_KEYBOARD_CONTROLLER
 Text GLabel 3300 3150 0    50   BiDi ~ 0
@@ -1555,4 +1544,6 @@ F 3 "~" H 10250 2900 50  0001 C CNN
 	1    10250 2900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4250 3950 4800 3950
 $EndSCHEMATC

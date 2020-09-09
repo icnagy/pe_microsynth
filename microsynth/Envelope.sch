@@ -1047,10 +1047,6 @@ F 3 "" H 9650 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 1100 4600 1100
-Wire Wire Line
-	4600 1100 4600 850 
-Wire Wire Line
 	4600 850  700  850 
 Wire Wire Line
 	700  850  700  2850
@@ -1116,9 +1112,7 @@ Text GLabel 4600 2350 2    50   BiDi ~ 0
 TO_VCA_R136
 Text GLabel 1900 1300 2    50   BiDi ~ 0
 TO_D4
-Text GLabel 700  1050 2    50   BiDi ~ 0
-TO_D3
-Text GLabel 4200 1100 0    50   BiDi ~ 0
+Text GLabel 4600 850  2    50   BiDi ~ 0
 TRIG_IN_TO_SEQ_SKT
 NoConn ~ 5950 4350
 NoConn ~ 6050 4350
