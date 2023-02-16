@@ -41,4 +41,7 @@ bom/
 # Gerber export output
 out/
 microsynth/gerbers/*
+
+# 3d file
+microsynth/*.wrl
 # End of https://www.gitignore.io/api/kicad

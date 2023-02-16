@@ -1,0 +1,150 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 886f8a4c-a6f3-46e9-ba54-7ff38947822d)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 17.78 17.78) (size 36.83 21.59) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005e05e45f)
+    (property "Sheetname" "VCF" (at 17.78 17.0684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "vcf.kicad_sch" (at 17.78 39.9546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "microsynth"
+        (path "/886f8a4c-a6f3-46e9-ba54-7ff38947822d" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 17.78 44.45) (size 36.83 21.59) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005e05ec3f)
+    (property "Sheetname" "Power" (at 17.78 43.7384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 17.78 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "microsynth"
+        (path "/886f8a4c-a6f3-46e9-ba54-7ff38947822d" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 17.78 71.12) (size 36.83 21.59) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005e1b03e8)
+    (property "Sheetname" "VCA" (at 17.78 70.4084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "VCA.kicad_sch" (at 17.78 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "microsynth"
+        (path "/886f8a4c-a6f3-46e9-ba54-7ff38947822d" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 57.15 17.78) (size 36.83 21.59) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005e222dc1)
+    (property "Sheetname" "VCO1" (at 57.15 17.0684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "VCO1.kicad_sch" (at 57.15 39.9546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "microsynth"
+        (path "/886f8a4c-a6f3-46e9-ba54-7ff38947822d" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 57.15 44.45) (size 36.83 21.59) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005e2be1ad)
+    (property "Sheetname" "VCO2" (at 57.15 43.7384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "VCO2.kicad_sch" (at 57.15 66.6246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "microsynth"
+        (path "/886f8a4c-a6f3-46e9-ba54-7ff38947822d" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 57.15 71.12) (size 36.83 21.59) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005e475532)
+    (property "Sheetname" "Switches" (at 57.15 70.4084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Switches.kicad_sch" (at 57.15 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "microsynth"
+        (path "/886f8a4c-a6f3-46e9-ba54-7ff38947822d" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 17.78 97.79) (size 36.83 21.59) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005e5b9865)
+    (property "Sheetname" "Envelope" (at 17.78 97.0784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Envelope.kicad_sch" (at 17.78 119.9646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "microsynth"
+        (path "/886f8a4c-a6f3-46e9-ba54-7ff38947822d" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 57.15 97.79) (size 36.83 21.59) (fields_autoplaced)
+    (stroke (width 0) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00000000-0000-0000-0000-00005e8c1704)
+    (property "Sheetname" "Keyboard" (at 57.15 97.0784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Keyboard.kicad_sch" (at 57.15 119.9646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "microsynth"
+        (path "/886f8a4c-a6f3-46e9-ba54-7ff38947822d" (page "9"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

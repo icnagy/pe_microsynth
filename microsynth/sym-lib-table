@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name microsynth-rescue)(type Legacy)(uri ${KIPRJMOD}/microsynth-rescue.lib)(options "")(descr ""))
-  (lib (name pe_microsynth)(type Legacy)(uri ${KIPRJMOD}/pe_microsynth.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "microsynth-rescue")(type "KiCad")(uri "${KIPRJMOD}/microsynth-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "pe_microsynth")(type "Legacy")(uri "${KIPRJMOD}/pe_microsynth.lib")(options "")(descr ""))
 )
